@@ -88,11 +88,11 @@ params:
     themes:
         event:
             sessionizeId:
-            title: IHCI 2026
+            title: 18th International Conference on Intelligent Human-Computer Interaction (IHCI2026)
             shortTitle: IHCI 2026
             startDate: 2026-10-28
             endDate: 2026-10-31
-            location: Ningbo, China
+            location: University of Nottingham Ningbo China
             address:
                 - University of Nottingham Ningbo China
                 - 199 Taikang East Road

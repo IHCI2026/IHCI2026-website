@@ -12,7 +12,7 @@
         </h1>
         <h2 class="event-title-section__subheading">
             {{- with $input.startDate }}
-                {{- . | time.AsTime | time.Format ":date_long" }},
+                {{- . | time.AsTime | time.Format "2 January 2006" }}<br/>
             {{- end }}
             {{ $input.location }}
         </h2>
