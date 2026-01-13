@@ -1,3 +1,6 @@
+baseURL: https://ihci2026.github.io/IHCI2026-website/
+title: IHCI 2026
+
 languages:
     en:
         languageName: English
@@ -96,13 +99,13 @@ params:
             organizers:
             featuredSessions:
             colors:
-                primaryLighter: '#d7fb4d'
-                primary: '#10263B'
-                primaryDarker: '#015a57'
-                primaryDarkest: '#111928'
-                secondary: '#f7f8fa'
+                primaryLighter: '#37B4B0'  # Trent Turquoise
+                primary: '#10263B'         # Nottingham Blue
+                primaryDarker: '#0a1825'   # Darker Nottingham Blue
+                primaryDarkest: '#10263B'  # Nottingham Blue
+                secondary: '#FAF6EF'       # Portland Stone
                 secondaryDarker: '#637381'
-                track: '#015a57'
+                track: '#37B4B0'           # Trent Turquoise
                 shadow: '#a6afc366'
             trackCategoryTitle: Track
             
