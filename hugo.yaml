@@ -97,7 +97,7 @@ params:
             featuredSessions:
             colors:
                 primaryLighter: '#d7fb4d'
-                primary: '#c6eb4d'
+                primary: '#10263B'
                 primaryDarker: '#015a57'
                 primaryDarkest: '#111928'
                 secondary: '#f7f8fa'
