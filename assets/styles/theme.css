@@ -1,31 +1,31 @@
 @property --color-primary-lighter {
     syntax: '<color>';
     inherits: true;
-    initial-value: #d7fb4d;
+    initial-value: #37B4B0; /* Trent Turquoise */
 }
 
 @property --color-primary {
     syntax: '<color>';
     inherits: true;
-    initial-value: #c6eb4d;
+    initial-value: #10263B; /* Nottingham Blue */
 }
 
 @property --color-primary-darker {
     syntax: '<color>';
     inherits: true;
-    initial-value: #015a57;
+    initial-value: #0a1825; /* Darker Nottingham Blue */
 }
 
 @property --color-primary-darkest {
     syntax: '<color>';
     inherits: true;
-    initial-value: #111928;
+    initial-value: #10263B; /* Nottingham Blue */
 }
 
 @property --color-secondary {
     syntax: '<color>';
     inherits: true;
-    initial-value: #f7f8fa;
+    initial-value: #FAF6EF; /* Portland Stone */
 }
 
 @property --color-secondary-darker {
@@ -37,7 +37,7 @@
 @property --color-track {
     syntax: '<color>';
     inherits: true;
-    initial-value: #015a57;
+    initial-value: #37B4B0; /* Trent Turquoise */
 }
 
 @property --color-shadow {
