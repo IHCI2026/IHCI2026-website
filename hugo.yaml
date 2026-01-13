@@ -75,14 +75,14 @@ params:
                     eventId:
                 other:
                     url:
-                enableBanner: true
+                enableBanner: false
             socialLinks:
                 xUrl:
                 facebookUrl:
                 linkedinUrl:
             favicon: favicon.ico
             images:
-                logo: logos/medialesson-rgb.svg
+                logo:
                 titleBackground: images/pexels-scottwebb-1048039.webp
                 location:
             sponsors:
