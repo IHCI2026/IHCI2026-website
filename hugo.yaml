@@ -1,7 +1,7 @@
 languages:
     en:
         languageName: English
-        disabled: true
+        disabled: false  # Changed from true to false
         params:
             themes:
                 event:
