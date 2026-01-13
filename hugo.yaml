@@ -31,11 +31,6 @@ menus:
           name: Code of Conduct
           url: /code-of-conduct/
           weight: 7
-    footer:
-        - identifier: code-of-conduct
-          name: Code of Conduct
-          url: /code-of-conduct/
-          weight: 1
 
 languages:
     en:
@@ -112,6 +107,7 @@ params:
                 other:
                     url:
                 enableBanner: false
+                enableCTA: false
             socialLinks:
                 xUrl:
                 facebookUrl:
