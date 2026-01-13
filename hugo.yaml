@@ -1,81 +1,76 @@
 languages:
     en:
         languageName: English
-        disabled: false  # Changed from true to false
+        disabled: false
         params:
             themes:
                 event:
-                    slogan: A Hugo Theme for Conferences
+                    slogan: The 18th International Conference on Intelligent Human-Computer Interaction
                     description: |
-                        This is a placeholder for your event description. You can customize it,
-                        together with all other settings, in your Hugo configuration file.
-                        We hope you enjoy using this theme! 🎉
+                        Since 2008, the Intelligent Human-Computer Interaction (IHCI) community has advanced 
+                        human-centered technology and cognitive computing. The 18th IHCI conference builds on 
+                        this legacy by bringing technology and the humanities into closer conversation, deepening 
+                        our understanding of how people think, create, and collaborate with intelligent systems. 
+                        Through innovation and open collaboration, IHCI supports research and experimental 
+                        development that led to more intuitive, effective, and satisfying user experiences.
+
+                        IHCI 2026 will highlight innovative research and methodologies that increase usability, 
+                        accessibility, and interaction efficiency. By uniting researchers, practitioners, engineers, 
+                        designers, and industry leaders, the conference will address the pressing challenges of 
+                        designing seamless, trustworthy, and human-centered interfaces that improve how we live, 
+                        work, and learn with technology.
                     directions: |
-                        Directions for getting to the location using public transportation. 
-                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
+                        **From Ningbo Lishe Airport (NGB):**
+                        - Taxi: 30-40 minutes, ¥30-50 RMB
+                        - Metro: Line 2 → Line 5 → Line 3 to Southern Business District Station Exit E
+                        - Bus: Line 108 directly to UNNC
+                        
+                        **From Shanghai Pudong Airport (PVG):**
+                        - Maglev to Longyang Road → Metro Line 2 to Hongqiao Railway Station
+                        - High-speed train (G/D-series) to Ningbo Railway Station (2-2.5 hours)
+                        - Taxi or Metro Line 4 → Line 3 to UNNC
+                        
+                        Address in Chinese: 宁波诺丁汉大学1号门
                     aboutUs: |
-                        More information about the event will be added soon. Stay tuned! 🎉
-    de:
-        languageName: Deutsch
-        disabled: true
-        params:
-            themes:
-                event:
-                    slogan: Ein Hugo-Theme für Konferenzen
-                    description: |
-                        Dies ist ein Platzhalter für die Beschreibung Ihrer Veranstaltung.
-                        Sie können ihn zusammen mit allen anderen Einstellungen in Ihrer
-                        Hugo-Konfigurationsdatei anpassen. Wir wünschen Ihnen viel Spaß mit
-                        diesem Theme! 🎉
-                    directions: |
-                        Wegbeschreibung zum Veranstaltungsort mit öffentlichen Verkehrsmitteln.
-                        Passen Sie diesen Platzhaltertext in Ihrer Hugo-Konfigurationsdatei an oder entfernen Sie ihn,
-                        wenn er nicht benötigt wird.
-                    # 👇 This field provides an introduction or overview about the event or organization.
-                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
-                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
-                    aboutUs: |
-                        Weitere Informationen über die Veranstaltung werden bald hinzugefügt. Bleiben Sie dran! 🎉
+                        The conference welcomes contributions across the HCI spectrum, including human-AI interaction, 
+                        robotics, computer vision, virtual and augmented reality, arts and music technologies, 
+                        cybersecurity and privacy, interactive and ubiquitous computing, and human-environment interaction. 
+                        
+                        **Conference Highlights:**
+                        - Inspiring keynotes from leading voices
+                        - Cross-disciplinary speakers linking technology, design, and humanities
+                        - Hands-on workshops covering tools, methods, and best practices
+                        - Research paper sessions, posters, and live demos
+                        - Industry engagement and tech transfer opportunities
+                        - Strong emphasis on usability, ethics, accessibility, and responsible innovation
+                        - Networking, mentoring, and early-career development activities
+                        
+                        We warmly invite you to join us by presenting your latest work, proposing and chairing a 
+                        special session, showcasing a demo, or simply coming to learn and connect. Be part of the 
+                        conversation shaping the next generation of human-centered intelligent systems!
 
 params:
     themes:
         event:
-            # 👇 Fetch the ID of your event's API endpoint from
-            # 👇 https://sessionize.com/app/organizer/schedule/api/0
-            # 👇 and enter it here.
             sessionizeId:
-            title: Your Event Title
-            # 👇 An optional short version of your event's title. Only use it if
-            # 👇 your event title is very long. The short title may be used in
-            # 👇 places where space is limited, such as on mobile devices or in the header menu.
-            shortTitle:
-            startDate: 2026-06-01
-            endDate: 2026-06-03
-            location: City, Country
+            title: IHCI 2026
+            shortTitle: IHCI 2026
+            startDate: 2026-10-28
+            endDate: 2026-10-31
+            location: Ningbo, China
             address:
-                - Building
-                - Street
-                - City
-                - Country
+                - University of Nottingham Ningbo China
+                - 199 Taikang East Road
+                - Ningbo, Zhejiang 315100
+                - China
             map:
-                # 👇 Get an embeddable map URL from OpenStreetMap
-                # 👇 https://wiki.openstreetmap.org/wiki/Export#Embeddable_HTML
-                # 👇 or Google Maps
-                # 👇 https://developers.google.com/maps/documentation/embed/embedding-map
-                # 👇 and enter it here.
-                embeddableMapUrl:
-                # 👇 Enter a URL of a larger map representation (not required for Google Maps).
-                viewLargerMapUrl:
+                # University of Nottingham Ningbo China location
+                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=121.61167144775392%2C29.817094934646415%2C121.62170410156251%2C29.82309043893736&layer=mapnik&marker=29.82009273%2C121.61668777
+                viewLargerMapUrl: https://www.openstreetmap.org/?mlat=29.82009&mlon=121.61669#map=16/29.8201/121.6167
             callToAction:
                 eventbrite:
-                    # 👇 Get your Eventbrite event ID from the URL of your event page
-                    # 👇 and enter it here.
                     eventId:
                 other:
-                    # 👇 Enter the URL of your ticket shop here.
                     url:
                 enableBanner: true
             socialLinks:
@@ -86,21 +81,19 @@ params:
             images:
                 logo: logos/medialesson-rgb.svg
                 titleBackground: images/pexels-scottwebb-1048039.webp
-                # 👇 Image showcasing the building or venue where the event will take place.
                 location:
             sponsors:
                 - logo:
                   url:
-                  # 👇 This name is used as the alt text for the logo
-                  name:
+                  name: University of Nottingham Ningbo China
+                - logo:
+                  url:
+                  name: NingboTech University
             partners:
                 - logo:
                   url:
-                  # 👇 This name is used as the alt text for the logo
                   name:
-            # 👇 List of Sessionize speaker IDs of speakers that organize the event.
             organizers:
-            # 👇 List of Sessionize session IDs of highlight sessions.
             featuredSessions:
             colors:
                 primaryLighter: '#d7fb4d'
@@ -111,5 +104,20 @@ params:
                 secondaryDarker: '#637381'
                 track: '#015a57'
                 shadow: '#a6afc366'
-            # 👇 Name of the category in Sessionize that is used to group sessions.
             trackCategoryTitle: Track
+            
+            # Important Dates
+            importantDates:
+                - name: Special Session Proposal Deadline
+                  date: 2026-08-07
+                - name: Paper Submission Deadline
+                  date: 2026-08-14
+                - name: Notification of Decisions
+                  date: 2026-09-04
+                - name: Camera-Ready Submission Deadline
+                  date: 2026-09-11
+                - name: Registration Opens
+                  date: 2026-09-04
+                - name: Conference
+                  date: 2026-10-28
+                  endDate: 2026-10-31
