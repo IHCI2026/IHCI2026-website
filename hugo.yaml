@@ -116,7 +116,7 @@ params:
             favicon: favicon.ico
             images:
                 logo:
-                titleBackground: images/pexels-scottwebb-1048039.webp
+                titleBackground: images/unnc.jpeg
                 location:
             sponsors:
                 - logo:
