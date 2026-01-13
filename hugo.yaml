@@ -1,5 +1,6 @@
 baseURL: https://ihci2026.github.io/IHCI2026-website/
 title: IHCI 2026
+buildFuture: true
 
 menus:
     main:
