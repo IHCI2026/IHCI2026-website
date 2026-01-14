@@ -5,15 +5,15 @@ layout: single
 
 ## GENERAL CHAIRS
 
-\*Dr. Boon Giin Lee (Bryan), _University of Nottingham Ningbo China, China_
+-   Dr. Boon Giin Lee (Bryan), _University of Nottingham Ningbo China, China_
 
-\*Prof. Wu Deng, _University of Nottingham Ningbo China, China_
+-   Prof. Wu Deng, _University of Nottingham Ningbo China, China_
 
-\*Prof. Xu Sun, _University of Nottingham Ningbo China, China_
+-   Prof. Xu Sun, _University of Nottingham Ningbo China, China_
 
-\*Prof. Mriganka Sur, _Massachusetts Institute of Technology, USA_
+-   Prof. Mriganka Sur, _Massachusetts Institute of Technology, USA_
 
-\*Dr. Matthew Pike, _University of Nottingham Ningbo China, China_
+-   Dr. Matthew Pike, _University of Nottingham Ningbo China, China_
 
 ## STEERING COMMITTEE
 
