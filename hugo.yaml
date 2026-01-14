@@ -16,9 +16,9 @@ menus:
           name: Speakers
           url: /speakers/
           weight: 3
-        - identifier: sessions
-          name: Schedule
-          url: /sessions/
+        - identifier: Program
+          name: Program
+          url: /program/
           weight: 4
         - identifier: location
           name: Location
