@@ -3,6 +3,8 @@ title: Committee
 layout: single
 ---
 
+---
+
 ## GENERAL CHAIRS
 
 -   **Boon Giin Lee (Bryan)** --- _University of Nottingham Ningbo China, China_
