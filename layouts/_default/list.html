@@ -1,17 +1,17 @@
 {{ define "main" }}
-    <article>
-        <header>
+    <div class="section-container">
+        <section class="section about">
             <h1 class="heading heading--1">{{ .Title }}</h1>
-        </header>
-        <section>
-            {{ range .Pages }}
-                <article>
-                    <header>
-                        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-                    </header>
-                    <section>{{ .Summary }}</section>
-                </article>
-            {{ end }}
+            <article class="markdown about__text">
+                {{ .Content }}
+                {{ if .Pages }}
+                    <ul>
+                        {{ range .Pages }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </article>
         </section>
-    </article>
+    </div>
 {{ end }}

@@ -1,31 +1,38 @@
 {{ $input := . }}
 
-
 <ul class="header-menu">
-    <li>
-        <a
-            {{- if $input.context.IsHome }}
-                class="header-menu__link header-menu__link--active"
-            {{- else }}
-                class="header-menu__link"
-            {{- end }}
-            href="{{ site.Home.RelPermalink }}">
-            {{ $input.homeLabel | default "Home" }}
-        </a>
-    </li>
-
     {{- $currentNode := $input.context }}
     {{- range $input.menu }}
-        <li>
-            <a
-                href="{{ .URL }}"
-                {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
-                    class="header-menu__link header-menu__link--active" aria-current="page"
-                {{- else }}
-                    class="header-menu__link"
-                {{- end }}>
-                {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
-            </a>
-        </li>
+        {{- if eq .Parent "" }}
+            <li class="header-menu__item{{ if .HasChildren }} header-menu__item--has-dropdown{{end}}">
+                <a
+                    href="{{ .URL }}"
+                    {{- if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}
+                        class="header-menu__link header-menu__link--active" aria-current="page"
+                    {{- else }}
+                        class="header-menu__link"
+                    {{- end }}>
+                    {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                </a>
+
+                {{- if .HasChildren }}
+                    <ul class="header-menu__dropdown">
+                        {{- range .Children }}
+                            <li class="header-menu__dropdown-item">
+                                <a
+                                    href="{{ .URL }}"
+                                    {{- if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}
+                                        class="header-menu__dropdown-link header-menu__dropdown-link--active"
+                                    {{- else }}
+                                        class="header-menu__dropdown-link"
+                                    {{- end }}>
+                                    {{- or (T (printf "menu.%s" .Identifier)) .Name | safeHTML }}
+                                </a>
+                            </li>
+                        {{- end }}
+                    </ul>
+                {{- end }}
+            </li>
+        {{- end }}
     {{- end }}
 </ul>

@@ -133,7 +133,7 @@
 }
 
 .page-header__content {
-    overflow-x: hidden;
+    overflow: visible;
 }
 
 .page-header__navigation {

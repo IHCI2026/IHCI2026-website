@@ -9,29 +9,84 @@ menus:
           url: /
           weight: 1
         - identifier: about
-          name: About Us
+          name: About
           url: /about/
+          parent: home
+          weight: 11
+        - identifier: important-dates
+          name: Important Dates
+          url: /important-dates/
+          parent: home
+          weight: 12
+        - identifier: sponsors
+          name: Organising Partners
+          url: /sponsors/
+          parent: home
+          weight: 13
+        - identifier: committee
+          name: Committee
+          url: /committee/
           weight: 2
+        - identifier: contribute
+          name: Contribute
+          url: /contribute/
+          weight: 3
+        - identifier: call-for-papers
+          name: Call for Papers
+          url: /contribute/papers/
+          parent: contribute
+          weight: 31
+        - identifier: call-for-posters
+          name: Call for Posters
+          url: /contribute/posters/
+          parent: contribute
+          weight: 32
+        - identifier: call-for-special-sessions
+          name: Call for Special Sessions
+          url: /contribute/special-sessions/
+          parent: contribute
+          weight: 33
+        - identifier: call-for-demos
+          name: Call for Research Demos
+          url: /contribute/demos/
+          parent: contribute
+          weight: 34
+        - identifier: call-for-sponsors
+          name: Call for Sponsors
+          url: /contribute/sponsors/
+          parent: contribute
+          weight: 35
         - identifier: speakers
           name: Speakers
           url: /speakers/
-          weight: 3
-        - identifier: Program
+          weight: 4
+        - identifier: program
           name: Program
           url: /program/
-          weight: 4
-        - identifier: location
-          name: Location
-          url: /location/
           weight: 5
-        - identifier: sponsors
-          name: Sponsors & Partners
-          url: /sponsors/
+        - identifier: registration
+          name: Registration
+          url: /registration/
           weight: 6
-        - identifier: code-of-conduct
-          name: Code of Conduct
-          url: /code-of-conduct/
+        - identifier: venue
+          name: Venue
+          url: /venue/
           weight: 7
+        - identifier: about-ningbo
+          name: About Ningbo
+          url: /venue/ningbo/
+          parent: venue
+          weight: 61
+        - identifier: accommodation
+          name: Accommodation
+          url: /venue/accommodation/
+          parent: venue
+          weight: 62
+        - identifier: transportation
+          name: Transportation
+          url: /venue/transportation/
+          parent: venue
+          weight: 63
 
 languages:
     en:
