@@ -47,9 +47,11 @@ IHCI 2026 invites original research that advances human‑centred interaction wi
 
 All submissions must follow the Springer Lecture Notes in Computer Science (LNCS) template and be submitted electronically as a single PDF in English. The main body of the paper (including appendices) should be 4-10 pages long, excluding references; references may take up to two additional pages.
 
-## Review Process & Publications
+## Review Process
 
 All submissions will receive multiple expert peer reviews. Final decisions may include acceptance, conditional acceptance with revision, or rejection. Evaluation criteria include originality, significance, methodological soundness, clarity of presentation, and contribution to HCI. At least one author must register and be present at the oral session.
+
+## Publications & Special Issues
 
 Accepted papers will be included in the IHCI 2026 proceedings, published digitally in Lecture Notes in Computer Science (LNCS) by Springer. The proceedings will be indexed in Scopus, Google Scholar, DBLP, the ACM Digital Library, and other relevant databases. Best Paper and Best Student Paper awards will be selected by the Program Committee. Authors are encouraged to share artifacts (e.g., data, code, and materials) when possible.
 
