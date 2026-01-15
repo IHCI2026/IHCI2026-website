@@ -3,7 +3,7 @@ title: Call for Papers
 layout: single
 ---
 
-The Intelligent Human-Computer Interaction (IHCI) 2026 conference invites original research that advances human-centered technology and deepens our understanding of how people interact with intelligent systems. We welcome interdisciplinary work spanning HCI, including AI, robotics, science & engineering, arts and music, with a strong emphasis on ergonomics, human factors, usability, accessibility, ethics, and real-world impact.
+The 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026) invites original research that advances human-centered technology and deepens our understanding of how people interact with intelligent systems. We welcome interdisciplinary work spanning HCI, including AI, robotics, science & engineering, arts and music, with a strong emphasis on ergonomics, human factors, usability, accessibility, ethics, and real-world impact.
 
 ## Topics of Interest
 
@@ -35,17 +35,13 @@ All deadlines are 23:59 AoE (Anywhere on Earth).
 
 ## Submission Guidelines
 
-IHCI 2026 invites original research that advances human-centered interaction with intelligent systems. Each paper should make a clear contribution in one or more of the categories below:
+IHCI 2026 invites original research that advances human‑centred interaction with intelligent systems. Each paper should have a clear contribution in one or more of the following types:
 
--   **Methodological Paper**: New theories, models, measures, study designs, or analysis/evaluation methods for HCI such as reliable UX metrics, protocols for human-AI studies, participatory and inclusive design methods.
+-   **Methodological/Technical**: New theories, models, measures, study designs, analysis/evaluation methods, algorithms, interaction techniques, sensors/devices, software/hardware toolkits, or data pipelines that improve user experience in HCI. Examples include reliable UX metrics, protocols for human–AI studies, participatory and inclusive design methods, multimodal input, haptics, adaptive interfaces, and privacy‑preserving interactions.
 
--   **Technical Paper**: New algorithms, interaction techniques, sensors/devices, software/hardware toolkits, or data pipelines that improve user experience in HCI, such as multimodal input, haptics, adaptive interfaces, privacy-preserving interactions.
+-   **Application/System**: Applying HCI to real‑world problems or presenting end‑to‑end interactive systems, platforms, datasets, benchmarks, or infrastructures that enable HCI research and practice. Include an evaluation (e.g., user studies or field deployments) and discuss architecture, usability, scalability; share artefacts when possible. Domains include health, education, accessibility, sustainability, public services, and industry.
 
--   **Application Paper**: Applying HCI to real problems and reporting what works, such as health, education, accessibility, sustainability, public services, or industry settings. Include an evaluation (e.g., user studies, field deployments) and lessons that generalize.
-
--   **System Paper**: End-to-end interactive systems, platforms, datasets, benchmarks, or infrastructures that enable HCI research and practice. Describe architecture, usability, scalability, and (when possible) share artifacts.
-
--   **Industry Paper**: Practitioner reports on challenges, processes, and impact at scale such as productized HCI, experimentation platforms, accessibility programs, responsible AI practices. Emphasize outcomes and lessons learned.
+-   **Industry**: Practitioner reports on challenges, processes, and impact at scale, such as productised HCI, experimentation platforms, accessibility programmes, and responsible AI practices. Emphasise outcomes and lessons learned.
 
 ### Format
 
