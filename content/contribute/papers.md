@@ -9,43 +9,43 @@ The Intelligent Human-Computer Interaction (IHCI) 2026 conference invites origin
 
 Topics of interest include (but are not limited to):
 
-- Human-AI interaction and explainability; trustworthy, ethical, and responsible AI
-- Robotics, human-robot interaction, and embodied interfaces
-- Computer vision and vision-based interaction
-- Mixed/Virtual/Augmented reality; spatial computing; cybersickness
-- Human factors and ergonomics; Evaluation methods for interaction at scale
-- Social computing, collaborative interactions
-- Embodied agents, virtual humans, avatars and multimodal interaction
-- Arts, music, and creative technologies
-- Cybersecurity, privacy, and safety for interactive systems
-- Interactive, ubiquitous, and wearable computing; IoT and smart environments
-- Accessibility, inclusive design, and assistive technologies
-- Affective and cognitive computing; behavior modeling
-- Design methods, prototyping, evaluation, and reproducible HCI
-- Education, healthcare, sustainability, transportation, and other application domains
-- Human-environment interaction and situated interfaces
+-   Human-AI interaction and explainability; trustworthy, ethical, and responsible AI
+-   Robotics, human-robot interaction, and embodied interfaces
+-   Computer vision and vision-based interaction
+-   Mixed/Virtual/Augmented reality; spatial computing; cybersickness
+-   Human factors and ergonomics; Evaluation methods for interaction at scale
+-   Social computing, collaborative interactions
+-   Embodied agents, virtual humans, avatars and multimodal interaction
+-   Arts, music, and creative technologies
+-   Cybersecurity, privacy, and safety for interactive systems
+-   Interactive, ubiquitous, and wearable computing; IoT and smart environments
+-   Accessibility, inclusive design, and assistive technologies
+-   Affective and cognitive computing; behavior modeling
+-   Design methods, prototyping, evaluation, and reproducible HCI
+-   Education, healthcare, sustainability, transportation, and other application domains
+-   Human-environment interaction and situated interfaces
 
 ## Important Dates
 
 All deadlines are 23:59 AoE (Anywhere on Earth).
 
-- **Paper Submission Deadline**: 14 August 2026
-- **Notification of Decisions**: 4 September 2026
-- **Camera-Ready Submission Deadline**: 11 September 2026
+-   **Paper Submission Deadline**: 14 August 2026
+-   **Notification of Decisions**: 4 September 2026
+-   **Camera-Ready Submission Deadline**: 11 September 2026
 
 ## Submission Guidelines
 
 IHCI 2026 invites original research that advances human-centered interaction with intelligent systems. Each paper should make a clear contribution in one or more of the categories below:
 
-- **Methodological Paper**: New theories, models, measures, study designs, or analysis/evaluation methods for HCI such as reliable UX metrics, protocols for human-AI studies, participatory and inclusive design methods.
+-   **Methodological Paper**: New theories, models, measures, study designs, or analysis/evaluation methods for HCI such as reliable UX metrics, protocols for human-AI studies, participatory and inclusive design methods.
 
-- **Technical Paper**: New algorithms, interaction techniques, sensors/devices, software/hardware toolkits, or data pipelines that improve user experience in HCI, such as multimodal input, haptics, adaptive interfaces, privacy-preserving interactions.
+-   **Technical Paper**: New algorithms, interaction techniques, sensors/devices, software/hardware toolkits, or data pipelines that improve user experience in HCI, such as multimodal input, haptics, adaptive interfaces, privacy-preserving interactions.
 
-- **Application Paper**: Applying HCI to real problems and reporting what works, such as health, education, accessibility, sustainability, public services, or industry settings. Include an evaluation (e.g., user studies, field deployments) and lessons that generalize.
+-   **Application Paper**: Applying HCI to real problems and reporting what works, such as health, education, accessibility, sustainability, public services, or industry settings. Include an evaluation (e.g., user studies, field deployments) and lessons that generalize.
 
-- **System Paper**: End-to-end interactive systems, platforms, datasets, benchmarks, or infrastructures that enable HCI research and practice. Describe architecture, usability, scalability, and (when possible) share artifacts.
+-   **System Paper**: End-to-end interactive systems, platforms, datasets, benchmarks, or infrastructures that enable HCI research and practice. Describe architecture, usability, scalability, and (when possible) share artifacts.
 
-- **Industry Paper**: Practitioner reports on challenges, processes, and impact at scale such as productized HCI, experimentation platforms, accessibility programs, responsible AI practices. Emphasize outcomes and lessons learned.
+-   **Industry Paper**: Practitioner reports on challenges, processes, and impact at scale such as productized HCI, experimentation platforms, accessibility programs, responsible AI practices. Emphasize outcomes and lessons learned.
 
 ### Format
 
@@ -56,3 +56,8 @@ All submissions must follow the Springer Lecture Notes in Computer Science (LNCS
 All submissions will receive multiple expert peer reviews. Final decisions may include acceptance, conditional acceptance with revision, or rejection. Evaluation criteria include originality, significance, methodological soundness, clarity of presentation, and contribution to HCI. At least one author must register and be present at the oral session.
 
 Accepted papers will be included in the IHCI 2026 proceedings, published digitally in Lecture Notes in Computer Science (LNCS) by Springer. The proceedings will be indexed in Scopus, Google Scholar, DBLP, the ACM Digital Library, and other relevant databases. Best Paper and Best Student Paper awards will be selected by the Program Committee. Authors are encouraged to share artifacts (e.g., data, code, and materials) when possible.
+
+Authors of accepted papers may expand their manuscripts by at least 50% and have the option to submit them to the following Special Issues:
+
+-   [Sensors: Sensors Fusion in Digital Healthcare Applications](https://www.mdpi.com/journal/sensors/special_issues/sensors_fusion_digital_healthcare)
+-   [Electronics: Interactive Design for Autonomous Driving Vehicles](https://www.mdpi.com/journal/electronics/special_issues/VXM004D5IVn")
