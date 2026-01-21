@@ -1,8 +1,8 @@
 {{ define "main" }}
-    <div class="section-container">
-        <section class="section about">
+    <section class="section-container">
+        <div class="section">
             <h1 class="heading heading--1">{{ .Title }}</h1>
-            <article class="markdown about__text">{{ .Content }}</article>
-        </section>
-    </div>
+            <article class="markdown">{{ .Content }}</article>
+        </div>
+    </section>
 {{ end }}

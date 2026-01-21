@@ -1,6 +1,7 @@
 ---
 title: Call for Sponsors
 layout: single
+weight: 5
 ---
 
 ## Why Sponsor IHCI 2026

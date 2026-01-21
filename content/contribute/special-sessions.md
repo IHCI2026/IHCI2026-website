@@ -1,6 +1,7 @@
 ---
 title: Call for Special Sessions
 layout: single
+weight: 3
 ---
 
 The IHCI 2026 invites proposals for Special Sessions that highlight emerging, timely, or underrepresented topics in HCI. These Special Sessions are part of the main technical program and are intended to promote focused discussion, bring together communities, and advance state-of-the-art research and practice.

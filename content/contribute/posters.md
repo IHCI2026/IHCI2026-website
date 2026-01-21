@@ -1,6 +1,7 @@
 ---
 title: Call for Posters
 layout: single
+weight: 2
 ---
 
 The IHCI 2026 Poster track showcases early-stage work, late-breaking results, novel ideas, design probes, and provocative viewpoints that stimulate discussion and promote collaboration. Posters are ideal for receiving feedback on emerging research and for highlighting work in progress, replication efforts, datasets, tools, or case studies.

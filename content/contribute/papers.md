@@ -1,6 +1,7 @@
 ---
 title: Call for Papers
 layout: single
+weight: 1
 ---
 
 The 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026) invites original research that advances human-centered technology and deepens our understanding of how people interact with intelligent systems. We welcome interdisciplinary work spanning HCI, including AI, robotics, science & engineering, arts and music, with a strong emphasis on ergonomics, human factors, usability, accessibility, ethics, and real-world impact.

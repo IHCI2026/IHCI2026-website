@@ -1,6 +1,7 @@
 ---
 title: Call for Research Demos
 layout: single
+weight: 4
 ---
 
 The IHCI 2026 Demo track features live, interactive demonstrations of research systems, artifacts, tools, and experiences. Demos enable hands-on engagement and are an excellent way to showcase technical contributions, novel interaction techniques, creative works, and translational prototypes from labs and industry.
