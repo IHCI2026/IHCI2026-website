@@ -27,38 +27,40 @@
             </div>
         </section>
 
-        {{- $speakerSessions := slice }}
-        {{ range where .Site.RegularPages "Section" "sessions" }}
-            {{ if in .Params.speakerIds page.Params.speakerId }}
-                {{- $speakerSessions = $speakerSessions | append (
-                    dict
-                    "title" .Title
-                    "track" .Params.track
-                    "startsAt" .Params.startsAt
-                    "room" .Params.room.name
-                    "sessionUrl" .RelPermalink
-                    )
-                }}
+        {{- if .Site.Params.themes.event.showSchedule }}
+            {{- $speakerSessions := slice }}
+            {{ range where .Site.RegularPages "Section" "sessions" }}
+                {{ if in .Params.speakerIds page.Params.speakerId }}
+                    {{- $speakerSessions = $speakerSessions | append (
+                        dict
+                        "title" .Title
+                        "track" .Params.track
+                        "startsAt" .Params.startsAt
+                        "room" .Params.room.name
+                        "sessionUrl" .RelPermalink
+                        )
+                    }}
+                {{ end }}
             {{ end }}
-        {{ end }}
 
 
-        <div class="section-container section-container--dimmed">
-            <section class="section speaker-sessions-section">
-                <h1 class="h1 speaker-sessions-section__heading">
-                    {{- T "speaker_page.sessions_by" | upper }}
-                    <span class="speaker-sessions-section__hashtag">
-                        {{- partial "elements/hashtag.html" (dict "hashtag" page.Title) }}
-                    </span>
-                </h1>
-                {{- partial "sessions-menu.html" (
-                    dict
-                    "title" page.Title
-                    "sessions" $speakerSessions
-                    )
-                }}
-            </section>
-        </div>
+            <div class="section-container section-container--dimmed">
+                <section class="section speaker-sessions-section">
+                    <h1 class="h1 speaker-sessions-section__heading">
+                        {{- T "speaker_page.sessions_by" | upper }}
+                        <span class="speaker-sessions-section__hashtag">
+                            {{- partial "elements/hashtag.html" (dict "hashtag" page.Title) }}
+                        </span>
+                    </h1>
+                    {{- partial "sessions-menu.html" (
+                        dict
+                        "title" page.Title
+                        "sessions" $speakerSessions
+                        )
+                    }}
+                </section>
+            </div>
+        {{- end }}
 
         {{- partial "sections/cta.html" (
             dict

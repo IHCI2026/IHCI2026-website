@@ -28,93 +28,97 @@
                 -}}
             </div>
         </section>
-        <section class="section" aria-label="Speaker of the session">
-            <h1 class="heading heading--2">{{ T "sessions_page.speaker" }}</h1>
-            <ul class="carousel single-session-speaker-list" role="list">
-                {{- $sessionSpeakerPages := where (where .Site.Pages "Section" "speakers") "Params.speakerId" "in" page.Params.speakerIds }}
-                {{- range $index, $speakerPage := $sessionSpeakerPages }}
-                    {{- if (in page.Params.speakerIds .Params.speakerId) }}
-                        <li
-                            id="sessionSpeaker{{ $index }}"
-                            class="carousel__item single-session-speaker-list__list-item"
-                            role="listitem"
-                            aria-label="{{ $speakerPage.Title }}">
-                            <div class="single-session-speaker-list__avatar">
-                                {{- partial "speaker-avatar.html" (
-                                    dict
-                                    "avatarResource" ($speakerPage.Resources.GetMatch "avatar.*")
-                                    "avatarAlt" $speakerPage.Title
-                                    "linkedinUrl" $speakerPage.Params.linkedinUrl
-                                    "xUrl" $speakerPage.Params.xUrl
-                                    "companyUrl" $speakerPage.Params.company
-                                    )
-                                }}
-                            </div>
-                            <div class="single-session-speaker-list__speaker">
-                                <h2 class="heading heading--4 heading--embedded">
-                                    {{ $speakerPage.Title }}
-                                </h2>
-                                <p class="paragraph">{{ $speakerPage.Params.tagLine }}</p>
-                                <p class="paragraph single-session-speaker-list__biography">
-                                    {{ substr $speakerPage.RawContent 0 500 }}...
-                                    <a href="{{ $speakerPage.RelPermalink }}" class="link">
-                                        {{ T "sessions_page.read_more" | lower }}
-                                    </a>
-                                </p>
-                                <div class="single-session-speaker-list__carousel-buttons">
-                                    {{- partial "carousel-buttons.html" (
+        {{- if .Site.Params.themes.event.showSpeakers }}
+            <section class="section" aria-label="Speaker of the session">
+                <h1 class="heading heading--2">{{ T "sessions_page.speaker" }}</h1>
+                <ul class="carousel single-session-speaker-list" role="list">
+                    {{- $sessionSpeakerPages := where (where .Site.Pages "Section" "speakers") "Params.speakerId" "in" page.Params.speakerIds }}
+                    {{- range $index, $speakerPage := $sessionSpeakerPages }}
+                        {{- if (in page.Params.speakerIds .Params.speakerId) }}
+                            <li
+                                id="sessionSpeaker{{ $index }}"
+                                class="carousel__item single-session-speaker-list__list-item"
+                                role="listitem"
+                                aria-label="{{ $speakerPage.Title }}">
+                                <div class="single-session-speaker-list__avatar">
+                                    {{- partial "speaker-avatar.html" (
                                         dict
-                                        "index" $index
-                                        "numberOfItems" (len page.Params.speakerIds)
-                                        "elementIdPrefix" "sessionSpeaker"
+                                        "avatarResource" ($speakerPage.Resources.GetMatch "avatar.*")
+                                        "avatarAlt" $speakerPage.Title
+                                        "linkedinUrl" $speakerPage.Params.linkedinUrl
+                                        "xUrl" $speakerPage.Params.xUrl
+                                        "companyUrl" $speakerPage.Params.company
                                         )
                                     }}
                                 </div>
-                            </div>
-                        </li>
+                                <div class="single-session-speaker-list__speaker">
+                                    <h2 class="heading heading--4 heading--embedded">
+                                        {{ $speakerPage.Title }}
+                                    </h2>
+                                    <p class="paragraph">{{ $speakerPage.Params.tagLine }}</p>
+                                    <p class="paragraph single-session-speaker-list__biography">
+                                        {{ substr $speakerPage.RawContent 0 500 }}...
+                                        <a href="{{ $speakerPage.RelPermalink }}" class="link">
+                                            {{ T "sessions_page.read_more" | lower }}
+                                        </a>
+                                    </p>
+                                    <div class="single-session-speaker-list__carousel-buttons">
+                                        {{- partial "carousel-buttons.html" (
+                                            dict
+                                            "index" $index
+                                            "numberOfItems" (len page.Params.speakerIds)
+                                            "elementIdPrefix" "sessionSpeaker"
+                                            )
+                                        }}
+                                    </div>
+                                </div>
+                            </li>
+                        {{- end }}
                     {{- end }}
-                {{- end }}
-            </ul>
-        </section>
+                </ul>
+            </section>
+        {{- end }}
     </div>
 
-    {{- $sameTrackSessions := slice }}
-    {{ range where .Site.RegularPages "Section" "sessions" }}
-        {{ if and (eq .Params.track page.Params.track) (ne .Params.sessionId page.Params.sessionId) }}
-            {{- $sameTrackSessions = $sameTrackSessions | append (
-                dict
-                "title" .Title
-                "startsAt" .Params.startsAt
-                "isScheduled" .Params.isScheduled
-                "room" .Params.room.name
-                "sessionUrl" .RelPermalink
-                )
-            }}
+    {{- if .Site.Params.themes.event.showSchedule }}
+        {{- $sameTrackSessions := slice }}
+        {{ range where .Site.RegularPages "Section" "sessions" }}
+            {{ if and (eq .Params.track page.Params.track) (ne .Params.sessionId page.Params.sessionId) }}
+                {{- $sameTrackSessions = $sameTrackSessions | append (
+                    dict
+                    "title" .Title
+                    "startsAt" .Params.startsAt
+                    "isScheduled" .Params.isScheduled
+                    "room" .Params.room.name
+                    "sessionUrl" .RelPermalink
+                    )
+                }}
+            {{ end }}
         {{ end }}
-    {{ end }}
 
 
-    <div class="section-container section-container--dimmed">
-        <section class="section same-track-sessions-section" aria-label="Further session from the same track">
-            <h1 class="same-track-sessions-section__heading">
-                {{- if page.Params.track }}
-                    {{- T "session_page.further_sessions_from" | upper }}
-                    <span class="same-track-sessions-section__hashtag">
-                        {{- partial "elements/hashtag.html" (dict "hashtag" page.Params.track) }}
-                    </span>
-                {{- else }}
-                    {{- T "session_page.further_sessions" | upper }}
-                {{- end }}
-            </h1>
+        <div class="section-container section-container--dimmed">
+            <section class="section same-track-sessions-section" aria-label="Further session from the same track">
+                <h1 class="same-track-sessions-section__heading">
+                    {{- if page.Params.track }}
+                        {{- T "session_page.further_sessions_from" | upper }}
+                        <span class="same-track-sessions-section__hashtag">
+                            {{- partial "elements/hashtag.html" (dict "hashtag" page.Params.track) }}
+                        </span>
+                    {{- else }}
+                        {{- T "session_page.further_sessions" | upper }}
+                    {{- end }}
+                </h1>
 
-            {{- partial "sessions-menu.html" (
-                dict
-                "title" page.Params.track
-                "sessions" (first 4 $sameTrackSessions)
-                )
-            }}
-        </section>
-    </div>
+                {{- partial "sessions-menu.html" (
+                    dict
+                    "title" page.Params.track
+                    "sessions" (first 4 $sameTrackSessions)
+                    )
+                }}
+            </section>
+        </div>
+    {{- end }}
 
     {{- partial "sections/cta.html" (
         dict

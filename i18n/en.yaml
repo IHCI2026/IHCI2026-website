@@ -65,3 +65,7 @@ session_page.further_sessions_from: Further Sessions from
 carousel.button_next: Next item
 carousel.button_previous: Previous item
 session_categories.label: Session Categories
+speakers_page.to_be_announced: To be announced
+speakers_page.check_back_soon: Check back soon for speaker announcements
+schedule_page.to_be_announced: To be announced
+schedule_page.check_back_soon: Check back soon for schedule details

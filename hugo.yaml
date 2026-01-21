@@ -142,6 +142,9 @@ languages:
 params:
     themes:
         event:
+            # Set to true to show speakers/schedule, false to show "To be announced"
+            showSpeakers: false
+            showSchedule: false
             sessionizeId:
             title: 18th International Conference on Intelligent Human-Computer Interaction (IHCI2026)
             shortTitle: IHCI 2026
