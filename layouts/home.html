@@ -36,7 +36,8 @@
         "numberOfSpeakers" $numberOfSpeakers
         "numberOfSessions" $numberOfSessions
         "numberOfDays" $numberOfDays
-        "location" $location )
+        "location" $location
+        "importantDates" .Site.Params.themes.event.importantDates )
     }}
 
     {{- if .Site.Params.themes.event.showSchedule }}

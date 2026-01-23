@@ -2,7 +2,7 @@
 
 
 <div class="section-container">
-    <section class="section section--long event-highlights-section">
+    <section class="section event-highlights-section">
         <header class="event-highlights-section__header">
             {{- with resources.Get $input.logo }}
                 <img
@@ -19,11 +19,39 @@
                 <h2 class="heading heading--2">
                     {{ $input.subtitle }}
                 </h2>
-
-                <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
             </article>
         </header>
 
+        <div class="event-highlights-section__content">
+            <article class="event-highlights-section__about">
+                <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>
+            </article>
+
+            {{- if $input.importantDates }}
+            <aside class="event-highlights-section__dates">
+                <h3 class="heading heading--3">Important Dates</h3>
+                <p class="event-highlights-section__dates-note">All dates are 23:59 AoE (Anywhere on Earth)</p>
+                <ul class="event-highlights-section__dates-list">
+                    {{ range $input.importantDates }}
+                        <li class="event-highlights-section__date-item">
+                            <span class="event-highlights-section__date-name">{{ .name }}</span>
+                            <span class="event-highlights-section__date-value">
+                                {{ $startDate := time .date }}
+                                {{ if .endDate }}
+                                    {{ $endDate := time .endDate }}
+                                    {{ $startDate.Format "2" }}-{{ $endDate.Format "2 Jan 2006" }}
+                                {{ else }}
+                                    {{ $startDate.Format "2 Jan 2006" }}
+                                {{ end }}
+                            </span>
+                        </li>
+                    {{ end }}
+                </ul>
+            </aside>
+            {{- end }}
+        </div>
+
+        {{- if or $input.numberOfSpeakers $input.numberOfSessions $input.numberOfDays $input.location }}
         <article class="event-highlights-section__figures">
             {{- if $input.numberOfSpeakers }}
                 {{ partial "highlight-figure.html" (
@@ -55,5 +83,6 @@
                 }}
             {{- end }}
         </article>
+        {{- end }}
     </section>
 </div>

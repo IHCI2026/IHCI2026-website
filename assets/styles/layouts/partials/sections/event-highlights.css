@@ -11,7 +11,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5.625rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .event-highlights-section__logo {
@@ -30,16 +31,88 @@
     flex-grow: 1;
 }
 
+.event-highlights-section__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 100%;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .event-highlights-section__content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.event-highlights-section__about {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-highlights-section__paragraph {
+    color: var(--color-secondary-darker);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.event-highlights-section__dates {
+    background-color: var(--color-secondary);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.event-highlights-section__dates h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.event-highlights-section__dates-note {
+    font-size: 0.875rem;
+    color: var(--color-secondary-darker);
+    margin-bottom: 1rem;
+}
+
+.event-highlights-section__dates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.event-highlights-section__date-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.event-highlights-section__date-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.event-highlights-section__date-name {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.event-highlights-section__date-value {
+    color: var(--color-primary-lighter);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
 .event-highlights-section__figures {
-    margin-top: 5.625rem;
+    margin-top: 2.5rem;
     display: flex;
     gap: 1.875rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.event-highlights-section__paragraph {
-    color: var(--color-secondary-darker);
-    line-height: 1.5rem;
 }
