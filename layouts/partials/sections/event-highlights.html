@@ -3,22 +3,6 @@
 
 <div class="section-container">
     <section class="section event-highlights-section">
-        <header class="event-highlights-section__header">
-            {{- with resources.Get $input.logo }}
-                <img
-                    class="event-highlights-section__logo"
-                    src="{{ .RelPermalink }}"
-                    {{ if not (eq .MediaType.SubType "svg") }}
-                        width="{{ .Width }}" height="{{ .Height }}"
-                    {{ end }} />
-            {{ end }}
-            <article class="event-highlights-section__description">
-                <h2 class="heading heading--2">
-                    {{ $input.subtitle }}
-                </h2>
-            </article>
-        </header>
-
         <div class="event-highlights-section__content">
             <article class="event-highlights-section__about">
                 <p class="paragraph event-highlights-section__paragraph">{{ $input.description | markdownify }}</p>

@@ -37,11 +37,17 @@
 }
 
 .event-title-section__subheading {
-    height: 3.1875rem;
+    height: auto;
     margin: 0;
     font-size: 1.5rem;
     color: white;
     font-weight: 800;
     line-height: 1.815625rem;
     text-shadow: 0px 4px 4px #00000040;
+}
+
+.event-title-section__location {
+    font-size: 2rem;
+    display: block;
+    margin-top: 0.5rem;
 }

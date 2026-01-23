@@ -171,17 +171,19 @@
 
 .page-footer-section {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.625rem;
+    gap: 0.25rem;
     color: var(--color-secondary-darker);
 }
 
-@media (max-width: 58rem) {
-    .page-footer-section {
-        flex-direction: column;
-        gap: 2.5rem;
-    }
+.page-footer-section__copyright {
+    text-align: center;
+}
+
+.page-footer-section__acknowledgment {
+    text-align: center;
+    font-size: 0.65rem;
 }
 
 .page-footer-section__start {

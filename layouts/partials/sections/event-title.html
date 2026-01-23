@@ -11,10 +11,14 @@
             {{- $input.title }}
         </h1>
         <h2 class="event-title-section__subheading">
-            {{- with $input.startDate }}
-                {{- . | time.AsTime | time.Format "2 January 2006" }}<br/>
+            {{- if and $input.startDate $input.endDate }}
+                {{ $start := $input.startDate | time.AsTime }}
+                {{ $end := $input.endDate | time.AsTime }}
+                {{- $start.Format "2" }}-{{ $end.Format "2 January 2006" }}<br/>
+            {{- else if $input.startDate }}
+                {{- $input.startDate | time.AsTime | time.Format "2 January 2006" }}<br/>
             {{- end }}
-            {{ $input.location }}
+            <span class="event-title-section__location">{{ $input.location }}</span>
         </h2>
     </div>
 
