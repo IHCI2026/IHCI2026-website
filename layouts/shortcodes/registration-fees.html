@@ -1,0 +1,143 @@
+<div class="registration-fees">
+    <div class="registration-fees__header">
+        <span class="registration-fees__category-label">Category</span>
+        <span class="registration-fees__price-label">Early Bird</span>
+        <span class="registration-fees__price-label">On-Site/Late</span>
+    </div>
+    <ul class="registration-fees__list">
+        <li class="registration-fees__item">
+            <span class="registration-fees__name">Student</span>
+            <span class="registration-fees__price" data-label="Early Bird">400 USD</span>
+            <span class="registration-fees__price" data-label="On-Site/Late">450 USD</span>
+        </li>
+        <li class="registration-fees__item">
+            <span class="registration-fees__name">Academic</span>
+            <span class="registration-fees__price" data-label="Early Bird">600 USD</span>
+            <span class="registration-fees__price" data-label="On-Site/Late">650 USD</span>
+        </li>
+        <li class="registration-fees__item">
+            <span class="registration-fees__name">Non-Author/Attendee (1 Day)</span>
+            <span class="registration-fees__price" data-label="Early Bird">200 USD</span>
+            <span class="registration-fees__price" data-label="On-Site/Late">250 USD</span>
+        </li>
+        <li class="registration-fees__item">
+            <span class="registration-fees__name">Non-Author/Attendee (3 Days)</span>
+            <span class="registration-fees__price" data-label="Early Bird">600 USD</span>
+            <span class="registration-fees__price" data-label="On-Site/Late">650 USD</span>
+        </li>
+    </ul>
+    <p class="registration-fees__note">
+        <strong>Early Bird:</strong> by 30 September 2026 &nbsp;|&nbsp; <strong>On-Site/Late:</strong> by 26 October 2026
+    </p>
+</div>
+
+<style>
+.registration-fees {
+    background-color: var(--color-secondary);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem auto;
+    max-width: 48rem;
+}
+
+.registration-fees__header {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-primary);
+    margin-bottom: 0.75rem;
+}
+
+.registration-fees__category-label {
+    font-weight: 600;
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.registration-fees__price-label {
+    font-weight: 600;
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: right;
+    min-width: 5.5rem;
+}
+
+.registration-fees__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.registration-fees__item {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 1.5rem;
+    align-items: baseline;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.registration-fees__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.registration-fees__name {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.registration-fees__price {
+    color: var(--color-primary-lighter);
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: right;
+    min-width: 5.5rem;
+}
+
+.registration-fees__note {
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: var(--color-secondary-darker);
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .registration-fees {
+        padding: 1rem;
+    }
+
+    .registration-fees__header {
+        display: none;
+    }
+
+    .registration-fees__item {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+    }
+
+    .registration-fees__name {
+        margin-bottom: 0.25rem;
+    }
+
+    .registration-fees__price {
+        text-align: left;
+        min-width: auto;
+    }
+
+    .registration-fees__price::before {
+        content: attr(data-label) ": ";
+        font-weight: 400;
+        color: var(--color-secondary-darker);
+    }
+}
+</style>
