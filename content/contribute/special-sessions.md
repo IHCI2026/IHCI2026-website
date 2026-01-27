@@ -38,7 +38,9 @@ Proposals will be evaluated on relevance to IHCI, timeliness and novelty, antici
 
 ## Special Session Paper Submission Guidelines
 
-**Format**: All submissions must follow the Springer Lecture Notes in Computer Science (LNCS) template and be submitted electronically as a single PDF in English. The main body of the paper (including appendices) should be 4-10 pages long, excluding references; references may take up to two additional pages.
+**Format**: All submissions must follow the Springer Lecture Notes in Computer Science (LNCS) template and be submitted electronically as a single PDF in English.
+
+{{< submission-templates type="specialSessions" >}}
 
 ## Review Process & Publications
 

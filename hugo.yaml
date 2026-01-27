@@ -199,7 +199,38 @@ params:
                 track: '#37B4B0'           # Trent Turquoise
                 shadow: '#a6afc366'
             trackCategoryTitle: Track
-            
+
+            # Submission Templates
+            submissionTemplates:
+                guidelinesUrl: https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+                latex:
+                    name: LaTeX2e Proceedings Templates
+                    url: https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v8
+                word:
+                    name: Microsoft Word Proceedings Templates
+                    url: https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238706/data/v6
+                word2003:
+                    name: Microsoft Word 2003 Proceedings Templates
+                    url: https://resource-cms.springernature.com/springer-cms/rest/v1/content/7117506/data/v1
+                # Page limits by submission type
+                pageLimits:
+                    papers:
+                        min: 4
+                        max: 10
+                        referencesExtra: 0
+                    posters:
+                        min: 4
+                        max: 4
+                        referencesExtra: 0
+                    demos:
+                        min: 2
+                        max: 4
+                        referencesExtra: 0
+                    specialSessions:
+                        min: 4
+                        max: 10
+                        referencesExtra: 0
+
             # Important Dates
             importantDates:
                 - name: Special Session Proposal Deadline

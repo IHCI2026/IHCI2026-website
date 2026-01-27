@@ -1,0 +1,76 @@
+{{- $type := .Get "type" | default "" -}}
+{{- $templates := site.Params.themes.event.submissionTemplates -}}
+{{- $limits := index $templates.pageLimits $type -}}
+
+<div class="submission-templates">
+    {{- with $limits }}
+    <p class="submission-templates__pages">
+        <strong>Page limit:</strong>
+        {{- if eq .min .max }} {{ .min }} pages
+        {{- else }} {{ .min }}-{{ .max }} pages
+        {{- end }}{{- if eq .referencesExtra 0 }} (including references).
+        {{- else }} (excluding references); references may use up to {{ .referencesExtra }} additional page{{ if gt .referencesExtra 1 }}s{{ end }}.
+        {{- end }}
+    </p>
+    {{- end }}
+    <p class="submission-templates__intro">
+        Templates are available on the <a href="{{ $templates.guidelinesUrl }}" target="_blank" rel="noopener">Springer LNCS Conference Proceedings Guidelines</a> page. Please use one of the following templates:
+    </p>
+    <ul class="submission-templates__list">
+        {{ with $templates.latex }}
+        <li class="submission-templates__item">
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+        </li>
+        {{ end }}
+        {{ with $templates.word }}
+        <li class="submission-templates__item">
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+        </li>
+        {{ end }}
+        {{ with $templates.word2003 }}
+        <li class="submission-templates__item">
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+
+<style>
+.submission-templates {
+    background-color: var(--color-secondary);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid var(--color-primary-lighter);
+}
+
+.submission-templates__pages {
+    margin: 0 0 0.75rem 0;
+}
+
+.submission-templates__intro {
+    margin: 0 0 0.75rem 0;
+}
+
+.submission-templates__list {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.submission-templates__item {
+    margin-bottom: 0.25rem;
+}
+
+.submission-templates__item:last-child {
+    margin-bottom: 0;
+}
+
+.submission-templates__item a {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.submission-templates__item a:hover {
+    color: var(--color-primary-lighter);
+}
+</style>

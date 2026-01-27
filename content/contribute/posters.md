@@ -20,7 +20,9 @@ All deadlines are 23:59 AoE (Anywhere on Earth).
 
 IHCI 2026 invites original research that advances human-centered interaction with intelligent systems.
 
-Submissions must include an extended abstract of 4 pages (excluding references) and prepared using the IHCI 2026 poster template (to be announced); references may take up to 1 additional page. Authors may optionally include a single-page portrait draft poster illustrating the work. Content must be original and not previously published; preliminary versions of ongoing work are welcome.
+Submissions must include an extended abstract prepared using the Springer LNCS template. Authors may optionally include a single-page portrait draft poster illustrating the work. Content must be original and not previously published; preliminary versions of ongoing work are welcome.
+
+{{< submission-templates type="posters" >}}
 
 ## Presentation Format & Publications
 

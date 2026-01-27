@@ -18,7 +18,9 @@ All deadlines are 23:59 AoE (Anywhere on Earth).
 
 ## Submission Guidelines
 
-Submissions must include a demo extended abstract of 2-4 pages (excluding references; references may take up to 1 additional page). The extended abstract should include a technical summary describing equipment, space, power/network needs, setup time, safety considerations, and whether you can bring backup hardware.
+Submissions must include a demo extended abstract prepared using the Springer LNCS template. The extended abstract should include a technical summary describing equipment, space, power/network needs, setup time, safety considerations, and whether you can bring backup hardware.
+
+{{< submission-templates type="demos" >}}
 
 Authors may optionally include a video of up to 3 minutes, showing the system in use and setup and include captions.
 
