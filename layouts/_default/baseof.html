@@ -158,9 +158,20 @@
             new ResizeObserver(checkWhichMenuToUse).observe(document.body);
         </script>
 
+        {{ if .IsHome }}
         <main class="page-main">
             {{ block "main" . }}{{ end }}
         </main>
+        {{ else }}
+        <div class="page-content-with-sponsors">
+            <div class="page-content-with-sponsors__sidebar">
+                {{- partial "sponsors-sidebar.html" . -}}
+            </div>
+            <main class="page-main page-content-with-sponsors__main">
+                {{ block "main" . }}{{ end }}
+            </main>
+        </div>
+        {{ end }}
 
         {{- with .Site.Menus.secondary }}
             {{- if gt (len .) 0 }}
