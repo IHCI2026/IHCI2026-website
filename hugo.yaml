@@ -177,16 +177,18 @@ params:
                 titleBackground: images/unnc-day.jpg
                 location:
             sponsors:
-                - logo:
-                  url:
-                  name: University of Nottingham Ningbo China
-                - logo:
-                  url:
-                  name: NingboTech University
-            partners:
-                - logo:
-                  url:
-                  name:
+                - shortName: unnc
+                  fullName: University of Nottingham Ningbo China
+                  url: https://www.nottingham.edu.cn
+                  description: Host institution
+                  type: gold
+                  logo: images/sponsors/unnc.png
+                - shortName: nbt
+                  fullName: NingboTech University
+                  url: https://www.nbt.edu.cn
+                  description: Co-organiser
+                  type: silver
+                  logo: images/sponsors/nbt.png
             organizers:
             featuredSessions:
             colors:

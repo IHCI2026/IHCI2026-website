@@ -5,20 +5,50 @@
     flex-direction: column;
 }
 
-.our-sponsors__list {
-    all: unset;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 1.4rem;
+.our-sponsors__carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
 }
 
-.our-sponsors__list-item {
-    flex: 0 0 calc(25% - 1.4rem);
-    margin-bottom: 1.875rem;
-    box-sizing: border-box;
+.our-sponsors__track {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: max-content;
+    animation: sponsors-scroll 20s linear infinite;
+}
+
+.our-sponsors__track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes sponsors-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.our-sponsors__logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.our-sponsors__logo {
+    max-height: 80px;
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.our-sponsors__name {
+    font-size: 1rem;
+    color: var(--primary-color);
+    white-space: nowrap;
 }

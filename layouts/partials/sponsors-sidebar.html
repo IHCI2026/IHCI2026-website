@@ -1,0 +1,37 @@
+{{ $sponsors := .Site.Params.themes.event.sponsors }}
+{{ $validSponsors := slice }}
+{{ range $sponsor := $sponsors }}
+    {{ if $sponsor.fullName }}
+        {{ $validSponsors = $validSponsors | append $sponsor }}
+    {{ end }}
+{{ end }}
+
+{{ if gt (len $validSponsors) 0 }}
+    <aside class="sponsors-sidebar">
+        <h3 class="sponsors-sidebar__heading">Sponsors</h3>
+        {{ $tiers := slice "gold" "silver" "bronze" }}
+        {{ range $tier := $tiers }}
+            {{ $tierSponsors := slice }}
+            {{ range $s := $validSponsors }}
+                {{ if eq $s.type $tier }}
+                    {{ $tierSponsors = $tierSponsors | append $s }}
+                {{ end }}
+            {{ end }}
+            {{ if gt (len $tierSponsors) 0 }}
+                <div class="sponsors-sidebar__tier">
+                    <h4 class="sponsors-sidebar__tier-heading">{{ $tier | title }}</h4>
+                    {{ range $s := $tierSponsors }}
+                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
+                            {{ $img := resources.Get $s.logo }}
+                            {{ if $img }}
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" />
+                            {{ else }}
+                                <span class="sponsors-sidebar__name">{{ $s.fullName }}</span>
+                            {{ end }}
+                        </a>
+                    {{ end }}
+                </div>
+            {{ end }}
+        {{ end }}
+    </aside>
+{{ end }}

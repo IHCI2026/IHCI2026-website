@@ -1,7 +1,7 @@
 {{ $sponsors := .sponsors }}
 {{ $validSponsors := slice }}
 {{ range $sponsor := $sponsors }}
-    {{ if and $sponsor.logo $sponsor.url }}
+    {{ if $sponsor.fullName }}
         {{ $validSponsors = $validSponsors | append $sponsor }}
     {{ end }}
 {{- end }}
@@ -15,18 +15,31 @@
             <h2 class="heading heading--2 heading--centered">
                 {{ T "sponsors_section.subheading" }}
             </h2>
-            <ul class="our-sponsors__list">
-                {{ range $sponsor := $validSponsors }}
-                    <li class="our-sponsors__list-item">
-                        {{- partial "sponsor-card.html" (dict
-                            "companyUrl" $sponsor.url
-                            "logoResource" $sponsor.logo
-                            "name" $sponsor.name
-                            )
-                        }}
-                    </li>
-                {{- end }}
-            </ul>
+            <div class="our-sponsors__carousel">
+                <div class="our-sponsors__track">
+                    {{ range $s := $validSponsors }}
+                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" title="{{ $s.fullName }}">
+                            {{ $img := resources.Get $s.logo }}
+                            {{ if $img }}
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                            {{ else }}
+                                <span class="our-sponsors__name">{{ $s.fullName }}</span>
+                            {{ end }}
+                        </a>
+                    {{ end }}
+                    {{/* Duplicate for seamless loop */}}
+                    {{ range $s := $validSponsors }}
+                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" aria-hidden="true" title="{{ $s.fullName }}">
+                            {{ $img := resources.Get $s.logo }}
+                            {{ if $img }}
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                            {{ else }}
+                                <span class="our-sponsors__name">{{ $s.fullName }}</span>
+                            {{ end }}
+                        </a>
+                    {{ end }}
+                </div>
+            </div>
         </section>
     </div>
 {{ end }}

@@ -1,59 +1,57 @@
 {{ define "main" }}
     {{ $event := .Site.Params.themes.event }}
 
-
     <section class="sponsors">
         <div class="section">
+            <h1 class="heading heading--1">Our Sponsors &amp; Partners</h1>
+            <div class="markdown">
+                <p>
+                    IHCI 2026 would not be possible without the generous support of our sponsors and partners.
+                    Their commitment to advancing research in intelligent human-computer interaction helps bring
+                    together researchers, practitioners, and industry leaders from around the world. We are
+                    deeply grateful for their contributions to making this conference a success.
+                </p>
+                <p>
+                    Interested in supporting IHCI 2026? Please see our
+                    <a href="/contribute/sponsors/">Call for Sponsors</a> for partnership opportunities.
+                </p>
+            </div>
+
             {{ $validSponsors := slice }}
             {{ range $sponsor := $event.sponsors }}
-                {{ if and $sponsor.logo $sponsor.url }}
+                {{ if $sponsor.fullName }}
                     {{ $validSponsors = $validSponsors | append $sponsor }}
                 {{ end }}
             {{- end }}
 
             {{ if gt (len $validSponsors) 0 }}
-                <h1 class="heading heading--1">
-                    {{- T "sponsors_page.heading_sponsors" }}
-                </h1>
-                <ul class="sponsors__list">
-                    {{ range $sponsor := $validSponsors }}
-                        <li class="sponsors__list-item">
-                            {{- partial "sponsor-card.html" (
-                                dict
-                                "companyUrl" $sponsor.url
-                                "logoResource" $sponsor.logo
-                                "name" $sponsor.name
-                                )
-                            }}
-                        </li>
-                    {{- end }}
-                </ul>
-            {{ end }}
-
-            {{ $validPartners := slice }}
-            {{ range $partner := $event.partners }}
-                {{ if and $partner.logo $partner.url }}
-                    {{ $validPartners = $validPartners | append $partner }}
+                {{ $tiers := slice "gold" "silver" "bronze" }}
+                {{ range $tier := $tiers }}
+                    {{ $tierSponsors := slice }}
+                    {{ range $s := $validSponsors }}
+                        {{ if eq $s.type $tier }}
+                            {{ $tierSponsors = $tierSponsors | append $s }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if gt (len $tierSponsors) 0 }}
+                        <h1 class="heading heading--1">
+                            {{ $tier | title }} Sponsors
+                        </h1>
+                        <ul class="sponsors__list">
+                            {{ range $sponsor := $tierSponsors }}
+                                <li class="sponsors__list-item">
+                                    {{- partial "sponsor-card.html" (
+                                        dict
+                                        "companyUrl" $sponsor.url
+                                        "logoResource" $sponsor.logo
+                                        "name" $sponsor.fullName
+                                        )
+                                    }}
+                                </li>
+                            {{- end }}
+                        </ul>
+                    {{ end }}
                 {{ end }}
-            {{- end }}
-
-            {{ if gt (len $validPartners) 0 }}
-                <h1 class="heading heading--1">
-                    {{- T "sponsors_page.heading_partners" }}
-                </h1>
-                <ul class="sponsors__list">
-                    {{ range $partner := $validPartners }}
-                        <li class="sponsors__list-item">
-                            {{- partial "sponsor-card.html" (
-                                dict
-                                "profileUrl" $partner.url
-                                "logoResource" $partner.logo
-                                "name" $partner.name
-                                )
-                            }}
-                        </li>
-                    {{- end }}
-                </ul>
             {{ end }}
         </div>
     </section>
