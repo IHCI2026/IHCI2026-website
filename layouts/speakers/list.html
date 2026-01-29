@@ -2,10 +2,20 @@
     <section class="speaker-list">
         <div class="section">
             <h1 class="heading heading--1">{{ T "speakers_page.heading" }}</h1>
+
+            <p class="speaker-list__notice">
+                The speaker lineup is still being confirmed. Please check back for updates as more speakers are announced.
+            </p>
+
             {{- if .Site.Params.themes.event.showSpeakers }}
-                <menu class="speaker-list__menu">
-                    {{ range .Pages.GroupByParam "lastName" }}
-                        {{ range .Pages.ByParam "firstName" }}
+                {{- $speakers := where .Pages "Params.speakerType" "speaker" }}
+                {{- $invitedSpeakers := where .Pages "Params.speakerType" "invited" }}
+
+                {{- if $speakers }}
+                <div class="speaker-list__section">
+                    <h2 class="heading heading--2 speaker-list__section-heading">Speakers</h2>
+                    <menu class="speaker-list__menu">
+                        {{ range $speakers.ByParam "lastName" }}
                             <li class="speaker-list__item">
                                 {{- partial "speaker-card.html" (
                                     dict
@@ -20,8 +30,32 @@
                                 }}
                             </li>
                         {{ end }}
-                    {{ end }}
-                </menu>
+                    </menu>
+                </div>
+                {{- end }}
+
+                {{- if $invitedSpeakers }}
+                <div class="speaker-list__section">
+                    <h2 class="heading heading--2 speaker-list__section-heading">Invited Speakers</h2>
+                    <menu class="speaker-list__menu">
+                        {{ range $invitedSpeakers.ByParam "lastName" }}
+                            <li class="speaker-list__item">
+                                {{- partial "speaker-card.html" (
+                                    dict
+                                    "profileUrl" .RelPermalink
+                                    "avatarResource" (.Resources.GetMatch "avatar.*")
+                                    "name" .Title
+                                    "description" .Params.tagLine
+                                    "linkedinUrl" .Params.linkedinUrl
+                                    "xUrl" .Params.xUrl
+                                    "companyUrl" .Params.company
+                                    )
+                                }}
+                            </li>
+                        {{ end }}
+                    </menu>
+                </div>
+                {{- end }}
             {{- else }}
                 <div class="nothing-scheduled-section">
                     <h2 class="heading heading--highlighted heading--centered nothing-scheduled-section__heading">

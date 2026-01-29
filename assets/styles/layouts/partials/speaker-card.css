@@ -1,11 +1,9 @@
 .speaker-card {
     width: 16.875rem;
-    height: 19.9375rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     border-radius: 0.3125rem;
     border: 0.0625rem solid var(--color-primary);
     box-shadow:
@@ -29,7 +27,7 @@
     flex-grow: 1;
     align-items: center;
     gap: 1.25rem;
-    padding: 1.5625rem 1.625rem 0 1.625rem;
+    padding: 1.5625rem 1.625rem 1.5625rem 1.625rem;
     cursor: pointer;
 }
 
@@ -56,6 +54,10 @@
 .speaker-card__social-links {
     flex-shrink: 1;
     margin-bottom: 0.9375rem;
+}
+
+.speaker-card__social-links:empty {
+    display: none;
 }
 
 .speaker-card__social-link {

@@ -20,3 +20,23 @@
     width: 100%;
     max-width: 16.875rem; /* Matches the width of the speaker card */
 }
+
+.speaker-list__notice {
+    text-align: center;
+    font-style: italic;
+    color: var(--color-secondary-darker);
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.5rem;
+}
+
+.speaker-list__section {
+    margin-bottom: 3rem;
+}
+
+.speaker-list__section-heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--color-primary);
+}

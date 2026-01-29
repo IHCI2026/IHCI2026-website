@@ -19,5 +19,25 @@
     all: unset;
     font-weight: 400;
     font-size: 1rem;
-    margin: 2.8125rem 0;
+}
+
+.speaker-biography__section {
+    margin-top: 2rem;
+}
+
+.speaker-biography__section-heading {
+    all: unset;
+    display: block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+}
+
+.speaker-biography__talk-title {
+    all: unset;
+    display: block;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-style: italic;
 }

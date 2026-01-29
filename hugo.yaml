@@ -143,7 +143,7 @@ params:
     themes:
         event:
             # Set to true to show speakers/schedule, false to show "To be announced"
-            showSpeakers: false
+            showSpeakers: true
             showSchedule: false
             sessionizeId:
             title: 18th International Conference on Intelligent Human-Computer Interaction (IHCI2026)
@@ -177,13 +177,13 @@ params:
                 titleBackground: images/unnc-day.jpg
                 location:
             sponsors:
-                - shortName: unnc
+                - shortName: UNNC
                   fullName: University of Nottingham Ningbo China
                   url: https://www.nottingham.edu.cn
                   description: Host institution
                   type: gold
                   logo: images/sponsors/unnc.png
-                - shortName: nbt
+                - shortName: NingboTech
                   fullName: NingboTech University
                   url: https://www.nbt.edu.cn
                   description: Co-organiser
