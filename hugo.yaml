@@ -145,6 +145,8 @@ params:
             # Set to true to show speakers/schedule, false to show "To be announced"
             showSpeakers: true
             showSchedule: false
+            # Set to true to show event stats (speaker count, days, location) on homepage
+            showEventStats: false
             sessionizeId:
             title: 18th International Conference on Intelligent Human-Computer Interaction (IHCI2026)
             shortTitle: IHCI 2026

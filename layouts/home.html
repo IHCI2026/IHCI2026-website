@@ -18,13 +18,13 @@
     {{ $numberOfSessions := 0 }}
     {{ $numberOfDays := 0 }}
     {{ $location := "" }}
-    {{- if .Site.Params.themes.event.showSpeakers }}
+    {{- if and .Site.Params.themes.event.showEventStats .Site.Params.themes.event.showSpeakers }}
         {{ $numberOfSpeakers = (where .Site.RegularPages "Section" "speakers") | len }}
     {{- end }}
-    {{- if .Site.Params.themes.event.showSchedule }}
+    {{- if and .Site.Params.themes.event.showEventStats .Site.Params.themes.event.showSchedule }}
         {{ $numberOfSessions = where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len }}
     {{- end }}
-    {{- if or .Site.Params.themes.event.showSpeakers .Site.Params.themes.event.showSchedule }}
+    {{- if and .Site.Params.themes.event.showEventStats (or .Site.Params.themes.event.showSpeakers .Site.Params.themes.event.showSchedule) }}
         {{ $numberOfDays = div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds }}
         {{ $location = .Site.Params.themes.event.location }}
     {{- end }}
