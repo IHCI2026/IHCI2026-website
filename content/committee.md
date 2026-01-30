@@ -32,14 +32,14 @@ layout: single
 
 ## TECHNICAL PROGRAMME COMMITTEE
 
--   **Chee Onn Wang** --- _Multimedia University, Malaysia_
+-   **Chee Onn Wong** --- _Multimedia University, Malaysia_
 -   **Qian Zhang** --- _University of Nottingham Ningbo China, China_
 -   **Li Gang** --- _University of Bath, UK_
 
 ## PROGRAMME CHAIRS
 
 -   **Matthew Pike** --- _University of Nottingham Ningbo China, China_
--   **Kian Ming Lee** --- _University of Nottingham Ningbo China, China_
+-   **Kian Ming Lim** --- _University of Nottingham Ningbo China, China_
 
 ## PANEL SESSION CHAIRS
 
