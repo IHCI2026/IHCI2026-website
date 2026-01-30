@@ -34,7 +34,7 @@ layout: single
 
 -   **Chee Onn Wong** --- _Multimedia University, Malaysia_
 -   **Qian Zhang** --- _University of Nottingham Ningbo China, China_
--   **Li Gang** --- _University of Bath, UK_
+-   **Gang Li** --- _University of Bath, UK_
 
 ## PROGRAMME CHAIRS
 
