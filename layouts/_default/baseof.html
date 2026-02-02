@@ -56,6 +56,11 @@
                     <label class="page-header__toggle-sidebar-label" for="sidebarToggle">
                         {{- partial "graphics/hamburger-menu.html" }}
                     </label>
+                    {{- with resources.Get "images/logo.png" }}
+                    <a class="page-header__logo-link" href="{{ site.Home.RelPermalink }}" aria-label="Home">
+                        <img class="page-header__logo" src="{{ .RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }} logo" />
+                    </a>
+                    {{- end }}
                     <a class="page-header__title-link" href="{{ site.Home.RelPermalink }}">
                         {{ (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title)) }}
                     </a>
@@ -89,9 +94,11 @@
         <aside class="page-sidebar">
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
+                    {{- with resources.Get "images/logo.png" }}
                     <a class="page-sidebar__heading-link" href="{{ site.Home.RelPermalink }}">
-                        {{ (strings.FirstUpper (or .Site.Params.themes.event.shortTitle .Site.Params.themes.event.title)) }}
+                        <img class="page-sidebar__logo" src="{{ .RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }} logo" />
                     </a>
+                    {{- end }}
 
                     <label class="page-sidebar__close-label" for="sidebarToggle">
                         {{- partial "graphics/close.html" }}
