@@ -1,8 +1,12 @@
 {{ $sponsors := .sponsors }}
 {{ $validSponsors := slice }}
+{{ $organisers := slice }}
 {{ range $sponsor := $sponsors }}
     {{ if $sponsor.fullName }}
         {{ $validSponsors = $validSponsors | append $sponsor }}
+        {{ if or (eq $sponsor.type "gold") (eq $sponsor.type "silver") }}
+            {{ $organisers = $organisers | append $sponsor }}
+        {{ end }}
     {{ end }}
 {{- end }}
 
@@ -10,11 +14,11 @@
 <div class="section-container section-container--dimmed">
     <section class="section section--short our-organisers">
         <div class="our-organisers__row">
-            {{ if gt (len $validSponsors) 0 }}
+            {{ if gt (len $organisers) 0 }}
             <div class="our-organisers__column">
                 <h4 class="our-organisers__heading">Organised By</h4>
                 <div class="our-organisers__logos">
-                    {{ range $s := $validSponsors }}
+                    {{ range $s := $organisers }}
                         <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link" title="{{ $s.fullName }}">
                             {{ $img := resources.Get $s.logo }}
                             {{ if $img }}

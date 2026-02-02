@@ -191,6 +191,12 @@ params:
                   description: Co-organiser
                   type: silver
                   logo: images/sponsors/nbt.png
+                - shortName: Boxtech
+                  fullName: Boxtech Ningbo Co., Ltd.
+                  url:
+                  description:
+                  type: bronze
+                  logo: images/sponsors/boxtech.png
             organizers:
             featuredSessions:
             colors:
