@@ -19,7 +19,6 @@
             {{ end }}
             {{ if gt (len $tierSponsors) 0 }}
                 <div class="sponsors-sidebar__tier">
-                    <h4 class="sponsors-sidebar__tier-heading">{{ $tier | title }}</h4>
                     <div class="sponsors-sidebar__logos">
                         {{ range $s := $tierSponsors }}
                             <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
