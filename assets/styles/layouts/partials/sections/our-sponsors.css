@@ -1,3 +1,70 @@
+/* Organisers and Proceedings highlighted section */
+.our-organisers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-organisers__row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.our-organisers__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.our-organisers__heading {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-secondary-darker);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.our-organisers__logos {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.our-organisers__logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.our-organisers__logo-link:hover {
+    opacity: 0.8;
+}
+
+.our-organisers__logo {
+    max-height: 50px;
+    max-width: 140px;
+    object-fit: contain;
+}
+
+.our-organisers__proceedings-logo {
+    max-width: 180px;
+    height: auto;
+}
+
+.our-organisers__name {
+    font-size: 0.875rem;
+    color: var(--color-secondary-darker);
+    white-space: nowrap;
+}
+
+/* Sponsors carousel section */
 .our-sponsors {
     display: flex;
     align-items: center;

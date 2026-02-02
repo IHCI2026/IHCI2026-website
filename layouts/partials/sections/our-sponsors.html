@@ -6,40 +6,72 @@
     {{ end }}
 {{- end }}
 
-{{ if gt (len $validSponsors) 0 }}
-    <div class="section-container">
-        <section class="section section--short our-sponsors">
-            <h1 class="heading heading--highlighted heading--centered">
-                {{ T "sponsors_section.heading" }}
-            </h1>
-            <h2 class="heading heading--2 heading--centered">
-                {{ T "sponsors_section.subheading" }}
-            </h2>
-            <div class="our-sponsors__carousel">
-                <div class="our-sponsors__track">
+{{/* Highlighted section with Organised By and Proceedings */}}
+<div class="section-container section-container--dimmed">
+    <section class="section section--short our-organisers">
+        <div class="our-organisers__row">
+            {{ if gt (len $validSponsors) 0 }}
+            <div class="our-organisers__column">
+                <h4 class="our-organisers__heading">Organised By</h4>
+                <div class="our-organisers__logos">
                     {{ range $s := $validSponsors }}
-                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" title="{{ $s.fullName }}">
+                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link" title="{{ $s.fullName }}">
                             {{ $img := resources.Get $s.logo }}
                             {{ if $img }}
-                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-organisers__logo" />
                             {{ else }}
-                                <span class="our-sponsors__name">{{ $s.fullName }}</span>
-                            {{ end }}
-                        </a>
-                    {{ end }}
-                    {{/* Duplicate for seamless loop */}}
-                    {{ range $s := $validSponsors }}
-                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" aria-hidden="true" title="{{ $s.fullName }}">
-                            {{ $img := resources.Get $s.logo }}
-                            {{ if $img }}
-                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
-                            {{ else }}
-                                <span class="our-sponsors__name">{{ $s.fullName }}</span>
+                                <span class="our-organisers__name">{{ $s.fullName }}</span>
                             {{ end }}
                         </a>
                     {{ end }}
                 </div>
             </div>
-        </section>
-    </div>
+            {{ end }}
+
+            {{- with resources.Get "images/springer_lncs.png" }}
+            <div class="our-organisers__column">
+                <h4 class="our-organisers__heading">Proceedings Published By</h4>
+                <a href="https://www.springer.com/gp/computer-science/lncs" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link">
+                    <img src="{{ .RelPermalink }}" alt="Springer Lecture Notes in Computer Science (LNCS)" class="our-organisers__proceedings-logo" />
+                </a>
+            </div>
+            {{- end }}
+        </div>
+    </section>
+</div>
+
+{{/* Sponsor carousel below */}}
+{{ if gt (len $validSponsors) 0 }}
+<div class="section-container">
+    <section class="section section--short our-sponsors">
+        <h1 class="heading heading--highlighted heading--centered">
+            {{ T "sponsors_section.heading" }}
+        </h1>
+        <div class="our-sponsors__carousel">
+            <div class="our-sponsors__track">
+                {{ range $s := $validSponsors }}
+                    <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" title="{{ $s.fullName }}">
+                        {{ $img := resources.Get $s.logo }}
+                        {{ if $img }}
+                            <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                        {{ else }}
+                            <span class="our-sponsors__name">{{ $s.fullName }}</span>
+                        {{ end }}
+                    </a>
+                {{ end }}
+                {{/* Duplicate for seamless loop */}}
+                {{ range $s := $validSponsors }}
+                    <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" aria-hidden="true" title="{{ $s.fullName }}">
+                        {{ $img := resources.Get $s.logo }}
+                        {{ if $img }}
+                            <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                        {{ else }}
+                            <span class="our-sponsors__name">{{ $s.fullName }}</span>
+                        {{ end }}
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+</div>
 {{ end }}

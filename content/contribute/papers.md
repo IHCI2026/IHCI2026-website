@@ -56,6 +56,8 @@ All submissions will receive multiple expert peer reviews. Final decisions may i
 
 ## Publications & Special Issues
 
+{{< springer-lncs >}}
+
 Accepted papers will be included in the IHCI 2026 proceedings, published digitally in Lecture Notes in Computer Science (LNCS) by Springer. The proceedings will be indexed in Scopus, Google Scholar, DBLP, the ACM Digital Library, and other relevant databases. Best Paper and Best Student Paper awards will be selected by the Program Committee. Authors are encouraged to share artifacts (e.g., data, code, and materials) when possible.
 
 Authors of accepted papers may expand their manuscripts by at least 50% and have the option to submit them to the following Special Issues:
