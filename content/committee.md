@@ -10,7 +10,7 @@ layout: single
 -   **Boon Giin Lee (Bryan)** --- _University of Nottingham Ningbo China, China_
 -   **Wu Deng** --- _University of Nottingham Ningbo China, China_
 -   **Xu Sun** --- _University of Nottingham Ningbo China, China_
--   **Matthew Pike** --- _University of Nottingham Ningbo China --- China_
+-   **Matthew Pike** --- _University of Nottingham Ningbo China, China_
 
 ## STEERING COMMITTEE
 
@@ -18,7 +18,7 @@ layout: single
 -   **Dave Towey** --- _University of Nottingham Ningbo China, China_
 -   **Wan-Young Chung** --- _Pukyong National University, Republic of Korea_
 -   **Dhananjay Singh** --- _Penn State University, USA_
--   **Uma Shanker Tiwary** --- _Center of Cognitive Computing, IIIT-Allahabad, India_
+-   **Uma Shanker Tiwary** --- _Indian Institute of Information Technology, Allahabad, India_
 
 ## ADVISORY/HONORARY CHAIRS
 
@@ -55,8 +55,8 @@ layout: single
 ## EDITORIAL BOARD MEMBERS
 
 -   **Boon Giin Lee (Bryan)** --- _University of Nottingham Ningbo China, China_
--   **U. S. Tiwary** --- _Indian Institute of Information Technology, Allahabad, India_
--   **Dhananjay Singh** --- _The Penn State University, USA_
+-   **Uma Shanker Tiwary** --- _Indian Institute of Information Technology, Allahabad, India_
+-   **Dhananjay Singh** --- _Penn State University, USA_
 -   **Wan-Young Chung** --- _Pukyong National University, Republic of Korea_
 
 ## PANEL SESSION CHAIRS
