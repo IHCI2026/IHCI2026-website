@@ -97,17 +97,17 @@ languages:
                 event:
                     slogan: The 18th International Conference on Intelligent Human-Computer Interaction
                     description: |
-                        Since 2008, the Intelligent Human-Computer Interaction (IHCI) community has advanced 
-                        human-centered technology and cognitive computing. The 18th IHCI conference builds on 
-                        this legacy by bringing technology and the humanities into closer conversation, deepening 
-                        our understanding of how people think, create, and collaborate with intelligent systems. 
-                        Through innovation and open collaboration, IHCI supports research and experimental 
+                        Since 2008, the Intelligent Human-Computer Interaction (IHCI) community has advanced
+                        human-centered technology and cognitive computing. The 18th IHCI conference builds on
+                        this legacy by bringing technology and the humanities into closer conversation, deepening
+                        our understanding of how people think, create, and collaborate with intelligent systems.
+                        Through innovation and open collaboration, IHCI supports research and experimental
                         development that led to more intuitive, effective, and satisfying user experiences.
 
-                        IHCI 2026 will highlight innovative research and methodologies that increase usability, 
-                        accessibility, and interaction efficiency. By uniting researchers, practitioners, engineers, 
-                        designers, and industry leaders, the conference will address the pressing challenges of 
-                        designing seamless, trustworthy, and human-centered interfaces that improve how we live, 
+                        IHCI 2026 will highlight innovative research and methodologies that increase usability,
+                        accessibility, and interaction efficiency. By uniting researchers, practitioners, engineers,
+                        designers, and industry leaders, the conference will address the pressing challenges of
+                        designing seamless, trustworthy, and human-centered interfaces that improve how we live,
                         work, and learn with technology.
 
                         The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
@@ -116,18 +116,18 @@ languages:
                         - Taxi: 30-40 minutes, ¥30-50 RMB
                         - Metro: Line 2 → Line 5 → Line 3 to Southern Business District Station Exit E
                         - Bus: Line 108 directly to UNNC
-                        
+
                         **From Shanghai Pudong Airport (PVG):**
                         - Maglev to Longyang Road → Metro Line 2 to Hongqiao Railway Station
                         - High-speed train (G/D-series) to Ningbo Railway Station (2-2.5 hours)
                         - Taxi or Metro Line 4 → Line 3 to UNNC
-                        
+
                         Address in Chinese: 宁波诺丁汉大学1号门
                     aboutUs: |
-                        The conference welcomes contributions across the HCI spectrum, including human-AI interaction, 
-                        robotics, computer vision, mixed/virtual/augmented reality, arts and music technologies, 
-                        cybersecurity and privacy, interactive and ubiquitous computing, and human-environment interaction. 
-                        
+                        The conference welcomes contributions across the HCI spectrum, including human-AI interaction,
+                        robotics, computer vision, mixed/virtual/augmented reality, arts and music technologies,
+                        cybersecurity and privacy, interactive and ubiquitous computing, and human-environment interaction.
+
                         **Conference Highlights:**
                         - Inspiring keynotes from leading voices
                         - Cross-disciplinary speakers linking technology, design, and humanities
@@ -136,9 +136,9 @@ languages:
                         - Industry engagement and tech transfer opportunities
                         - Strong emphasis on usability, ethics, accessibility, and responsible innovation
                         - Networking, mentoring, and early-career development activities
-                        
-                        We warmly invite you to join us by presenting your latest work, proposing and chairing a 
-                        special session, showcasing a demo, or simply coming to learn and connect. Be part of the 
+
+                        We warmly invite you to join us by presenting your latest work, proposing and chairing a
+                        special session, showcasing a demo, or simply coming to learn and connect. Be part of the
                         conversation shaping the next generation of human-centered intelligent systems!
 
 params:
@@ -200,8 +200,8 @@ params:
                   type: bronze
                   logo: images/sponsors/boxtech.png
             specialIssues:
-                - title: "Sensors: Sensors Fusion in Digital Healthcare Applications"
-                  url: https://www.mdpi.com/journal/sensors/special_issues/sensors_fusion_digital_healthcare
+                - title: "Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)"
+                  url:
                   logo: images/sensors.png
                   show: true
                 - title: "Electronics: Interactive Design for Autonomous Driving Vehicles"
