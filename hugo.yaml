@@ -199,6 +199,7 @@ params:
                   description:
                   type: bronze
                   logo: images/sponsors/boxtech.png
+            specialIssueUrl:
             organizers:
             featuredSessions:
             colors:
