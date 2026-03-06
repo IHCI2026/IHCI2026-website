@@ -62,5 +62,4 @@ Accepted papers will be included in the IHCI 2026 proceedings, published digital
 
 Authors of accepted papers may expand their manuscripts by at least 50% and have the option to submit them to the following Special Issues:
 
--   [Sensors: Sensors Fusion in Digital Healthcare Applications](https://www.mdpi.com/journal/sensors/special_issues/sensors_fusion_digital_healthcare)
--   [Electronics: Interactive Design for Autonomous Driving Vehicles](https://www.mdpi.com/journal/electronics/special_issues/VXM004D5IVn")
+{{< special-issues >}}

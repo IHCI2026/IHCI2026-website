@@ -199,7 +199,15 @@ params:
                   description:
                   type: bronze
                   logo: images/sponsors/boxtech.png
-            specialIssueUrl:
+            specialIssues:
+                - title: "Sensors: Sensors Fusion in Digital Healthcare Applications"
+                  url: https://www.mdpi.com/journal/sensors/special_issues/sensors_fusion_digital_healthcare
+                  logo: images/sensors.png
+                  show: true
+                - title: "Electronics: Interactive Design for Autonomous Driving Vehicles"
+                  url: https://www.mdpi.com/journal/electronics/special_issues/VXM004D5IVn
+                  logo:
+                  show: false
             organizers:
             featuredSessions:
             colors:

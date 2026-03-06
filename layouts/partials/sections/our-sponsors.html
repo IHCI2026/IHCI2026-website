@@ -41,19 +41,20 @@
             </div>
             {{- end }}
 
-            {{- with resources.Get "images/sensors.png" }}
+            {{- $visibleIssues := where (site.Params.themes.event.specialIssues | default slice) "show" true }}
+            {{- $issuesWithLogos := where $visibleIssues "logo" "ne" "" }}
+            {{- if gt (len $issuesWithLogos) 0 }}
             <div class="our-organisers__column">
                 <h4 class="our-organisers__heading">Special Issue</h4>
-                {{- $specialIssueUrl := site.Params.themes.event.specialIssueUrl }}
-                {{- if $specialIssueUrl }}
-                <a href="{{ $specialIssueUrl }}" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link">
-                    <img src="{{ .RelPermalink }}" alt="Sensors Special Issue" class="our-organisers__proceedings-logo" />
-                </a>
-                {{- else }}
-                <div class="our-organisers__logo-link">
-                    <img src="{{ .RelPermalink }}" alt="Sensors Special Issue" class="our-organisers__proceedings-logo" />
+                <div class="our-organisers__logos">
+                    {{- range $issuesWithLogos }}
+                        {{- with resources.Get .logo }}
+                            <div class="our-organisers__logo-link">
+                                <img src="{{ .RelPermalink }}" alt="" class="our-organisers__proceedings-logo" />
+                            </div>
+                        {{- end }}
+                    {{- end }}
                 </div>
-                {{- end }}
             </div>
             {{- end }}
         </div>

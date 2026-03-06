@@ -1,0 +1,31 @@
+.special-issues__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid var(--color-primary);
+    box-shadow:
+        0 0 0 0 var(--color-primary),
+        0 0.0625rem 0.1875rem var(--color-shadow);
+}
+
+.special-issues__item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.special-issues__logo-wrap {
+    flex-shrink: 0;
+}
+
+.special-issues__logo {
+    max-width: 160px;
+    height: auto;
+}
+
+.special-issues__link {
+    color: var(--color-primary);
+}

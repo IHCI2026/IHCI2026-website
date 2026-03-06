@@ -1,0 +1,17 @@
+{{- $issues := where (site.Params.themes.event.specialIssues | default slice) "show" true }}
+{{- if gt (len $issues) 0 }}
+<div class="special-issues__card">
+    {{- range $issues }}
+        <div class="special-issues__item">
+            {{- with .logo }}
+                {{- with resources.Get . }}
+                <div class="special-issues__logo-wrap">
+                    <img src="{{ .RelPermalink }}" alt="" class="special-issues__logo" />
+                </div>
+                {{- end }}
+            {{- end }}
+            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="special-issues__link">{{ .title }}</a>
+        </div>
+    {{- end }}
+</div>
+{{- end }}
