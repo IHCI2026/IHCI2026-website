@@ -15,7 +15,7 @@
                 <div class="speaker-list__section">
                     <h2 class="heading heading--2 speaker-list__section-heading">Speakers</h2>
                     <menu class="speaker-list__menu">
-                        {{ range $speakers.ByParam "lastName" }}
+                        {{ range $speakers.ByWeight }}
                             <li class="speaker-list__item">
                                 {{- partial "speaker-card.html" (
                                     dict
@@ -38,7 +38,7 @@
                 <div class="speaker-list__section">
                     <h2 class="heading heading--2 speaker-list__section-heading">Invited Speakers</h2>
                     <menu class="speaker-list__menu">
-                        {{ range $invitedSpeakers.ByParam "lastName" }}
+                        {{ range $invitedSpeakers.ByWeight }}
                             <li class="speaker-list__item">
                                 {{- partial "speaker-card.html" (
                                     dict

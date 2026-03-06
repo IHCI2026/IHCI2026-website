@@ -8,9 +8,10 @@ Create a new markdown file in `content/speakers/` with the following frontmatter
 
 ```yaml
 ---
+weight: 1                                # Display order (lower = first)
 title: Dr. Jane Smith                    # Full name (will be displayed)
-firstName: Jane                          # First name (for sorting)
-lastName: Smith                          # Last name (for sorting)
+firstName: Jane                          # First name
+lastName: Smith                          # Last name
 tagLine: Professor of HCI, University    # Short description/title
 linkedinUrl: https://linkedin.com/in/... # Optional
 xUrl: https://x.com/username            # Optional (Twitter/X)

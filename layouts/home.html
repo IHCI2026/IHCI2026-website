@@ -59,7 +59,7 @@
 
     {{- if .Site.Params.themes.event.showSpeakers }}
         {{- $topSpeakers := slice }}
-        {{- range (where .Site.Pages "Section" "speakers") }}
+        {{- range (where .Site.Pages "Section" "speakers").ByWeight }}
             {{- if .Params.isTopSpeaker }}
                 {{- $topSpeakers = $topSpeakers | append (
                     dict
