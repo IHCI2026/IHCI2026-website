@@ -1,38 +1,51 @@
 {{ $sponsors := .Site.Params.themes.event.sponsors }}
-{{ $validSponsors := slice }}
+{{ $organisers := slice }}
+{{ $otherSponsors := slice }}
 {{ range $sponsor := $sponsors }}
     {{ if $sponsor.fullName }}
-        {{ $validSponsors = $validSponsors | append $sponsor }}
+        {{ if or (eq $sponsor.type "gold") (eq $sponsor.type "silver") }}
+            {{ $organisers = $organisers | append $sponsor }}
+        {{ else }}
+            {{ $otherSponsors = $otherSponsors | append $sponsor }}
+        {{ end }}
     {{ end }}
 {{ end }}
 
-{{ if gt (len $validSponsors) 0 }}
-    <aside class="sponsors-sidebar" aria-label="Sponsors">
-        <h3 class="sponsors-sidebar__heading">Sponsors</h3>
-        {{ $tiers := slice "gold" "silver" "bronze" }}
-        {{ range $tier := $tiers }}
-            {{ $tierSponsors := slice }}
-            {{ range $s := $validSponsors }}
-                {{ if eq $s.type $tier }}
-                    {{ $tierSponsors = $tierSponsors | append $s }}
-                {{ end }}
-            {{ end }}
-            {{ if gt (len $tierSponsors) 0 }}
-                <div class="sponsors-sidebar__tier">
-                    <div class="sponsors-sidebar__logos">
-                        {{ range $s := $tierSponsors }}
-                            <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
-                                {{ $img := resources.Get $s.logo }}
-                                {{ if $img }}
-                                    <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" />
-                                {{ else }}
-                                    <span class="sponsors-sidebar__name">{{ $s.fullName }}</span>
-                                {{ end }}
-                            </a>
-                        {{ end }}
-                    </div>
+{{ if or (gt (len $organisers) 0) (gt (len $otherSponsors) 0) }}
+    <aside class="sponsors-sidebar" aria-label="Organisers and Sponsors">
+        {{ if gt (len $organisers) 0 }}
+            <h3 class="sponsors-sidebar__heading">Organisers</h3>
+            <div class="sponsors-sidebar__tier">
+                <div class="sponsors-sidebar__logos">
+                    {{ range $s := $organisers }}
+                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
+                            {{ $img := resources.Get $s.logo }}
+                            {{ if $img }}
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" />
+                            {{ else }}
+                                <span class="sponsors-sidebar__name">{{ $s.fullName }}</span>
+                            {{ end }}
+                        </a>
+                    {{ end }}
                 </div>
-            {{ end }}
+            </div>
+        {{ end }}
+        {{ if gt (len $otherSponsors) 0 }}
+            <h3 class="sponsors-sidebar__heading">Sponsors</h3>
+            <div class="sponsors-sidebar__tier">
+                <div class="sponsors-sidebar__logos">
+                    {{ range $s := $otherSponsors }}
+                        <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
+                            {{ $img := resources.Get $s.logo }}
+                            {{ if $img }}
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" />
+                            {{ else }}
+                                <span class="sponsors-sidebar__name">{{ $s.fullName }}</span>
+                            {{ end }}
+                        </a>
+                    {{ end }}
+                </div>
+            </div>
         {{ end }}
     </aside>
 {{ end }}
