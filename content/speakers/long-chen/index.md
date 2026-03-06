@@ -3,7 +3,7 @@ weight: 3
 title: Dr. Long Chen
 firstName: Long
 lastName: Chen
-tagLine: Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences
+tagLine: City University of Hong Kong
 speakerType: speaker
 talkTitle: "Human-AI Collaborative Decision-making for Building Asset and Fire Safety Management"
 talkAbstract: |
