@@ -207,7 +207,7 @@ params:
                   logo: images/sponsors/boxtech.png
             specialIssues:
                 - title: "Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)"
-                  url:
+                  url: https://www.mdpi.com/journal/sensors/special_issues/0W09FTDH4C
                   logo: images/sensors.png
                   show: true
                 - title: "Electronics: Interactive Design for Autonomous Driving Vehicles"
