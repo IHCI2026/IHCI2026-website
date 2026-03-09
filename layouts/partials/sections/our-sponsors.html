@@ -47,11 +47,11 @@
             <div class="our-organisers__column">
                 <h4 class="our-organisers__heading">Special Issue</h4>
                 <div class="our-organisers__logos">
-                    {{- range $issuesWithLogos }}
-                        {{- with resources.Get .logo }}
-                            <div class="our-organisers__logo-link">
-                                <img src="{{ .RelPermalink }}" alt="" class="our-organisers__proceedings-logo" />
-                            </div>
+                    {{- range $issue := $issuesWithLogos }}
+                        {{- with resources.Get $issue.logo }}
+                            <a href="{{ $issue.url }}" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link">
+                                <img src="{{ .RelPermalink }}" alt="{{ $issue.title }}" class="our-organisers__proceedings-logo" />
+                            </a>
                         {{- end }}
                     {{- end }}
                 </div>
