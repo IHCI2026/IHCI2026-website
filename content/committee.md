@@ -8,6 +8,7 @@ layout: single
 ## GENERAL CHAIRS
 
 -   **Boon Giin Lee (Bryan)** --- _University of Nottingham Ningbo China, China_
+-   **Wan-Young Chung** --- _Pukyong National University, Republic of Korea_
 -   **Wu Deng** --- _University of Nottingham Ningbo China, China_
 -   **Xu Sun** --- _University of Nottingham Ningbo China, China_
 -   **Matthew Pike** --- _University of Nottingham Ningbo China, China_
@@ -48,7 +49,7 @@ layout: single
 -   **Kian Ming Lim** --- _University of Nottingham Ningbo China, China_
 -   **Jong-Hoon Kim** --- _Kent State University, USA_
 -   **Mohd. Helmy Bin Abd Wahab** --- _University Tun Hussein Onn, Malaysia_
--   **David Choi** --- _Soongsil University, Seoul, Korea_
+-   **David Choi** --- _Soongsil University, Republic of Korea_
 -   **Hanumant Singh Shekhawat** --- _IIT Guwahati, India_
 -   **Madhusudan Singh** --- _Penn State University, USA_
 
@@ -61,7 +62,7 @@ layout: single
 
 ## PANEL SESSION CHAIRS
 
--   **Dae-Ki Kang** --- _Dongseo University, Korea_
+-   **Dae-Ki Kang** --- _Dongseo University, Republic of Korea_
 -   **Tianxiang Cui** --- _University of Nottingham Ningbo China, China_
 -   **Yuan Yao** --- _University of Nottingham Ningbo China, China_
 -   **Tatiana Cardona** --- _Saint Louis University, USA_
@@ -73,7 +74,7 @@ layout: single
 -   **Chin Poo Lee** --- _University of Nottingham Ningbo China, China_
 -   **Yimeng Wang** --- _University of Nottingham Ningbo China, China_
 -   **Maria Weber** --- _Saint Louis University, USA_
--   **YoungSil Lee** --- _Dongseo University, South Korea_
+-   **YoungSil Lee** --- _Dongseo University, Republic of Korea_
 -   **Sarvar Makhmudjanov** --- _TUIT named after Muhammad al Khwarizmi, Tashkent, Uzbekistan_
 -   **Vivek Kumar Chenna** --- _National Institute of Technology, Calicut, India_
 
@@ -111,7 +112,7 @@ layout: single
 ## BEST PAPER AWARD CHAIRS
 
 -   **Ying Weng** --- _University of Nottingham Ningbo China, China_
--   **Sang-Joong Jung** --- _Dongseo University, Korea_
+-   **Sang-Joong Jung** --- _Dongseo University, Republic of Korea_
 -   **Swarupa Rani** --- _University of Hyderabad, India_
 
 ## INDUSTRIAL CHAIR
@@ -120,14 +121,14 @@ layout: single
 -   **Bingjian Liu** --- _University of Nottingham Ningbo China, China_
 -   **Mario Jose Divan** --- _Intel Corporation, USA_
 -   **Saurabh Yadav** --- _Coikosity Pvt. Ltd., India_
--   **Sangsu Jung** --- _Vestellalab, South Korea_
+-   **Sangsu Jung** --- _Vestellalab, Republic of Korea_
 -   **Venkat Juturi** --- _AIG New York, USA_
 
 ## DEMO SESSION CHAIRS
 
 -   **Jiang Wu** --- _University of Nottingham Ningbo China, China_
 -   **Yue Li** --- _Xi'an Jiaotong-Liverpool University_
--   **YoungSil Lee** --- _Dongseo University, Busan, Korea_
+-   **YoungSil Lee** --- _Dongseo University, Republic of Korea_
 -   **N. Keerthana Yadav** --- _Anesthesia, Osmania Medical College, India_
 -   **M Surya Durga** --- _Prasad School of Medical Science, India_
 -   **K Shahu Chatrapati** --- _JNTU Hyderabad, India_
