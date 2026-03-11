@@ -1,6 +1,6 @@
 ---
-weight: 2
-title: Prof. Xipei Ren
+weight: 3
+title: Dr. Xipei Ren
 firstName: Xipei
 lastName: Ren
 tagLine: University of Macau

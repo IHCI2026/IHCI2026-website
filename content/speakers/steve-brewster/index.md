@@ -11,6 +11,7 @@ talkAbstract: |
   * Confined spaces – These limit interactivity, and force us to rely on small displays such as phones or seatback screens
   * Social acceptability – We may share the space with others, inducing a pressure to conform, inhibiting technology use
   * Motion sickness – Many people get sick when they read or play games in vehicles. Once experienced, it can take hours for symptoms to resolve
+  
   XR headsets could allow passengers to use their travel time in new, productive ways, but only if these fundamental challenges can be overcome. Passengers would be able to use large virtual displays for productivity; escape the physical confines of the vehicle and become immersed in virtual experiences; and communicate with distant others through new embodied forms of communication. I will discuss our solutions to these challenges, and how we can radically transform the passenger experience.
   
 bio: |

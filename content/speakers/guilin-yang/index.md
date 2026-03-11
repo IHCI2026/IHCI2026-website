@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 2
 title: Prof. Guilin Yang
 firstName: Guilin
 lastName: Yang

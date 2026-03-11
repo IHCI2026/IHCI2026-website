@@ -1,6 +1,6 @@
 ---
 weight: 4
-title: Prof. Long Chen
+title: Dr. Long Chen
 firstName: Long
 lastName: Chen
 tagLine: City University of Hong Kong
