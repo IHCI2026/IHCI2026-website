@@ -261,7 +261,7 @@ params:
             # Important Dates
             importantDates:
                 - name: Special Session Proposal Deadline
-                  date: 2026-08-07
+                  date: 2026-07-06
                 - name: Paper Submission Deadline
                   date: 2026-08-14
                 - name: Notification of Decisions

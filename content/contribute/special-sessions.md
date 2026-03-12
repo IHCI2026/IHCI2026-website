@@ -6,13 +6,13 @@ weight: 3
 
 The IHCI 2026 invites proposals for Special Sessions that highlight emerging, timely, or underrepresented topics in HCI. These Special Sessions are part of the main technical program and are intended to promote focused discussion, bring together communities, and advance state-of-the-art research and practice.
 
-A Special Session typically spans 40-60 minutes and may include 4-6 peer-reviewed papers, optionally complemented by a short, invited talk, panel, or moderated discussion. Topics should be well-defined and of clear interest to the IHCI community, ideally bridging subfields or introducing novel perspectives.
+A Special Session typically spans 40-60 minutes and may include 4-6 peer-reviewed papers, optionally complemented by a invited talk or moderated discussion. Topics should be well-defined and of clear interest to the IHCI community, ideally bridging subfields or introducing novel perspectives.
 
 ## Important Dates
 
 All deadlines are 23:59 AoE (Anywhere on Earth).
 
-- **Proposal Submission Deadline**: 7 August 2026
+- **Proposal Submission Deadline**: 6 July 2026
 - **Notification of Proposal Decisions**: Within few days after submission
 - **Paper Submission Deadline**: 14 August 2026
 - **Notification of Paper Decisions**: 4 September 2026
@@ -20,7 +20,7 @@ All deadlines are 23:59 AoE (Anywhere on Earth).
 
 ## Proposal Submission Guidelines
 
-Prospective chairs/hosts should submit a single PDF proposal that includes:
+Prospective chairs/hosts should submit a single proposal that includes:
 
 - **Session title**, short acronym (optional), and 150-200 words abstract for presenting on the website.
 - **Rationale and Scope**: Motivation, significance, and fit with IHCI; intended audience and keywords.

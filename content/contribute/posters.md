@@ -6,7 +6,25 @@ weight: 2
 
 The IHCI 2026 Poster track showcases early-stage work, late-breaking results, novel ideas, design probes, and provocative viewpoints that stimulate discussion and promote collaboration. Posters are ideal for receiving feedback on emerging research and for highlighting work in progress, replication efforts, datasets, tools, or case studies.
 
-We welcome poster submissions across the full IHCI scope, including human-AI interaction, XR, robotics, computer vision, accessibility, cybersecurity, social computing, arts and creative technologies, health and education applications, methods, and evaluation.
+## Topics of Interest
+
+Topics of interest include (but are not limited to):
+
+-   Human-AI interaction and explainability; trustworthy, ethical, and responsible AI
+-   Robotics, human-robot interaction, and embodied interfaces
+-   Computer vision and vision-based interaction
+-   Mixed/Virtual/Augmented reality; spatial computing; cybersickness
+-   Human factors and ergonomics; Evaluation methods for interaction at scale
+-   Social computing, collaborative interactions
+-   Embodied agents, virtual humans, avatars and multimodal interaction
+-   Arts, music, and creative technologies
+-   Cybersecurity, privacy, and safety for interactive systems
+-   Interactive, ubiquitous, and wearable computing; IoT and smart environments
+-   Accessibility, inclusive design, and assistive technologies
+-   Affective and cognitive computing; behavior modeling
+-   Design methods, prototyping, evaluation, and reproducible HCI
+-   Education, healthcare, sustainability, transportation, and other application domains
+-   Human-environment interaction and situated interfaces
 
 ## Important Dates
 
