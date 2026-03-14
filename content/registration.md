@@ -9,7 +9,7 @@ Details on the registration process and procedure will be announced soon. Please
 
 - **Early Bird Deadline**: 30 September 2026
 - **On-Site/Late Registration Deadline**: 26 October 2026
-- At least one author per accepted paper must register as Full Paper by the camera-ready deadline to have the paper included in the proceedings
+- Please note that, in order for a paper to be included in the proceedings and presented at the conference, at least one author is required to register for a **Full Paper** by the camera-ready deadline.
 
 ## Registration Fees
 
