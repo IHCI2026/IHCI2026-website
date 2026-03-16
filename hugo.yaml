@@ -242,8 +242,8 @@ params:
                 # Page limits by submission type
                 pageLimits:
                     papers:
-                        min: 4
-                        max: 10
+                        min: 6
+                        max: 8
                         referencesExtra: 0
                     posters:
                         min: 4
@@ -254,8 +254,8 @@ params:
                         max: 4
                         referencesExtra: 0
                     specialSessions:
-                        min: 4
-                        max: 10
+                        min: 6
+                        max: 8
                         referencesExtra: 0
 
             # Important Dates
