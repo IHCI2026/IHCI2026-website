@@ -1,0 +1,41 @@
+{{ define "main" }}
+    {{ $event := .Site.Params.themes.event }}
+
+    <div class="section-container">
+        <section class="section">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+            <article class="markdown about__text">
+                {{ .Content }}
+            </article>
+            {{ if .Pages }}
+                <nav class="venue-links">
+                    {{ range .Pages }}
+                        <a href="{{ .RelPermalink }}" class="venue-links__item">
+                            {{ .Title }}
+                        </a>
+                    {{ end }}
+                </nav>
+            {{ end }}
+            <div class="venue-location">
+                <div class="venue-address-block">
+                    <h2 class="venue-address__heading">Address</h2>
+                    <address class="venue-address">
+                        {{ range $event.address }}
+                            {{ . | markdownify }}<br>
+                        {{ end }}
+                    </address>
+                    <h2 class="venue-address__heading">Address in Chinese</h2>
+                    <p class="venue-address__chinese">宁波诺丁汉大学1号门</p>
+                </div>
+                <div class="venue-location__map">
+                    {{- partial "map-embedding.html" (
+                        dict
+                        "embeddableMapUrl" $event.map.embeddableMapUrl
+                        "viewLargerMapUrl" $event.map.viewLargerMapUrl
+                        )
+                    }}
+                </div>
+            </div>
+        </section>
+    </div>
+{{- end }}

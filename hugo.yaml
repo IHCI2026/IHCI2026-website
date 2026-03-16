@@ -162,8 +162,8 @@ params:
                 - China
             map:
                 # University of Nottingham Ningbo China location
-                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=121.61167144775392%2C29.817094934646415%2C121.62170410156251%2C29.82309043893736&layer=mapnik&marker=29.82009273%2C121.61668777
-                viewLargerMapUrl: https://www.openstreetmap.org/?mlat=29.82009&mlon=121.61669#map=16/29.8201/121.6167
+                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=121.5542%2C29.7992%2C121.5642%2C29.8052&layer=mapnik&marker=29.8022%2C121.5592
+                viewLargerMapUrl: https://www.openstreetmap.org/?mlat=29.8022&mlon=121.5592#map=16/29.8022/121.5592
             callToAction:
                 eventbrite:
                     eventId:

@@ -1,0 +1,80 @@
+.venue-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    margin-top: 1rem;
+}
+
+.venue-links__item {
+    font-size: 1rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.venue-links__item:hover {
+    text-decoration: underline;
+}
+
+.venue-location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 2rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.5rem;
+}
+
+.venue-address-block {
+    padding-left: 1rem;
+}
+
+.venue-address__heading {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin: 0 0 0.5rem;
+}
+
+.venue-address__heading + .venue-address__heading,
+.venue-address + .venue-address__heading {
+    margin-top: 1.25rem;
+}
+
+.venue-address {
+    font-style: normal;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-secondary-darker);
+}
+
+.venue-address__chinese {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-secondary-darker);
+    margin: 0;
+}
+
+.venue-location__map .map-container {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.venue-location__map .map-container__iframe {
+    height: 20rem;
+}
+
+@media (max-width: 768px) {
+    .venue-location {
+        grid-template-columns: 1fr;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 1.5rem 1rem;
+    }
+}
