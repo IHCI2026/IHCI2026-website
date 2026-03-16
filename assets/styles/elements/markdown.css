@@ -22,3 +22,37 @@
 .markdown h4 {
     margin-top: 2.875rem;
 }
+
+.markdown table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.markdown th,
+.markdown td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-bottom: 1px solid var(--color-shadow);
+}
+
+.markdown th {
+    font-weight: 600;
+    background-color: var(--color-primary);
+    color: white;
+    border-bottom: none;
+}
+
+.markdown th:first-child {
+    border-radius: 0.375rem 0 0 0;
+}
+
+.markdown th:last-child {
+    border-radius: 0 0.375rem 0 0;
+}
+
+.markdown tbody tr:hover {
+    background-color: var(--color-secondary);
+}
