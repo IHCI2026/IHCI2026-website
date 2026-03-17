@@ -77,6 +77,11 @@ menus:
           name: Venue
           url: /venue/
           weight: 7
+        - identifier: about-unnc
+          name: About UNNC
+          url: /venue/unnc/
+          parent: venue
+          weight: 60
         - identifier: about-ningbo
           name: About Ningbo
           url: /venue/ningbo/
