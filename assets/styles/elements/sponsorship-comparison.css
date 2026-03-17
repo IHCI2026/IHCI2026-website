@@ -1,0 +1,104 @@
+.sponsorship-comparison {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.sponsorship-comparison th,
+.sponsorship-comparison td {
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-bottom: 1px solid var(--color-shadow);
+    background: none;
+    color: var(--color-primary-darkest);
+}
+
+.sponsorship-comparison th:first-child,
+.sponsorship-comparison td:first-child {
+    text-align: left;
+    width: 40%;
+}
+
+.sponsorship-comparison thead th {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-primary-lighter);
+    border-bottom: 3px solid var(--color-primary-lighter);
+    padding-bottom: 0.625rem;
+    border-radius: 0;
+}
+
+.sponsorship-comparison thead th:first-child {
+    color: var(--color-secondary-darker);
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.sponsorship-comparison tbody tr:hover {
+    background: none;
+}
+
+.sponsorship-comparison__category td {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-primary-lighter);
+    border-bottom: 1px solid var(--color-primary-lighter);
+    padding-top: 1.25rem;
+    padding-bottom: 0.375rem;
+}
+
+.sponsorship-comparison__check {
+    color: var(--color-primary-lighter);
+    font-size: 1.125rem;
+}
+
+.sponsorship-comparison__badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background-color: var(--color-primary-lighter);
+    color: white;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.sponsorship-comparison__dash {
+    color: var(--color-secondary-darker);
+}
+
+.sponsorship-comparison__summary td {
+    font-weight: 700;
+}
+
+.sponsorship-comparison__summary td:first-child {
+    font-weight: 700;
+}
+
+@media (width <= 768px) {
+    .sponsorship-comparison {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .sponsorship-comparison th,
+    .sponsorship-comparison td {
+        font-size: 0.9375rem;
+        padding: 0.625rem 0.75rem;
+        white-space: nowrap;
+    }
+
+    .sponsorship-comparison td:first-child {
+        white-space: normal;
+        min-width: 12rem;
+    }
+}

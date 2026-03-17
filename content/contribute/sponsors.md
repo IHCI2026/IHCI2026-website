@@ -18,32 +18,95 @@ IHCI 2026 brings together a global community of researchers, practitioners, engi
 
 All packages include logo placement on the website and program, recognition during keynotes, and access to the job board. Custom packages are available on request.
 
-### Platinum (50,000 CNY)
-
-- Prime logo placement (website, stage, lanyards)
-- Large exhibit space in the demo/poster hall
-- 4 complimentary full registrations
-- Sponsored keynote or panel acknowledgment
-- Option to sponsor a major social event (reception or banquet)
-
-### Gold (30,000 CNY)
-
-- Prominent logo placement
-- Standard exhibit space
-- 3 complimentary full registrations
-- Option to sponsor a coffee break or best paper/poster award
-
-### Silver (20,000 CNY)
-
-- Logo placement on website and signage
-- Table in exhibit area
-- 2 complimentary full registrations
-
-### Bronze (10,000 CNY)
-
-- Logo on website and program
-- 1 complimentary full registration
-- Option to include a flyer or swag item in attendee bags
+<table class="sponsorship-comparison">
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Platinum</th>
+<th>Gold</th>
+<th>Silver</th>
+<th>Bronze</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Complimentary Registrations</strong></td>
+<td><span class="sponsorship-comparison__badge">4</span></td>
+<td><span class="sponsorship-comparison__badge">3</span></td>
+<td><span class="sponsorship-comparison__badge">2</span></td>
+<td><span class="sponsorship-comparison__badge">1</span></td>
+</tr>
+<tr class="sponsorship-comparison__category">
+<td colspan="5">Sponsorship Opportunities</td>
+</tr>
+<tr>
+<td>Keynote or panel acknowledgment</td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sponsor a social event (reception or banquet)</td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sponsor a coffee break or best paper award</td>
+<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Flyer or swag item in attendee bags</td>
+<td></td>
+<td></td>
+<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+</tr>
+<tr class="sponsorship-comparison__category">
+<td colspan="5">Exhibit Space</td>
+</tr>
+<tr>
+<td>Large exhibit space in demo/poster hall</td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Standard exhibit space</td>
+<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Table in exhibit area</td>
+<td></td>
+<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
+</tr>
+<tr class="sponsorship-comparison__summary">
+<td>Logo placement</td>
+<td>Most prominent</td>
+<td>Prominent</td>
+<td>Standard</td>
+<td>Standard</td>
+</tr>
+<tr class="sponsorship-comparison__summary">
+<td>Contribution (CNY)</td>
+<td><strong>50,000</strong></td>
+<td><strong>30,000</strong></td>
+<td><strong>20,000</strong></td>
+<td><strong>10,000</strong></td>
+</tr>
+</tbody>
+</table>
 
 ## Important Dates
 
