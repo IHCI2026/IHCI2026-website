@@ -3,7 +3,21 @@ title: Transportation
 layout: single
 ---
 
-## From Ningbo Lishe Airport (NGB) to UNNC
+### Recommended Apps
+
+| App | Description | Download |
+|-----|-------------|----------|
+| **WeChat** (微信) | Messaging and payments. Accepted almost everywhere. | [iOS](https://apps.apple.com/app/wechat/id414478124) / [Android](https://play.google.com/store/apps/details?id=com.tencent.mm) |
+| **Alipay** (支付宝) | Mobile payments. Supports international credit cards. | [iOS](https://apps.apple.com/app/alipay/id333206289) / [Android](https://play.google.com/store/apps/details?id=com.eg.android.AlipayGphone) |
+| **Trip.com** (携程) | Book trains, flights, and hotels. English supported. | [iOS](https://apps.apple.com/app/trip-com-book-flights-hotels/id681752345) / [Android](https://play.google.com/store/apps/details?id=ctrip.english) |
+| **12306** (铁路12306) | Official China Railway app for train tickets. | [iOS](https://apps.apple.com/app/铁路12306/id564818797) / [Android](https://play.google.com/store/apps/details?id=com.chinarailway.globalticketing) |
+
+---
+
+## Getting to UNNC
+
+<details>
+<summary>From Ningbo Lishe Airport (NGB) to UNNC</summary>
 
 ### Taxi (Most Direct)
 
@@ -31,9 +45,10 @@ layout: single
 - **Cost**: ¥2-4 RMB (exact change or scan QR code with Alipay/WeChat Pay)
 - Buses are comfortable and air-conditioned.
 
----
+</details>
 
-## From Shanghai Pudong Airport (PVG) to UNNC
+<details>
+<summary>From Shanghai Pudong Airport (PVG) to UNNC</summary>
 
 This is a popular route for international arrivals. The most efficient method combines the Shanghai Maglev, metro, and high-speed train.
 
@@ -73,3 +88,5 @@ At Hongqiao Station, proceed to the main railway hall. It's best to book your tr
 - **Journey Time**: About 30-40 minutes
 - **Cost**: ¥2-4 RMB (exact change or scan QR code with Alipay/WeChat Pay)
 - Subway trains are comfortable and air-conditioned.
+
+</details>

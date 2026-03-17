@@ -2,6 +2,11 @@ baseURL: https://ihci2026.com
 title: IHCI 2026
 buildFuture: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menus:
     main:
         - identifier: home
