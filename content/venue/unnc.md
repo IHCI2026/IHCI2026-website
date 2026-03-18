@@ -15,8 +15,8 @@ Set on a 144-acre landscaped campus in Ningbo's Higher Education Park, UNNC feat
 
 UNNC is home to three faculties:
 
-- **Faculty of Humanities and Social Sciences** -- covering economics, English, education, and international studies
 - **Faculty of Science and Engineering** -- spanning computer science, engineering, mathematics, and natural sciences
+- **Faculty of Humanities and Social Sciences** -- covering economics, English, education, and international studies
 - **Faculty of Business** -- offering programmes through the Nottingham University Business School China
 
 The university hosts several research centres and institutes, with strengths in areas such as artificial intelligence, smart manufacturing, sustainable energy, and digital humanities.

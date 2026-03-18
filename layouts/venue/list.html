@@ -18,14 +18,14 @@
             {{ end }}
             <div class="venue-location">
                 <div class="venue-address-block">
-                    <h2 class="venue-address__heading">Address</h2>
+                    <h2 class="venue-address__heading">Address in English</h2>
                     <address class="venue-address">
                         {{ range $event.address }}
                             {{ . | markdownify }}<br>
                         {{ end }}
                     </address>
                     <h2 class="venue-address__heading">Address in Chinese</h2>
-                    <p class="venue-address__chinese">宁波诺丁汉大学1号门</p>
+                    <p class="venue-address__chinese">中国浙江省宁波市鄞州区泰康东路199号 宁波诺丁汉大学1号门</p>
                 </div>
                 <div class="venue-location__map">
                     {{- partial "map-embedding.html" (
