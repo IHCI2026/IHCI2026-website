@@ -8,6 +8,9 @@ The IHCI 2026 Demo track features live, interactive demonstrations of research s
 
 We welcome demos across HCI and intelligent systems, including but not limited to human-AI systems and copilots, robotics and embodied interaction, XR experiences, tangible interfaces, data physicalization, healthcare and accessibility technologies, security and privacy tools, creative/arts installations, and educational technologies.
 
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. 
+Submission Link: https://cmt3.research.microsoft.com/IHCI2026/
+
 ## Important Dates
 
 All deadlines are 23:59 AoE (Anywhere on Earth).

@@ -26,6 +26,10 @@ Topics of interest include (but are not limited to):
 -   Education, healthcare, sustainability, transportation, and other application domains
 -   Human-environment interaction and situated interfaces
 
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. 
+
+Papers Submission Link: https://cmt3.research.microsoft.com/IHCI2026/
+
 ## Important Dates
 
 All deadlines are 23:59 AoE (Anywhere on Earth).
