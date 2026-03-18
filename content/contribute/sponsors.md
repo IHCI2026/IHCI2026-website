@@ -105,7 +105,6 @@ All packages include logo placement on the website and program, recognition duri
 <td>Standard</td>
 <td>Standard</td>
 </tr>
-</thead>
 <tr class="sponsorship-comparison__summary">
 <td>Contribution</td>
 <td><strong>50,000 CNY</strong><br><strong>(≈ 7,200 USD)</strong></td>
@@ -113,7 +112,6 @@ All packages include logo placement on the website and program, recognition duri
 <td><strong>20,000 CNY</strong><br><strong>(≈ 3,000 USD)</strong></td>
 <td><strong>10,000 CNY</strong><br><strong>(≈ 1,500 USD)</strong></td>
 </tr>
-</thead>
 </tbody>
 </table>
 
