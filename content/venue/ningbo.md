@@ -73,4 +73,4 @@ images/venue/HeMuDu2.jpg
 
 ## More Information
 
-For more details about Ningbo, visit [cityofningbo.com.cn](http://www.cityofningbo.com.cn/).
+For more details about Ningbo, please visit [cityofningbo.com.cn](http://www.cityofningbo.com.cn/).
