@@ -1,6 +1,7 @@
 ---
 title: About Ningbo
 layout: single
+weight: 2
 ---
 
 Ningbo is a dynamic coastal city in Zhejiang Province with deep historical roots and a globally significant deep-water port. Long a gateway of the Maritime Silk Road, it blends traditional neighborhoods, riverside promenades, and classical gardens with modern business districts and thriving manufacturing and logistics hubs. The city's cultural heritage sits alongside contemporary architecture, museums, and lively dining scenes known for seafood and regional specialties.

@@ -42,7 +42,7 @@ All packages include logo placement on the website and program, recognition duri
 <tr>
 <td>Keynote or panel acknowledgment</td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
-<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
 <td></td>
 <td></td>
 </tr>
@@ -55,17 +55,24 @@ All packages include logo placement on the website and program, recognition duri
 </tr>
 <tr>
 <td>Sponsor a coffee break or best paper award</td>
-<td></td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
-<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
 <td></td>
 </tr>
 <tr>
 <td>Flyer or swag item in attendee bags</td>
-<td></td>
-<td></td>
-<td></td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+</tr>
+<tr>
+<td>Logo in proceedings</td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td></td>
 </tr>
 <tr class="sponsorship-comparison__category">
 <td colspan="5">Exhibit Space</td>
@@ -89,7 +96,7 @@ All packages include logo placement on the website and program, recognition duri
 <td></td>
 <td></td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
-<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
 </tr>
 <tr class="sponsorship-comparison__summary">
 <td>Logo placement</td>

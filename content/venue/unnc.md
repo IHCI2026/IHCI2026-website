@@ -1,6 +1,7 @@
 ---
 title: About UNNC
 layout: single
+weight: 1
 ---
 
 ![UNNC campus at sunset](images/venue/unnc-campus.webp)

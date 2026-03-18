@@ -1,6 +1,7 @@
 ---
 title: Accommodation
 layout: single
+weight: 3
 ---
 
 Hotels are plentiful and reasonably priced in China. We recommend using [Trip.com](https://www.trip.com) for booking. Public transport in Ningbo is also excellent, so you are not limited to hotels within walking distance of the venue. See our [transportation guide](/venue/transportation/) for details.
