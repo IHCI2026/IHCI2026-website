@@ -27,7 +27,7 @@ Topics of interest include (but are not limited to):
 -   Human-environment interaction and situated interfaces
 
 The Microsoft CMT service is used for managing the peer-reviewing process for this conference. This service is provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. 
-**Submission Link: https://cmt3.research.microsoft.com/IHCI2026/**
+- **Submission Link: https://cmt3.research.microsoft.com/IHCI2026/**
 
 ## Important Dates
 
