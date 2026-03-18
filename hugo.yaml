@@ -171,9 +171,11 @@ params:
                 - Ningbo, Zhejiang 315100
                 - China
             map:
-                # University of Nottingham Ningbo China location
-                embeddableMapUrl: https://www.openstreetmap.org/export/embed.html?bbox=121.5542%2C29.7992%2C121.5642%2C29.8052&layer=mapnik&marker=29.8022%2C121.5592
-                viewLargerMapUrl: https://www.openstreetmap.org/?mlat=29.8022&mlon=121.5592#map=16/29.8022/121.5592
+                # University of Nottingham Ningbo China (GCJ-02 coords for Amap)
+                lat: 29.799594
+                lon: 121.563331
+                zoom: 16
+                amapViewUrl: https://uri.amap.com/marker?position=121.563331,29.799594&name=University%20of%20Nottingham%20Ningbo%20China
             callToAction:
                 eventbrite:
                     eventId:

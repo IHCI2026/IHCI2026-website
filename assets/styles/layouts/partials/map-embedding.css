@@ -3,11 +3,12 @@
     width: 100%;
 }
 
-.map-container__iframe {
+.map-container__map {
     display: block;
     width: 100%;
     height: 24.5rem;
     border: none;
+    z-index: 0;
 }
 
 .map-container__button {

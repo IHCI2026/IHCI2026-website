@@ -30,8 +30,10 @@
                 <div class="venue-location__map">
                     {{- partial "map-embedding.html" (
                         dict
-                        "embeddableMapUrl" $event.map.embeddableMapUrl
-                        "viewLargerMapUrl" $event.map.viewLargerMapUrl
+                        "lat" $event.map.lat
+                        "lon" $event.map.lon
+                        "zoom" $event.map.zoom
+                        "amapViewUrl" $event.map.amapViewUrl
                         )
                     }}
                 </div>
