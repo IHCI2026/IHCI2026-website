@@ -5,8 +5,9 @@
         <div class="special-issues__item">
             {{- with .logo }}
                 {{- with resources.Get . }}
+                {{ $logo := .Fit "320x160 webp q90" }}
                 <div class="special-issues__logo-wrap">
-                    <img src="{{ .RelPermalink }}" alt="" class="special-issues__logo" />
+                    <img src="{{ $logo.RelPermalink }}" alt="" class="special-issues__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                 </div>
                 {{- end }}
             {{- end }}

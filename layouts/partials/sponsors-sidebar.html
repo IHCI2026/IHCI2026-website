@@ -21,7 +21,8 @@
                         <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
                             {{ $img := resources.Get $s.logo }}
                             {{ if $img }}
-                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" />
+                                {{ $logo := $img.Fit "200x80 webp q90" }}
+                                <img src="{{ $logo.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                             {{ else }}
                                 <span class="sponsors-sidebar__name">{{ $s.fullName }}</span>
                             {{ end }}
@@ -38,7 +39,8 @@
                         <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
                             {{ $img := resources.Get $s.logo }}
                             {{ if $img }}
-                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" />
+                                {{ $logo := $img.Fit "200x80 webp q90" }}
+                                <img src="{{ $logo.RelPermalink }}" alt="{{ $s.fullName }}" class="sponsors-sidebar__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                             {{ else }}
                                 <span class="sponsors-sidebar__name">{{ $s.fullName }}</span>
                             {{ end }}

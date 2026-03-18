@@ -1,0 +1,8 @@
+{{- $src := strings.TrimLeft "/" .Destination -}}
+{{- $alt := .Text -}}
+{{- with resources.Get $src -}}
+  {{- $processed := .Resize "1200x webp q85" -}}
+  <img src="{{ $processed.RelPermalink }}" alt="{{ $alt }}" loading="lazy" width="{{ $processed.Width }}" height="{{ $processed.Height }}" />
+{{- else -}}
+  <img src="{{ .Destination }}" alt="{{ $alt }}" loading="lazy" />
+{{- end -}}

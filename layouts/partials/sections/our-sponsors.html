@@ -23,7 +23,8 @@
                         <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link" title="{{ $s.fullName }}">
                             {{ $img := resources.Get $s.logo }}
                             {{ if $img }}
-                                <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-organisers__logo" />
+                                {{ $logo := $img.Fit "280x100 webp q90" }}
+                                <img src="{{ $logo.RelPermalink }}" alt="{{ $s.fullName }}" class="our-organisers__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                             {{ else }}
                                 <span class="our-organisers__name">{{ $s.fullName }}</span>
                             {{ end }}
@@ -34,10 +35,11 @@
             {{ end }}
 
             {{- with resources.Get "images/springer_lncs.png" }}
+            {{ $logo := .Fit "360x180 webp q90" }}
             <div class="our-organisers__column">
                 <h4 class="our-organisers__heading">Proceedings Published By</h4>
                 <a href="https://www.springer.com/gp/computer-science/lncs" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link">
-                    <img src="{{ .RelPermalink }}" alt="Springer Lecture Notes in Computer Science (LNCS)" class="our-organisers__proceedings-logo" />
+                    <img src="{{ $logo.RelPermalink }}" alt="Springer Lecture Notes in Computer Science (LNCS)" class="our-organisers__proceedings-logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                 </a>
             </div>
             {{- end }}
@@ -50,8 +52,9 @@
                 <div class="our-organisers__logos">
                     {{- range $issue := $issuesWithLogos }}
                         {{- with resources.Get $issue.logo }}
+                            {{ $logo := .Fit "360x180 webp q90" }}
                             <a href="{{ $issue.url }}" target="_blank" rel="noopener noreferrer" class="our-organisers__logo-link">
-                                <img src="{{ .RelPermalink }}" alt="{{ $issue.title }}" class="our-organisers__proceedings-logo" />
+                                <img src="{{ $logo.RelPermalink }}" alt="{{ $issue.title }}" class="our-organisers__proceedings-logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                             </a>
                         {{- end }}
                     {{- end }}
@@ -76,7 +79,8 @@
                     <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" title="{{ $s.fullName }}">
                         {{ $img := resources.Get $s.logo }}
                         {{ if $img }}
-                            <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                            {{ $logo := $img.Fit "400x160 webp q90" }}
+                            <img src="{{ $logo.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                         {{ else }}
                             <span class="our-sponsors__name">{{ $s.fullName }}</span>
                         {{ end }}
@@ -87,7 +91,8 @@
                     <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" aria-hidden="true" title="{{ $s.fullName }}">
                         {{ $img := resources.Get $s.logo }}
                         {{ if $img }}
-                            <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                            {{ $logo := $img.Fit "400x160 webp q90" }}
+                            <img src="{{ $logo.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                         {{ else }}
                             <span class="our-sponsors__name">{{ $s.fullName }}</span>
                         {{ end }}
@@ -101,7 +106,8 @@
                 <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" title="{{ $s.fullName }}">
                     {{ $img := resources.Get $s.logo }}
                     {{ if $img }}
-                        <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                        {{ $logo := $img.Fit "400x160 webp q90" }}
+                        <img src="{{ $logo.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                     {{ else }}
                         <span class="our-sponsors__name">{{ $s.fullName }}</span>
                     {{ end }}

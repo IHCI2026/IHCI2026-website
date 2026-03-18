@@ -1,11 +1,14 @@
 {{ $id := delimit (shuffle (seq 1000)) "" | truncate 6 "" }}
 <div class="gallery" id="gallery-{{ $id }}">
-  {{ range $i, $img := split (.Inner | strings.TrimSpace) "\n" }}
-    {{ $src := strings.TrimSpace $img }}
+  {{ range $i, $line := split (.Inner | strings.TrimSpace) "\n" }}
+    {{ $src := strings.TrimLeft "/" (strings.TrimSpace $line) }}
     {{ if $src }}
-    <button class="gallery__thumb" type="button" data-slide="{{ $i }}">
-      <img src="{{ $src }}" alt="" loading="lazy" />
-    </button>
+      {{ with resources.Get $src }}
+        {{ $thumb := .Fill "800x600 webp q85" }}
+        <button class="gallery__thumb" type="button" data-slide="{{ $i }}">
+          <img src="{{ $thumb.RelPermalink }}" alt="" loading="lazy" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" />
+        </button>
+      {{ end }}
     {{ end }}
   {{ end }}
 
@@ -13,11 +16,14 @@
     <button class="gallery__lightbox-close" type="button" aria-label="Close">&times;</button>
     <div class="gallery__lightbox-track">
       {{ range split (.Inner | strings.TrimSpace) "\n" }}
-        {{ $src := strings.TrimSpace . }}
+        {{ $src := strings.TrimLeft "/" (strings.TrimSpace .) }}
         {{ if $src }}
-        <div class="gallery__lightbox-slide">
-          <img src="{{ $src }}" alt="" />
-        </div>
+          {{ with resources.Get $src }}
+            {{ $full := .Resize "1600x webp q90" }}
+            <div class="gallery__lightbox-slide">
+              <img src="{{ $full.RelPermalink }}" alt="" width="{{ $full.Width }}" height="{{ $full.Height }}" />
+            </div>
+          {{ end }}
         {{ end }}
       {{ end }}
     </div>

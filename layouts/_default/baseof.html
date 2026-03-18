@@ -57,8 +57,9 @@
                         {{- partial "graphics/hamburger-menu.html" }}
                     </label>
                     {{- with resources.Get "images/logo.png" }}
+                    {{ $logo := .Resize "128x webp q90" }}
                     <a class="page-header__logo-link" href="{{ site.Home.RelPermalink }}" aria-label="Home">
-                        <img class="page-header__logo" src="{{ .RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }} logo" />
+                        <img class="page-header__logo" src="{{ $logo.RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }} logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                     </a>
                     {{- end }}
                     <a class="page-header__title-link" href="{{ site.Home.RelPermalink }}">
@@ -95,8 +96,9 @@
             <nav class="page-sidebar__navigation" aria-labelledby="main-navigation-label">
                 <header class="page-sidebar__header">
                     {{- with resources.Get "images/logo.png" }}
+                    {{ $logo := .Resize "128x webp q90" }}
                     <a class="page-sidebar__heading-link" href="{{ site.Home.RelPermalink }}">
-                        <img class="page-sidebar__logo" src="{{ .RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }} logo" />
+                        <img class="page-sidebar__logo" src="{{ $logo.RelPermalink }}" alt="{{ $.Site.Params.themes.event.title }} logo" width="{{ $logo.Width }}" height="{{ $logo.Height }}" />
                     </a>
                     {{- end }}
 

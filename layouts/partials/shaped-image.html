@@ -9,21 +9,17 @@
     {{- end }}
 
 
-    <img
-        {{- if $input.hideDottedSquare }}
-            class="shaped-image__image shaped-image__image--no-dotted-square"
+    {{- $imgClass := cond $input.hideDottedSquare "shaped-image__image shaped-image__image--no-dotted-square" "shaped-image__image" }}
+    {{- $resource := $input.imageResource }}
+    {{- if not $resource }}
+        {{- $resource = resources.Get "images/shaped-image-fallback.webp" }}
+    {{- end }}
+    {{- with $resource }}
+        {{- if eq .MediaType.SubType "svg" }}
+            <img class="{{ $imgClass }}" src="{{ .RelPermalink }}" alt="{{ $input.imageAlt }}" />
         {{- else }}
-            class="shaped-image__image"
+            {{- $processed := .Fit "600x600 webp q85" }}
+            <img class="{{ $imgClass }}" src="{{ $processed.RelPermalink }}" alt="{{ $input.imageAlt }}" width="{{ $processed.Width }}" height="{{ $processed.Height }}" />
         {{- end }}
-        {{- with $input.imageResource }}
-            src="{{ .RelPermalink }}"
-        {{- else }}
-            {{- with resources.Get "images/shaped-image-fallback.webp" }}
-                src="{{ .RelPermalink }}"
-            {{- end }}
-        {{- end }}
-        alt="{{ $input.imageAlt }}"
-        {{ if not (eq .MediaType.SubType "svg") }}
-            width="{{ .Width }}" height="{{ .Height }}"
-        {{ end }} />
+    {{- end }}
 </article>
