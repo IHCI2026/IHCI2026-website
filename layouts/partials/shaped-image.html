@@ -9,7 +9,7 @@
     {{- end }}
 
 
-    {{- $imgClass := cond $input.hideDottedSquare "shaped-image__image shaped-image__image--no-dotted-square" "shaped-image__image" }}
+    {{- $imgClass := cond (eq $input.hideDottedSquare true) "shaped-image__image shaped-image__image--no-dotted-square" "shaped-image__image" }}
     {{- $resource := $input.imageResource }}
     {{- if not $resource }}
         {{- $resource = resources.Get "images/shaped-image-fallback.webp" }}
