@@ -11,16 +11,16 @@ Ningbo is a dynamic coastal city in Zhejiang Province with deep historical roots
 One of China's oldest private libraries, set within serene gardens and accompanied by a museum that traces the city's literary legacy.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/TianYiGe1.jpg
+images/venue/TianYiGe2.jpg
 {{< /gallery >}}
 
 ### The Old Bund (Laowaitan)
 Near the confluence of the city's three rivers at Sanjiangkou, offers historic European-style facades, cafes, and night views along the waterfront.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/LaoWaiTan1.jpg
+images/venue/LaoWaiTan2.jpg
 {{< /gallery >}}
 
 ### Moon Lake (Yuehu)
