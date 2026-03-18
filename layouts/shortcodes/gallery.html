@@ -5,7 +5,7 @@
     {{ $src := trim $line " \t\r\n/" }}
     {{ if $src }}
       {{ with resources.Get $src }}
-        {{ $thumb := .Fill "800x600 webp q85" }}
+        {{ $thumb := .Fill "800x600 Center webp q85" }}
         <button class="gallery__thumb" type="button" data-slide="{{ $i }}">
           <img src="{{ $thumb.RelPermalink }}" alt="" loading="lazy" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" />
         </button>
