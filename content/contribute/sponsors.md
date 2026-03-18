@@ -72,7 +72,7 @@ All packages include logo placement on the website and program, recognition duri
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
-<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
 </tr>
 <tr class="sponsorship-comparison__category">
 <td colspan="5">Exhibit Space</td>
