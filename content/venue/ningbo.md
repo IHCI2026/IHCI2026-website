@@ -27,48 +27,48 @@ images/venue/LaoWaiTan2.jpg
 A peaceful urban escape with pavilions and stone bridges.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/MoonLake1.jpg
+images/venue/MoonLake2.jpg
 {{< /gallery >}}
 
 ### Ningbo Museum
 The award-winning architecture by architect Wang Shu showcases striking rammed-earth and recycled materials in a design that captures local history and craftsmanship.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/Museum1.jpg
+images/venue/Museum2.jpg
 {{< /gallery >}}
 
 ### Dongqian Lake
 A popular recreational area for cycling, boating, and temple visits.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/DongQianLake1.jpg
+images/venue/DongQianLake2.jpg
 {{< /gallery >}}
 
 ### Tiantong Temple
 Lies in forested hills with ancient halls and meditation paths.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/TianTongShi1.jpg
+images/venue/TianTongShi2.jpg
 {{< /gallery >}}
 
 ### Baoguo Temple
 Preserves impressive Song-dynasty wooden architecture.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/BaoGuoShi1.jpg
+images/venue/BaoGuoShi2.jpg
 {{< /gallery >}}
 
 ### Hemudu Neolithic Site Museum
 Illuminates early rice-cultivation culture.
 
 {{< gallery >}}
-images/venue/ningbo-attraction.webp
-images/venue/ningbo-attraction.webp
+images/venue/HeMuDu1.jpg
+images/venue/HeMuDu2.jpg
 {{< /gallery >}}
 
 ## More Information
