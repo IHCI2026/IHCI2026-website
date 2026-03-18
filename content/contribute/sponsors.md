@@ -107,11 +107,11 @@ All packages include logo placement on the website and program, recognition duri
 </tr>
 </thead>
 <tr class="sponsorship-comparison__summary">
-<td>Contribution (CNY)</td>
-<td><strong>50,000 CNY</strong><br><strong>≈ 7,200 USD</strong></td>
-<td><strong>30,000</strong><br><strong>≈ 4,400 USD</strong></td>
-<td><strong>20,000</strong><br><strong>≈ 3,000 USD</strong></td>
-<td><strong>10,000</strong><br><strong>≈ 1,500 USD</strong></td>
+<td>Contribution</td>
+<td><strong>50,000 CNY</strong><br><strong>(≈ 7,200 USD)</strong></td>
+<td><strong>30,000 CNY</strong><br><strong>(≈ 4,400 USD)</strong></td>
+<td><strong>20,000 CNY</strong><br><strong>(≈ 3,000 USD)</strong></td>
+<td><strong>10,000 CNY</strong><br><strong>(≈ 1,500 USD)</strong></td>
 </tr>
 </thead>
 </tbody>
