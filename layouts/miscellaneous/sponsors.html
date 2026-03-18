@@ -17,6 +17,30 @@
                 </p>
             </div>
 
+            {{ $organisers := slice }}
+            {{ range $o := $event.organisers }}
+                {{ if $o.fullName }}
+                    {{ $organisers = $organisers | append $o }}
+                {{ end }}
+            {{ end }}
+
+            {{ if gt (len $organisers) 0 }}
+                <h1 class="heading heading--1">Organisers</h1>
+                <ul class="sponsors__list">
+                    {{ range $o := $organisers }}
+                        <li class="sponsors__list-item">
+                            {{- partial "sponsor-card.html" (
+                                dict
+                                "companyUrl" $o.url
+                                "logoResource" $o.logo
+                                "name" $o.fullName
+                                )
+                            }}
+                        </li>
+                    {{- end }}
+                </ul>
+            {{ end }}
+
             {{ $validSponsors := slice }}
             {{ range $sponsor := $event.sponsors }}
                 {{ if $sponsor.fullName }}

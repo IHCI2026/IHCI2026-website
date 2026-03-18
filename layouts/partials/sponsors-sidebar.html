@@ -1,17 +1,17 @@
-{{ $sponsors := .Site.Params.themes.event.sponsors }}
 {{ $organisers := slice }}
-{{ $otherSponsors := slice }}
-{{ range $sponsor := $sponsors }}
-    {{ if $sponsor.fullName }}
-        {{ if or (eq $sponsor.type "gold") (eq $sponsor.type "silver") }}
-            {{ $organisers = $organisers | append $sponsor }}
-        {{ else }}
-            {{ $otherSponsors = $otherSponsors | append $sponsor }}
-        {{ end }}
+{{ range $o := .Site.Params.themes.event.organisers }}
+    {{ if $o.fullName }}
+        {{ $organisers = $organisers | append $o }}
+    {{ end }}
+{{ end }}
+{{ $sponsors := slice }}
+{{ range $s := .Site.Params.themes.event.sponsors }}
+    {{ if $s.fullName }}
+        {{ $sponsors = $sponsors | append $s }}
     {{ end }}
 {{ end }}
 
-{{ if or (gt (len $organisers) 0) (gt (len $otherSponsors) 0) }}
+{{ if or (gt (len $organisers) 0) (gt (len $sponsors) 0) }}
     <aside class="sponsors-sidebar" aria-label="Organisers and Sponsors">
         {{ if gt (len $organisers) 0 }}
             <h3 class="sponsors-sidebar__heading">Organisers</h3>
@@ -30,11 +30,11 @@
                 </div>
             </div>
         {{ end }}
-        {{ if gt (len $otherSponsors) 0 }}
+        {{ if gt (len $sponsors) 0 }}
             <h3 class="sponsors-sidebar__heading">Sponsors</h3>
             <div class="sponsors-sidebar__tier">
                 <div class="sponsors-sidebar__logos">
-                    {{ range $s := $otherSponsors }}
+                    {{ range $s := $sponsors }}
                         <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="sponsors-sidebar__link" title="{{ $s.fullName }}">
                             {{ $img := resources.Get $s.logo }}
                             {{ if $img }}

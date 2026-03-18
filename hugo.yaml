@@ -190,6 +190,22 @@ params:
                 logo:
                 titleBackground: images/unnc-day.jpg
                 location:
+            organisers:
+                - shortName: UNNC
+                  fullName: University of Nottingham Ningbo China
+                  url: https://www.nottingham.edu.cn
+                  description: Host institution
+                  logo: images/organisers/unnc.png
+                - shortName: NingboTech
+                  fullName: NingboTech University
+                  url: https://www.nbt.edu.cn
+                  description: Co-organiser
+                  logo: images/organisers/nbt.png
+                - shortName: Bath
+                  fullName: University of Bath
+                  url: https://www.bath.ac.uk
+                  description: Co-organiser
+                  logo: images/organisers/bath.png
             sponsors:
                 - shortName: UNNC
                   fullName: University of Nottingham Ningbo China
@@ -197,18 +213,6 @@ params:
                   description: Host institution
                   type: gold
                   logo: images/organisers/unnc.png
-                - shortName: NingboTech
-                  fullName: NingboTech University
-                  url: https://www.nbt.edu.cn
-                  description: Co-organiser
-                  type: silver
-                  logo: images/organisers/nbt.png
-                - shortName: Bath
-                  fullName: University of Bath
-                  url: https://www.bath.ac.uk
-                  description: Co-organiser
-                  type: silver
-                  logo: images/organisers/bath.png
                 - shortName: Boxtech
                   fullName: Boxtech Ningbo Co., Ltd.
                   url:
@@ -224,7 +228,6 @@ params:
                   url: https://www.mdpi.com/journal/electronics/special_issues/VXM004D5IVn
                   logo:
                   show: false
-            organizers:
             featuredSessions:
             colors:
                 primaryLighter: '#37B4B0'  # Trent Turquoise

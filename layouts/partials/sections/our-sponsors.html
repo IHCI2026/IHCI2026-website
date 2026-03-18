@@ -1,12 +1,13 @@
-{{ $sponsors := .sponsors }}
-{{ $validSponsors := slice }}
 {{ $organisers := slice }}
-{{ range $sponsor := $sponsors }}
+{{ range $o := .organisers }}
+    {{ if $o.fullName }}
+        {{ $organisers = $organisers | append $o }}
+    {{ end }}
+{{ end }}
+{{ $validSponsors := slice }}
+{{ range $sponsor := .sponsors }}
     {{ if $sponsor.fullName }}
         {{ $validSponsors = $validSponsors | append $sponsor }}
-        {{ if or (eq $sponsor.type "gold") (eq $sponsor.type "silver") }}
-            {{ $organisers = $organisers | append $sponsor }}
-        {{ end }}
     {{ end }}
 {{- end }}
 
@@ -61,13 +62,14 @@
     </section>
 </div>
 
-{{/* Sponsor carousel below */}}
+{{/* Sponsors section - static for few sponsors, carousel for many */}}
 {{ if gt (len $validSponsors) 0 }}
 <div class="section-container">
     <section class="section section--short our-sponsors">
         <h1 class="heading heading--highlighted heading--centered">
             {{ T "sponsors_section.heading" }}
         </h1>
+        {{ if gt (len $validSponsors) 4 }}
         <div class="our-sponsors__carousel">
             <div class="our-sponsors__track">
                 {{ range $s := $validSponsors }}
@@ -93,6 +95,20 @@
                 {{ end }}
             </div>
         </div>
+        {{ else }}
+        <div class="our-sponsors__logos">
+            {{ range $s := $validSponsors }}
+                <a href="{{ $s.url }}" target="_blank" rel="noopener noreferrer" class="our-sponsors__logo-link" title="{{ $s.fullName }}">
+                    {{ $img := resources.Get $s.logo }}
+                    {{ if $img }}
+                        <img src="{{ $img.RelPermalink }}" alt="{{ $s.fullName }}" class="our-sponsors__logo" />
+                    {{ else }}
+                        <span class="our-sponsors__name">{{ $s.fullName }}</span>
+                    {{ end }}
+                </a>
+            {{ end }}
+        </div>
+        {{ end }}
     </section>
 </div>
 {{ end }}

@@ -64,7 +64,7 @@
     white-space: nowrap;
 }
 
-/* Sponsors carousel section */
+/* Sponsors section */
 .our-sponsors {
     display: flex;
     align-items: center;
@@ -72,6 +72,16 @@
     flex-direction: column;
 }
 
+/* Static layout (few sponsors) */
+.our-sponsors__logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+/* Carousel layout (many sponsors) */
 .our-sponsors__carousel {
     overflow: hidden;
     width: 100%;
@@ -99,6 +109,7 @@
     }
 }
 
+/* Shared styles */
 .our-sponsors__logo-link {
     display: flex;
     align-items: center;
@@ -106,6 +117,11 @@
     flex-shrink: 0;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.our-sponsors__logo-link:hover {
+    opacity: 0.8;
 }
 
 .our-sponsors__logo {
