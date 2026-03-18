@@ -1,7 +1,8 @@
 {{ $id := delimit (shuffle (seq 1000)) "" | truncate 6 "" }}
+{{ $inner := trim .Inner "\n \t\r" }}
 <div class="gallery" id="gallery-{{ $id }}">
-  {{ range $i, $line := split (.Inner | strings.TrimSpace) "\n" }}
-    {{ $src := strings.TrimLeft "/" (strings.TrimSpace $line) }}
+  {{ range $i, $line := split $inner "\n" }}
+    {{ $src := trim $line " \t\r\n/" }}
     {{ if $src }}
       {{ with resources.Get $src }}
         {{ $thumb := .Fill "800x600 webp q85" }}
@@ -15,8 +16,8 @@
   <dialog class="gallery__lightbox">
     <button class="gallery__lightbox-close" type="button" aria-label="Close">&times;</button>
     <div class="gallery__lightbox-track">
-      {{ range split (.Inner | strings.TrimSpace) "\n" }}
-        {{ $src := strings.TrimLeft "/" (strings.TrimSpace .) }}
+      {{ range split $inner "\n" }}
+        {{ $src := trim . " \t\r\n/" }}
         {{ if $src }}
           {{ with resources.Get $src }}
             {{ $full := .Resize "1600x webp q90" }}

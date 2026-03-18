@@ -1,4 +1,4 @@
-{{- $src := strings.TrimLeft "/" .Destination -}}
+{{- $src := trim .Destination " /" -}}
 {{- $alt := .Text -}}
 {{- with resources.Get $src -}}
   {{- $processed := .Resize "1200x webp q85" -}}
