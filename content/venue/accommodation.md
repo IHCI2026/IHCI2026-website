@@ -19,4 +19,4 @@ Here are some hotels near the venue that we recommend, but there are many other 
 | [Hilton Garden Inn Ningbo](https://www.trip.com/w/VsX5hVAnwT2) | 4 | 3.5 km |
 | [Grand New Century Hotel Ningbo](https://www.trip.com/w/7UhQlAJnwT2) | 5 | 3.5 km |
 | [Nanyuan Universe Deluxe Hotel](https://www.trip.com/w/EmMzg0CnwT2) | 5 | 3.6 km |
-| [Sheraton Ningbo Yinzhou Hotel](https://www.trip.com/w/8DBENTKnwT2) ｜ 5 ｜ 3.7 km |
+| [Sheraton Ningbo Yinzhou Hotel](https://www.trip.com/w/8DBENTKnwT2) | 5 | 3.7 km |
