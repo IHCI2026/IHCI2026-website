@@ -144,3 +144,6 @@ layout: single
 -   **Haonan Yao** --- _University of Nottingham Ningbo China, China_
 -   **Pallavi Singh** --- _IHCI Society_
 -   **Shashi Yadav** --- _Coikism Research Foundation_
+
+## TECHNICAL PROGRAM COMMITTEE
+- **Lu Leng** -- _Nanchang Hangkong University, China_
