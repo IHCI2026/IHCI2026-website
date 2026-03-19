@@ -49,7 +49,7 @@
             {{- if gt (len $issuesWithLogos) 0 }}
             <div class="our-organisers__column">
                 <h4 class="our-organisers__heading">Special Issue</h4>
-                <div class="our-organisers__logos">
+                <div class="our-organisers__logos our-organisers__logos--column">
                     {{- range $issue := $issuesWithLogos }}
                         {{- with resources.Get $issue.logo }}
                             {{ $logo := .Fit "360x180 webp q90" }}
