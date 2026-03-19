@@ -138,5 +138,9 @@ layout: single
 -   **Yajun Feng** --- _University of Nottingham Ningbo China, China_
 -   **Yazhou Sun (Joe)** --- _University of Nottingham Ningbo China, China_
 -   **Lingcong Zeng (Colleen)** --- _University of Nottingham Ningbo China, China_
+-   **Yongfu Wang** --- _University of Nottingham Ningbo China, China_
+-   **Lijie Zheng** --- _University of Nottingham Ningbo China, China_
+-   **Xiaolei Zhang (Michelle)** --- _University of Nottingham Ningbo China, China_
+-   **Haonan Yao** --- _University of Nottingham Ningbo China, China_
 -   **Pallavi Singh** --- _IHCI Society_
 -   **Shashi Yadav** --- _Coikism Research Foundation_
