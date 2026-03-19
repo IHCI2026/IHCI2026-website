@@ -11,6 +11,12 @@ Here are some hotels near the venue that we recommend, but there are many other 
 
 | Hotel | Stars | Distance from UNNC |
 |-------|:-------:|:--------------------:|
-| [Atour Hotel (Southern Business Area)](https://www.trip.com/hotels/v2/detail/?hotelId=7112501&cityId=375) | 4 | 3.4 km |
-| [Hilton Garden Inn Ningbo](https://www.trip.com/hotels/ningbo-hotel-detail-6409915/hilton-garden-inn-ningbo/) | 4 | 3.5 km |
-| [Grand New Century Hotel Ningbo](https://www.trip.com/hotels/v2/detail/?hotelId=369767&cityId=375) | 5 | 3.5 km |
+| [Rezen Hotel Wanda Plaza Tianwei Art Hotel](https://www.trip.com/w/l3Rdw5ymwT2) | 4 | 0.95 km |
+| [SSAW Boutique Hotel Ningbo CBD](https://www.trip.com/w/IprkPqnmwT2) | 4 | 1.4 km |
+| [Atour Hotel (Ningbo Southern Business Area, Romon U-Park)](https://www.trip.com/w/CAkP3u0nwT2) | 4 | 3.4 km |
+| [Grand New Century Hotel Ningbo](https://www.trip.com/w/7TZjBr2nwT2) | 5 | 2.0 km |
+| [Fairfield by Marriott Ningbo Yinzhou](https://www.trip.com/w/LpI5oH9nwT2) | 4 | 3.3 km |
+| [Hilton Garden Inn Ningbo](https://www.trip.com/w/VsX5hVAnwT2) | 4 | 3.5 km |
+| [Grand New Century Hotel Ningbo](https://www.trip.com/w/7UhQlAJnwT2) | 5 | 3.5 km |
+| [Nanyuan Universe Deluxe Hotel](https://www.trip.com/w/EmMzg0CnwT2) | 5 | 3.6 km |
+| [Sheraton Ningbo Yinzhou Hotel](https://www.trip.com/w/8DBENTKnwT2) ｜ 5 ｜ 3.7 km |
