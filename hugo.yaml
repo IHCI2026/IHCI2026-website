@@ -226,10 +226,10 @@ params:
                   url: https://www.mdpi.com/journal/sensors/special_issues/0W09FTDH4C
                   logo: images/sensors.png
                   show: true
-                - title: "Electronics: Interactive Design for Autonomous Driving Vehicles"
-                  url: https://www.mdpi.com/journal/electronics/special_issues/VXM004D5IVn
-                  logo:
-                  show: false
+                - title: "Electronics"
+                  url: 
+                  logo: images/electronics.jpg
+                  show: true
             featuredSessions:
             colors:
                 primaryLighter: '#37B4B0'  # Trent Turquoise
