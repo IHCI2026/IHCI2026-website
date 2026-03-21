@@ -5,6 +5,8 @@ layout: single
 
 Details on the registration process and procedure will be announced soon. Please find the registration fees below for your reference.
 
+**Inquiries: registration@ihci2026.com**
+
 ## Important Information
 
 - **Early Bird Deadline**: 30 September 2026
