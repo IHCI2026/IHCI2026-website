@@ -14,6 +14,8 @@ The University of Nottingham Ningbo China (UNNC) is the first Sino-foreign unive
 
 Set on a 144-acre landscaped campus in Ningbo's Higher Education Park, UNNC features purpose-built teaching and research facilities, a library, sports centre, student residences, and extensive green spaces. The campus architecture mirrors the character of Nottingham's University Park in the UK, creating a distinctive blend of British academic tradition and modern Chinese design.
 
+[UNNC 360 Degree Virtual Tour](https://www.nottingham.edu.cn/en/about/who-we-are.aspx#Anchor_360View)
+
 ## Faculties and Research
 
 UNNC is home to three faculties:
