@@ -5,6 +5,9 @@ weight: 3
 ---
 
 Hotels are plentiful and reasonably priced in China. We recommend using [Trip.com](https://www.trip.com) for booking. Public transport in Ningbo is also excellent, so you are not limited to hotels within walking distance of the venue. See our [transportation guide](/venue/transportation/) for details.
+
+**<font color=LightSeaGreen>Inquiries: support@ihci2026.com</font>**
+
 ## Recommended Hotels
 
 Here are some hotels near the venue that we recommend, but there are many other options available.

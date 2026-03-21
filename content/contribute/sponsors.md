@@ -14,6 +14,8 @@ IHCI 2026 brings together a global community of researchers, practitioners, engi
 - International representation across HCI, AI/ML, robotics, XR, cybersecurity, and design
 - Visibility through the conference website, proceedings, social media, and on-site signage
 
+**<font color=LightSeaGreen>Inquiries: sponsors@ihci2026.com</font>**
+
 ## Sponsorship Packages
 
 All packages include logo placement on the website and program, recognition during keynotes, and access to the job board. Custom packages are available on request.

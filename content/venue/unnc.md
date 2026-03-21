@@ -8,6 +8,8 @@ weight: 1
 
 The University of Nottingham Ningbo China (UNNC) is the first Sino-foreign university to open in China. Established in 2004 as a partnership between the University of Nottingham and Zhejiang Wanli Education Group, UNNC delivers a full Nottingham-quality education entirely in English. Degrees are awarded by the University of Nottingham, UK.
 
+**<font color=LightSeaGreen>Inquiries: support@ihci2026.com</font>**
+
 ## Campus
 
 Set on a 144-acre landscaped campus in Ningbo's Higher Education Park, UNNC features purpose-built teaching and research facilities, a library, sports centre, student residences, and extensive green spaces. The campus architecture mirrors the character of Nottingham's University Park in the UK, creating a distinctive blend of British academic tradition and modern Chinese design.

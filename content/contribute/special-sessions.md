@@ -11,6 +11,8 @@ A Special Session typically spans 40-60 minutes and may include 4-6 peer-reviewe
 The Microsoft CMT service is used for managing the peer-reviewing process for this conference. This service is provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. 
 - **Submission Link: https://cmt3.research.microsoft.com/IHCI2026/**
 
+**<font color=LightSeaGreen>Inquiries: publication@ihci2026.com</font>**
+
 ## Important Dates
 
 All deadlines are 23:59 AoE (Anywhere on Earth).
