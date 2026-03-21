@@ -208,6 +208,11 @@ params:
                   url: https://www.bath.ac.uk
                   description: Co-organiser
                   logo: images/organisers/bath.png
+                - shortName: Nanchang
+                  fullName: Nanchang University
+                  url: https://english.ncu.edu.cn/
+                  description: Co-organiser
+                  logo: images/organisers/nanchang.png
             sponsors:
                 - shortName: UNNC
                   fullName: University of Nottingham Ningbo China
