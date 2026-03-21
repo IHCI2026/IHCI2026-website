@@ -9,6 +9,7 @@ layout: single
 
 -   **Boon Giin Lee (Bryan)** --- _University of Nottingham Ningbo China, China_
 -   **Wan-Young Chung** --- _Pukyong National University, Republic of Korea_
+-   **Chunquan Li** --- _Nanchang University, China_
 -   **Wu Deng** --- _University of Nottingham Ningbo China, China_
 -   **Xu Sun** --- _University of Nottingham Ningbo China, China_
 -   **Matthew Pike** --- _University of Nottingham Ningbo China, China_

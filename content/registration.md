@@ -5,7 +5,7 @@ layout: single
 
 Details on the registration process and procedure will be announced soon. Please find the registration fees below for your reference.
 
-**Inquiries: registration@ihci2026.com**
+**<font color=LightSeaGreen>Inquiries: registration@ihci2026.com</font>**
 
 ## Important Information
 
