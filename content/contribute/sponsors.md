@@ -45,8 +45,8 @@ All packages include logo placement on the website and program, recognition duri
 <td>Keynote or panel acknowledgment</td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
 <td><span class="sponsorship-comparison__check">&#10003;</span></td>
-<td></td>
-<td></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
+<td><span class="sponsorship-comparison__check">&#10003;</span></td>
 </tr>
 <tr>
 <td>Sponsor a social event (reception or banquet)</td>
