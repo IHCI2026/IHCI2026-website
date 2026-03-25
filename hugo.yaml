@@ -232,7 +232,7 @@ params:
                   logo: images/sensors.png
                   show: true
                 - title: "Intelligent Human-Computer Interaction Systems: AI-Integrated Sensing Technologies (IHCI 2026)"
-                  url: 
+                  url: https://www.mdpi.com/journal/electronics/special_issues/9G3UW8SM8V
                   logo: images/electronics.jpg
                   show: true
             featuredSessions:
