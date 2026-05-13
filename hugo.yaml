@@ -46,8 +46,8 @@ menus:
           url: /contribute/posters/
           parent: contribute
           weight: 32
-        - identifier: call-for-special-sessions
-          name: Call for Special Sessions
+        - identifier: special-sessions
+          name: Special Sessions
           url: /contribute/special-sessions/
           parent: contribute
           weight: 33
@@ -226,6 +226,12 @@ params:
                   description:
                   type: bronze
                   logo: images/sponsors/boxtech.png
+                - shortName: NBSTIA
+                  fullName: Ningbo Science & Technology Innovation Association
+                  url:
+                  description:
+                  type: bronze
+                  logo: images/sponsors/NBSTIA.png
             specialIssues:
                 - title: "Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)"
                   url: https://www.mdpi.com/journal/sensors/special_issues/0W09FTDH4C

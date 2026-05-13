@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <section class="section-container">
+        <div class="section">
+            <p class="special-session-single__back">
+                <a href="{{ .Parent.RelPermalink }}">&larr; All special sessions</a>
+            </p>
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+
+            <article class="markdown">
+                {{ with .Params.abstract }}
+                    <h2 class="heading heading--2">Abstract</h2>
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+
+                {{ .Content }}
+
+                {{ with .Params.topics }}
+                    <h2 class="heading heading--2">Specialized Topics</h2>
+                    <p>Prospective authors are invited to submit original research, methodological papers, and practical case studies. Topics of interest include, but are not limited to:</p>
+                    {{ range . }}
+                        <h3 class="heading heading--3">{{ .heading }}</h3>
+                        <ul>
+                            {{ range .items }}
+                                <li>{{ . | markdownify }}</li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                {{ end }}
+
+                {{ with .Params.chairs }}
+                    <h2 class="heading heading--2">Chairs</h2>
+                    <ul>
+                        {{ range . }}
+                            <li>{{ .name }}{{ with .affiliation }}, {{ . }}{{ end }}</li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </article>
+        </div>
+    </section>
+{{ end }}

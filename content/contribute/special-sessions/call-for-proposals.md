@@ -1,14 +1,16 @@
 ---
-title: Call for Special Sessions
+title: Call for Special Session Proposals
 layout: single
-weight: 3
+_build:
+    list: never
+    render: always
 ---
 
 The IHCI 2026 invites proposals for Special Sessions that highlight emerging, timely, or underrepresented topics in HCI. These Special Sessions are part of the main technical program and are intended to promote focused discussion, bring together communities, and advance state-of-the-art research and practice.
 
 A Special Session typically spans 40-60 minutes and may include 4-6 peer-reviewed papers, optionally complemented by a invited talk or moderated discussion. Topics should be well-defined and of clear interest to the IHCI community, ideally bridging subfields or introducing novel perspectives.
 
-The Microsoft CMT service is used for managing the peer-reviewing process for this conference. This service is provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. 
+The Microsoft CMT service is used for managing the peer-reviewing process for this conference. This service is provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
 - **Submission Link: https://cmt3.research.microsoft.com/IHCI2026/**
 
 **<font color=LightSeaGreen>Inquiries: publication@ihci2026.com</font>**

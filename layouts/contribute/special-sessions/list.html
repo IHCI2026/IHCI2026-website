@@ -1,0 +1,44 @@
+{{ define "main" }}
+    <div class="section-container">
+        <section class="section about">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+            <article class="markdown about__text">
+                {{ .Content }}
+
+                {{ $sessions := where .Pages "Params.chairs" "!=" nil }}
+                {{ with $sessions }}
+                    <h2 class="heading heading--2">Announced Sessions</h2>
+                    <ul class="special-session-list">
+                        {{ range .ByWeight }}
+                            <li class="special-session-list__item">
+                                <h3 class="heading heading--3">
+                                    <a href="{{ .RelPermalink }}">{{ with .Params.shortTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}</a>
+                                </h3>
+                                {{ with .Params.abstract }}
+                                    <p>{{ . | markdownify }}</p>
+                                {{ end }}
+                                {{ with .Params.chairs }}
+                                    <p class="special-session-list__chairs-label"><strong>Chairs:</strong></p>
+                                    <ul class="special-session-list__chairs">
+                                        {{ range . }}
+                                            <li>{{ .name }}{{ with .affiliation }}, {{ . }}{{ end }}</li>
+                                        {{ end }}
+                                    </ul>
+                                {{ end }}
+                                <p><a href="{{ .RelPermalink }}">Read more &rarr;</a></p>
+                            </li>
+                        {{ end }}
+                    </ul>
+                {{ else }}
+                    <p><em>Special Sessions for IHCI 2026 will be announced here once accepted. Check back soon.</em></p>
+                {{ end }}
+
+                <h2 class="heading heading--2">Propose a Special Session</h2>
+                <p>
+                    Want to organise a Special Session at IHCI 2026? Proposals are open until <strong>6 July 2026</strong>.
+                    See the <a href="call-for-proposals/">Call for Special Session Proposals</a> for guidelines, important dates, and submission instructions.
+                </p>
+            </article>
+        </section>
+    </div>
+{{ end }}
