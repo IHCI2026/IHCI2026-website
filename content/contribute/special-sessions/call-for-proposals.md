@@ -19,7 +19,7 @@ The Microsoft CMT service is used for managing the peer-reviewing process for th
 
 All deadlines are 23:59 AoE (Anywhere on Earth).
 
-- **Proposal Submission Deadline**: 6 July 2026
+- **Proposal Submission Deadline**: 1 August 2026
 - **Notification of Proposal Decisions**: Within few days after submission
 - **Paper Submission Deadline**: 14 August 2026
 - **Notification of Paper Decisions**: 4 September 2026
