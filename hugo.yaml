@@ -232,6 +232,12 @@ params:
                   description:
                   type: bronze
                   logo: images/sponsors/NBSTIA.png
+                - shortName: NBIoT
+                  fullName: Ningbo Association of Internet of Things
+                  url:
+                  description:
+                  type: bronze
+                  logo: images/sponsors/nbiot/nbiot.jpg
             specialIssues:
                 - title: "Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)"
                   url: https://www.mdpi.com/journal/sensors/special_issues/0W09FTDH4C
