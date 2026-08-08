@@ -7,22 +7,24 @@ abstract: >
 chairs:
     - name: Vivek Kumar Chenna
       affiliation: National Institute of Technology Calicut, India
-topics:
-    - heading: Scope and Topics
-      items:
-          - Human oversight and function allocation in AI-assisted design and construction workflows
-          - "Explainability and interpretability for spatial data: floor plans, technical drawings, point clouds, BIM models"
-          - Trust calibration and appropriate reliance among architects, engineers and site personnel
-          - Organisational readiness, governance and maturity for responsible AI adoption in practice
-          - Evaluation methods for AI tools embedded in long-horizon, multi-stakeholder professional work
-          - Accountability, auditability and sign-off when AI contributes to a regulated deliverable
-          - Human-AI collaboration in generative and computational design
-          - Failure, error and recovery in AI-assisted technical work
-          - Field studies of AI adoption in practices, contractors and public clients
-          - Inclusive and accessible design practice supported by AI
 ---
 
 **Acronym: HCAI-AEC**
+
+## Scope and Topics
+
+Submissions are invited on, but not limited to:
+
+- Human oversight and function allocation in AI-assisted design and construction workflows
+- Explainability and interpretability for spatial data: floor plans, technical drawings, point clouds, BIM models
+- Trust calibration and appropriate reliance among architects, engineers and site personnel
+- Organisational readiness, governance and maturity for responsible AI adoption in practice
+- Evaluation methods for AI tools embedded in long-horizon, multi-stakeholder professional work
+- Accountability, auditability and sign-off when AI contributes to a regulated deliverable
+- Human-AI collaboration in generative and computational design
+- Failure, error and recovery in AI-assisted technical work
+- Field studies of AI adoption in practices, contractors and public clients
+- Inclusive and accessible design practice supported by AI
 
 ## Rationale
 
