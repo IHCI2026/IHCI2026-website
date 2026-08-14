@@ -8,7 +8,7 @@ All dates are 23:59 AoE (Anywhere on Earth)
 ## Key Dates
 
 - **Special Session Proposal Deadline**: 1 August 2026
-- **Paper Submission Deadline**: 14 August 2026
+- **Paper Submission Deadline**: 31 August 2026
 - **Notification of Decisions**: 4 September 2026
 - **Camera-Ready Submission Deadline**: 11 September 2026
 - **Registration Opens**: 4 September 2026

@@ -17,7 +17,7 @@ The Microsoft CMT service is used for managing the peer-reviewing process for th
 
 All deadlines are 23:59 AoE (Anywhere on Earth).
 
-- **Demo Submission Deadline**: 14 August 2026
+- **Demo Submission Deadline**: 31 August 2026
 - **Notification of Decisions**: 4 September 2026
 - **Camera-Ready Demo Paper Deadline**: 11 September 2026
 

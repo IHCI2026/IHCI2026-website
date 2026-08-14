@@ -21,7 +21,7 @@ All deadlines are 23:59 AoE (Anywhere on Earth).
 
 - **Proposal Submission Deadline**: 1 August 2026
 - **Notification of Proposal Decisions**: Within few days after submission
-- **Paper Submission Deadline**: 14 August 2026
+- **Paper Submission Deadline**: 31 August 2026
 - **Notification of Paper Decisions**: 4 September 2026
 - **Camera-Ready Submission Deadline**: 11 September 2026
 
