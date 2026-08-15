@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 4
 title: Prof. Cristiano André da Costa
 firstName: Cristiano André
 lastName: da Costa
