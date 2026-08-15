@@ -31,7 +31,17 @@
                     <h2 class="heading heading--2">Chairs</h2>
                     <ul>
                         {{ range . }}
-                            <li>{{ .name }}{{ with .affiliation }}, {{ . }}{{ end }}</li>
+                            {{ $chair := . }}
+                            <li>
+                                {{ with .bio }}
+                                    <details class="special-session-single__bio">
+                                        <summary>{{ $chair.name }}{{ with $chair.affiliation }}, {{ . }}{{ end }}</summary>
+                                        <p>{{ $chair.bio | markdownify }}</p>
+                                    </details>
+                                {{ else }}
+                                    {{ $chair.name }}{{ with $chair.affiliation }}, {{ . }}{{ end }}
+                                {{ end }}
+                            </li>
                         {{ end }}
                     </ul>
                 {{ end }}

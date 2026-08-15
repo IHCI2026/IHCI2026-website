@@ -1,0 +1,35 @@
+/* Chair biography dropdowns on special session pages.
+   Override the default .markdown details button look so a chair with a bio
+   appears like a plain list item that expands. */
+
+.markdown details.special-session-single__bio {
+    margin: 0;
+    border: none;
+}
+
+.markdown details.special-session-single__bio[open] {
+    border: none;
+}
+
+.markdown details.special-session-single__bio summary {
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+
+.markdown details.special-session-single__bio summary:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.markdown details.special-session-single__bio summary::after {
+    font-size: 0.75rem;
+    color: inherit;
+}
+
+.markdown details.special-session-single__bio > :not(summary) {
+    padding: 0.25rem 0 0.5rem;
+}

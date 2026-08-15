@@ -1,7 +1,7 @@
 ---
 title: Call for Special Session Proposals
 layout: single
-_build:
+build:
     list: never
     render: always
 ---
