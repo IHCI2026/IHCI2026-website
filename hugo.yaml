@@ -274,9 +274,16 @@ params:
                 # Page limits by submission type
                 pageLimits:
                     papers:
-                        min: 6
-                        max: 8
-                        referencesExtra: 0
+                        full:
+                            min: 10
+                            max: 12
+                            referencesExtra: 0
+                            extraPages: 3          # additional pages allowed at extra cost
+                            extraPageCostUsd: 50   # per extra page
+                        short:
+                            min: 6
+                            max: 9
+                            referencesExtra: 0
                     posters:
                         min: 4
                         max: 4

@@ -4,6 +4,21 @@
 
 <div class="submission-templates">
     {{- with $limits }}
+    {{- if .full }}
+    {{- range $category, $label := dict "full" "Full paper" "short" "Short paper" }}
+    {{- with index $limits $category }}
+    {{- $cat := . }}
+    <p class="submission-templates__pages">
+        <strong>{{ $label }}:</strong>
+        {{- if eq .min .max }} {{ .min }} pages
+        {{- else }} {{ .min }}-{{ .max }} pages
+        {{- end }}{{- if eq .referencesExtra 0 }} (including references)
+        {{- else }} (excluding references); references may use up to {{ .referencesExtra }} additional page{{ if gt .referencesExtra 1 }}s{{ end }}
+        {{- end }}{{- with .extraPages }}; up to {{ . }} additional page{{ if gt . 1 }}s{{ end }} allowed at {{ $cat.extraPageCostUsd }} USD per page{{ end }}.
+    </p>
+    {{- end }}
+    {{- end }}
+    {{- else }}
     <p class="submission-templates__pages">
         <strong>Page limit:</strong>
         {{- if eq .min .max }} {{ .min }} pages
@@ -12,6 +27,7 @@
         {{- else }} (excluding references); references may use up to {{ .referencesExtra }} additional page{{ if gt .referencesExtra 1 }}s{{ end }}.
         {{- end }}
     </p>
+    {{- end }}
     {{- end }}
     <p class="submission-templates__intro">
         Templates are available on the <a href="{{ $templates.guidelinesUrl }}" target="_blank" rel="noopener">Springer LNCS Conference Proceedings Guidelines</a> page. Please use one of the following templates:
