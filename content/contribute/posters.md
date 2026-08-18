@@ -36,8 +36,8 @@ The Microsoft CMT service is used for managing the peer-reviewing process for th
 All deadlines are 23:59 AoE (Anywhere on Earth).
 
 - **Poster Submission Deadline**: 7 August 2026
-- **Notification of Decisions**: 4 September 2026
-- **Camera-Ready Abstract and Poster Deadline**: 11 September 2026
+- **Notification of Decisions**: 15 September 2026
+- **Camera-Ready Abstract and Poster Deadline**: 20 September 2026
 
 ## Submission Guidelines
 
