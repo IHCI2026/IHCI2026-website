@@ -43,6 +43,89 @@ layout: single
 -   **Gang Li** --- _University of Bath, UK_
 -   **Ibrohimbek Yusupov** --- _TUIT named after Muhammad al Khwarizmi, Tashkent, Uzbekistan_
 -   **Nurfadhlina Mohd Sharef** --- _Universiti Putra Malaysia_
+-   **Lu Leng** --- _Nanchang Hangkong University, China_
+-   **Akos Nagy** --- _Kingston University_
+-   **Akshay Sharma** --- _Independent Researcher_
+-   **Alan Burden** --- _QUT_
+-   **Alejandro Guerra Manzanares** --- _University of Nottingham Ningbo China_
+-   **Alessandro Clocchiatti** --- _University of Torino_
+-   **Alessandro Contenti** --- _Independent Researcher_
+-   **Annamaria Szakonyi** --- _Embry-Riddle Aeronautical University_
+-   **Bin Jiang** --- _China University of Petroleum (East China)_
+-   **Carlos A. Jara** --- _University of Alicante_
+-   **Carter Sun** --- _The University of Sydney_
+-   **Chaoxing Wu** --- _Fuzhou University_
+-   **Charalampos Psarros** --- _Teesside University_
+-   **Cheng Qian** --- _Zhongkai University of Agriculture and Engineering_
+-   **Chenyu Wu** --- _Duke University_
+-   **Chin Poo Lee** --- _University of Nottingham Ningbo China_
+-   **Cristina Biris** --- _Lucian Blaga University of Sibiu_
+-   **Daiji Kobayashi** --- _Chitose Institute of Science and Technology_
+-   **Danqing Liu** --- _Eindhoven University of Technology_
+-   **Dashan Shang** --- _Institute of Microelectronics, Chinese Academy of Sciences_
+-   **David Chieng** --- _University of Nottingham Ningbo China_
+-   **Dhanush Gopal Battina** --- _University of North Texas_
+-   **Dheeraj Kumar Bansal** --- _Wipro_
+-   **Dominik Osinski** --- _NTNU_
+-   **Dr Nagamani Molakatala** --- _University of Hyderabad_
+-   **Gaolei Li** --- _Shanghai Jiaotong University_
+-   **Heng Yu** --- _University of Nottingham Ningbo China_
+-   **Houfang Liu** --- _Tsinghua University_
+-   **I Nyoman Darma Kotama** --- _Okayama University_
+-   **Isaac Van-Deste** --- _CeDRI_
+-   **Jan Treur** --- _Vrije Universiteit Amsterdam, Social AI Group, Netherlands_
+-   **Jia-Sheng Rao** --- _Beihang University_
+-   **Jiawei Li** --- _University of Nottingham Ningbo China_
+-   **Jinpeng Xu** --- _University of Leeds_
+-   **Jong Hoon Kim** --- _Kent State University_
+-   **Jordi Linares-Pellicer** --- _Universitat Politècnica de València_
+-   **Kian Ming Lim** --- _University of Nottingham Ningbo China_
+-   **Konstantinos Evangelidis** --- _International Hellenic University_
+-   **Kun Zhao** --- _Xi'an Jiaotong University_
+-   **Kun Lyu** --- _Queensland University of Technology_
+-   **Li Wu** --- _Nanjing University of Science & Technology_
+-   **Lili Gu** --- _Zhejiang Wanli University_
+-   **Maleese Durga Prasad** --- _University of Hyderabad_
+-   **Marc Kurz** --- _University of Applied Sciences Upper Austria_
+-   **Marek Sokol** --- _Faculty of Biomedical Engineering, Czech Technical University in Prague_
+-   **Maria Weber** --- _Saint Louis University_
+-   **Masitah Ghazali** --- _Universiti Teknologi Malaysia_
+-   **Matthew Pike** --- _University of Nottingham Ningbo China_
+-   **Michele Germani** --- _Università Politecnica delle Marche_
+-   **Mohamed Benmahdjoub** --- _Erasmus MC_
+-   **Mohd Helmy Abd Wahab** --- _University Tun Hussein Onn Malaysia_
+-   **Nabeel Bhat** --- _University of Antwerp & Imec Belgium_
+-   **Naga Sai Uday Kiran Bheemarpu** --- _Clean Earth Inc._
+-   **Nan Yang** --- _Beijing Technology and Business University_
+-   **Nikos Panopoulos** --- _University of Patras_
+-   **Niusha Shafiabady** --- _Australian Catholic University_
+-   **Nuno Verdelho Trindade** --- _University of Lisbon, Portugal_
+-   **Peng Lu** --- _Independent Researcher_
+-   **Qiaoling Huang** --- _Xiamen University_
+-   **Rahul Gupta** --- _Amazon Web Services_
+-   **Renjie Wu** --- _China North Artificial Intelligence & Innovation Research Institute, China_
+-   **Robert Fuior** --- _Grigore T. Popa University of Medicine and Pharmacy, Faculty of Medical Bioengineering_
+-   **Rossella Capotorto** --- _Sapienza University of Rome_
+-   **Sai Joshitha Kathari** --- _Independent Researcher_
+-   **Sai Ram Chappidi** --- _Salesforce.inc_
+-   **Sheikh Faisal Rashid** --- _DFKI_
+-   **Shenghai Yuan** --- _Nanyang Technological University_
+-   **Shin'ichi Konomi** --- _Kyushu University_
+-   **Shin'ichi Warisawa** --- _The University of Tokyo_
+-   **Srinivas Allam** --- _Core ITS LLC_
+-   **Stavroula Barbounaki** --- _Merchant Marine Academy of Aspropyrgos_
+-   **Tatiana Cardona** --- _Saint Louis University_
+-   **Tommaso Panigati** --- _Politecnico di Milano_
+-   **Tomohiro Tanikawa** --- _The University of Tokyo_
+-   **Varun Kumar Tambi** --- _JPMorgan Chase_
+-   **Vijayent Kohli** --- _Ford Motor Company_
+-   **Vivek Chenna** --- _National Institute of Technology_
+-   **Wan-Young Chung** --- _Pukyong National University, Korea_
+-   **Weijie Guo** --- _Xiamen University_
+-   **Xiaoqing Chai** --- _NingboTech University_
+-   **Yuan Yao** --- _University of Nottingham Ningbo China_
+-   **Zhanglin Cheng** --- _Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Science_
+-   **Zhanpeng Jin** --- _South China University of Technology_
 
 ## PROGRAMME CHAIRS
 
@@ -145,6 +228,3 @@ layout: single
 -   **Haonan Yao** --- _University of Nottingham Ningbo China, China_
 -   **Pallavi Singh** --- _IHCI Society_
 -   **Shashi Yadav** --- _Coikism Research Foundation_
-
-## TECHNICAL PROGRAM COMMITTEE
-- **Lu Leng** -- _Nanchang Hangkong University, China_
