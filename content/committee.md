@@ -75,6 +75,7 @@ layout: single
 ## INVITED SPEAKER CHAIRS
 
 -   **Xiangjian He (Sean)** --- _University of Nottingham Ningbo China, China_
+-   **Gang Li** --- _University of Bath, UK_
 -   **Genlang Chen** --- _NingboTech University, China_
 -   **Ikechi Ukaegbu** --- _University of West Alabama, USA_
 -   **Mathias Fonkam** --- _The Pennsylvania State University, USA_
@@ -142,7 +143,6 @@ layout: single
 ## TECHNICAL PROGRAMME COMMITTEE
 
 -   **Chee Onn Wong** --- _Multimedia University, Malaysia_
--   **Gang Li** --- _University of Bath, UK_
 -   **Ibrohimbek Yusupov** --- _TUIT named after Muhammad al Khwarizmi, Tashkent, Uzbekistan_
 -   **Nurfadhlina Mohd Sharef** --- _Universiti Putra Malaysia_
 -   **Lu Leng** --- _Nanchang Hangkong University, China_
