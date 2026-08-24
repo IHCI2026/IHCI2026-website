@@ -38,6 +38,7 @@ layout: single
 
 ## PROGRAMME CHAIRS
 
+-   **Qian Zhang** --- _University of Nottingham Ningbo China, China_
 -   **Matthew Pike** --- _University of Nottingham Ningbo China, China_
 -   **Kian Ming Lim** --- _University of Nottingham Ningbo China, China_
 -   **Jong-Hoon Kim** --- _Kent State University, USA_
@@ -141,7 +142,6 @@ layout: single
 ## TECHNICAL PROGRAMME COMMITTEE
 
 -   **Chee Onn Wong** --- _Multimedia University, Malaysia_
--   **Qian Zhang** --- _University of Nottingham Ningbo China, China_
 -   **Gang Li** --- _University of Bath, UK_
 -   **Ibrohimbek Yusupov** --- _TUIT named after Muhammad al Khwarizmi, Tashkent, Uzbekistan_
 -   **Nurfadhlina Mohd Sharef** --- _Universiti Putra Malaysia_
