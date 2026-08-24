@@ -164,8 +164,10 @@ layout: single
 -   **Dashan Shang** --- _Institute of Microelectronics, Chinese Academy of Sciences_
 -   **Dhanush Gopal Battina** --- _University of North Texas_
 -   **Dheeraj Kumar Bansal** --- _Wipro_
+-   **Dinghuang Zhang** --- _University of Portsmouth_
 -   **Dominik Osinski** --- _NTNU_
 -   **Gaolei Li** --- _Shanghai Jiaotong University_
+-   **Heba Afify** --- _MTI University_
 -   **Houfang Liu** --- _Tsinghua University_
 -   **I Nyoman Darma Kotama** --- _Okayama University_
 -   **Isaac Van-Deste** --- _CeDRI_
