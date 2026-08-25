@@ -177,6 +177,7 @@ layout: single
 -   **Konstantinos Evangelidis** --- _International Hellenic University_
 -   **Kun Zhao** --- _Xi'an Jiaotong University_
 -   **Kun Lyu** --- _Queensland University of Technology_
+-   **Kyosuke Futami** --- _Ritsumeikan University_
 -   **Li Wu** --- _Nanjing University of Science & Technology_
 -   **Lili Gu** --- _Zhejiang Wanli University_
 -   **Maleese Durga Prasad** --- _University of Hyderabad_
