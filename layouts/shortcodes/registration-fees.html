@@ -6,7 +6,7 @@
     </div>
     <ul class="registration-fees__list">
         <li class="registration-fees__item">
-            <span class="registration-fees__name">Student</span>
+            <span class="registration-fees__name">Student <span class="registration-fees__name-note">(does not include Full Paper registration)</span></span>
             <span class="registration-fees__price" data-label="Early Bird">400 USD</span>
             <span class="registration-fees__price" data-label="On-Site/Late">450 USD</span>
         </li>
@@ -93,6 +93,13 @@
 .registration-fees__name {
     font-weight: 600;
     color: var(--color-primary);
+}
+
+.registration-fees__name-note {
+    display: block;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    color: var(--color-secondary-darker);
 }
 
 .registration-fees__price {
