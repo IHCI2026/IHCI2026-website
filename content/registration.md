@@ -23,4 +23,6 @@ Please register through the AiScholar platform using the link below. You will fi
 
 ## Registration Fees
 
+**IHCI Society Membership Discount:** Active IHCI Society members are eligible for a 10% registration discount. Proof of active membership is required. For more information about IHCI Society membership, please visit [https://www.ihci-society.org/members/guide](https://www.ihci-society.org/members/guide).
+
 {{< registration-fees >}}
