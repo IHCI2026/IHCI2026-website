@@ -107,6 +107,36 @@
     width: 4rem;
 }
 
+.program-split {
+    display: flex;
+}
+
+.program-split__cell {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.program-split__cell + .program-split__cell {
+    border-left: 0.0625rem solid var(--color-shadow);
+    padding-left: 0.875rem;
+    margin-left: 0.875rem;
+}
+
+@media screen and (width <= 576px) {
+    .program-split {
+        flex-direction: column;
+    }
+
+    .program-split__cell + .program-split__cell {
+        border-left: none;
+        border-top: 0.0625rem solid var(--color-shadow);
+        padding-left: 0;
+        margin-left: 0;
+        padding-top: 0.625rem;
+        margin-top: 0.625rem;
+    }
+}
+
 .program-session {
     margin-bottom: 2.5rem;
 }
