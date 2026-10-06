@@ -80,3 +80,4 @@ program_page.paper_id: ID
 program_page.paper_title: Title
 program_page.poster_session: Poster
 program_page.demo_session: Demo Session
+program_page.tutorial_session: Tutorial Session

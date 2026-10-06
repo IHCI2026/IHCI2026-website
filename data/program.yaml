@@ -122,7 +122,11 @@ schedule:
                 rooms: ['', '', '']
                 common: 'Demo Session
 
-                    IEB Alumni Zone'
+                    IEB Alumni Zone
+
+                    <a href="#tutorial-session"><strong>Tutorial Session</strong></a>
+
+                    IEB Trio Lobby'
               - time: 11:30–12:00
                 rooms: ['', '', '']
                 common: Lunch
@@ -611,3 +615,7 @@ demos:
           title: 'SenseBridge: Action-Based Pain Reporting for Nonspeaking Patients'
         - id: '154'
           title: Multimodal Intention-Aware VR Interaction with Adaptive Assistance for Upper-Limb Rehabilitation
+tutorial:
+    datetime: Fri · 30 Oct · 10:30–11:30
+    venue: IEB Trio Lobby
+    title: 'From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI'

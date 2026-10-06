@@ -299,6 +299,29 @@
                         </table>
                     </div>
                 </article>
+
+                <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tutorial_session" }}</h2>
+                <article class="program-session" id="tutorial-session">
+                    <h2 class="heading heading--3 program-session__heading">{{ T "program_page.tutorial_session" }}</h2>
+                    <p class="paragraph program-session__meta">
+                        {{ $program.tutorial.datetime }} ·
+                        {{ $program.tutorial.venue }}
+                    </p>
+                    <div class="program-table-wrapper">
+                        <table class="program-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">{{ T "program_page.paper_title" }}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{{ $program.tutorial.title }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
             </section>
         </div>
     {{- end }}
