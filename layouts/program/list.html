@@ -191,9 +191,9 @@
                                             {{- range $lineIndex, $line := split . "\n" }}
                                                 {{- if $lineIndex }}<br />{{ end }}
                                                 {{- if eq $lineIndex 0 }}
-                                                    <strong>{{ $line }}</strong>
+                                                    <strong>{{ $line | safeHTML }}</strong>
                                                 {{- else }}
-                                                    {{ $line }}
+                                                    {{ $line | safeHTML }}
                                                 {{- end }}
                                             {{- end }}
                                         </td>

@@ -3,9 +3,9 @@ title: IHCI 2026
 buildFuture: true
 
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
+    goldmark:
+        renderer:
+            unsafe: true
 
 menus:
     main:
@@ -97,6 +97,11 @@ menus:
           url: /venue/transportation/
           parent: venue
           weight: 63
+        - identifier: half-day-tour
+          name: Half-Day Tour
+          url: /venue/tour/
+          parent: venue
+          weight: 64
 
 languages:
     en:
@@ -239,23 +244,23 @@ params:
                   type: bronze
                   logo: images/sponsors/nbiot/nbiot.jpg
             specialIssues:
-                - title: "Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)"
+                - title: 'Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)'
                   url: https://www.mdpi.com/journal/sensors/special_issues/0W09FTDH4C
                   logo: images/sensors.png
                   show: true
-                - title: "Intelligent Human-Computer Interaction Systems: AI-Integrated Sensing Technologies (IHCI 2026)"
+                - title: 'Intelligent Human-Computer Interaction Systems: AI-Integrated Sensing Technologies (IHCI 2026)'
                   url: https://www.mdpi.com/journal/electronics/special_issues/9G3UW8SM8V
                   logo: images/electronics.jpg
                   show: true
             featuredSessions:
             colors:
-                primaryLighter: '#37B4B0'  # Trent Turquoise
-                primary: '#10263B'         # Nottingham Blue
-                primaryDarker: '#0a1825'   # Darker Nottingham Blue
-                primaryDarkest: '#10263B'  # Nottingham Blue
-                secondary: '#FAF6EF'       # Portland Stone
+                primaryLighter: '#37B4B0' # Trent Turquoise
+                primary: '#10263B' # Nottingham Blue
+                primaryDarker: '#0a1825' # Darker Nottingham Blue
+                primaryDarkest: '#10263B' # Nottingham Blue
+                secondary: '#FAF6EF' # Portland Stone
                 secondaryDarker: '#637381'
-                track: '#37B4B0'           # Trent Turquoise
+                track: '#37B4B0' # Trent Turquoise
                 shadow: '#a6afc366'
             trackCategoryTitle: Track
 
@@ -278,8 +283,8 @@ params:
                             min: 10
                             max: 12
                             referencesExtra: 0
-                            extraPages: 3          # additional pages allowed at extra cost
-                            extraPageCostUsd: 50   # per extra page
+                            extraPages: 3 # additional pages allowed at extra cost
+                            extraPageCostUsd: 50 # per extra page
                         short:
                             min: 6
                             max: 9
