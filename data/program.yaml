@@ -524,11 +524,6 @@ posters:
           - id: '150'
             title: Protocol Aware Multi Representation CNN for Upper Limb Rehabilitation Motion and Quality Classification
             mode: ''
-          - id: '152'
-            title:
-                'A Survey on Post-Quantum Secure Traffic Governance in Software-Defined Networks: Digital Twins, Intent-Based Networking,
-                and Explainable AI'
-            mode: VIRTUAL
     - datetime: Fri · 30 Oct · 15:00–16:00
       venue: IEB Alumni Zone
       session: Session 2
