@@ -137,40 +137,17 @@
         </div>
     {{- else }}
         {{- $program := .Site.Data.program }}
-        {{- $tabs := slice "overview" "demos" }}
-
-        {{- range $index, $tab := $tabs }}
-            <input
-                name="program-tab"
-                type="radio"
-                class="program-tab-input"
-                value="tab-{{ $index }}"
-                id="program-tab-{{ $index }}"
-                {{- if eq $index 0 }}
-                    checked
-                {{- end }} />
-        {{- end }}
 
 
         <header class="section-container">
             <div class="section">
                 <h1 class="heading heading--1">{{ .Title }}</h1>
                 {{ .Content }}
-                <menu class="program-tabs" role="tablist">
-                    {{- range $index, $tab := $tabs }}
-                        <li role="presentation">
-                            <label class="program-tabs__label" role="tab" for="program-tab-{{ $index }}">
-                                {{ T (printf "program_page.tab_%s" $tab) }}
-                            </label>
-                        </li>
-                    {{- end }}
-                </menu>
             </div>
         </header>
 
         <div class="section-container">
-            {{/* Tab 1: Program overview grid (time × day), oral sessions, and papers */}}
-            <section class="section program-panel" data-tab="0">
+            <section class="section">
                 <div class="paragraph program-panel__subtitle">{{ $program.overview.subtitle | markdownify }}</div>
                 <div class="program-table-wrapper">
                     <table class="program-table">
@@ -327,10 +304,9 @@
                         </div>
                     </article>
                 {{- end }}
-            </section>
 
-            {{/* Tab 2: Demo schedule */}}
-            <section class="section program-panel" data-tab="1">
+
+                <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_demos" }}</h2>
                 <article class="program-session">
                     <h2 class="heading heading--3 program-session__heading">{{ T "program_page.demo_session" }}</h2>
                     <p class="paragraph program-session__meta">
