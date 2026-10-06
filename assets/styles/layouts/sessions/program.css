@@ -122,10 +122,6 @@
     width: 4rem;
 }
 
-.program-table__mode-column {
-    width: 7rem;
-}
-
 .program-session {
     margin-bottom: 2.5rem;
 }
@@ -137,18 +133,6 @@
 .program-session__meta {
     color: var(--color-secondary-darker);
     margin-bottom: 0.75rem;
-}
-
-.program-badge {
-    display: inline-block;
-    padding: 0.125rem 0.5rem;
-    border-radius: 0.25rem;
-    background-color: var(--color-primary-lighter);
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
 }
 
 @media screen and (width <= 576px) {

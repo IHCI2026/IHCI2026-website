@@ -283,7 +283,6 @@
                                     <tr>
                                         <th scope="col" class="program-table__id-column">{{ T "program_page.paper_id" }}</th>
                                         <th scope="col">{{ T "program_page.paper_title" }}</th>
-                                        <th scope="col" class="program-table__mode-column">{{ T "program_page.mode" }}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -291,11 +290,6 @@
                                         <tr>
                                             <td>{{ .id }}</td>
                                             <td>{{ .title }}</td>
-                                            <td>
-                                                {{- if .mode }}
-                                                    <span class="program-badge">{{ .mode }}</span>
-                                                {{- end }}
-                                            </td>
                                         </tr>
                                     {{- end }}
                                 </tbody>
@@ -319,7 +313,6 @@
                                     <tr>
                                         <th scope="col" class="program-table__id-column">{{ T "program_page.paper_id" }}</th>
                                         <th scope="col">{{ T "program_page.paper_title" }}</th>
-                                        <th scope="col" class="program-table__mode-column">{{ T "program_page.mode" }}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -327,11 +320,6 @@
                                         <tr>
                                             <td>{{ .id }}</td>
                                             <td>{{ .title }}</td>
-                                            <td>
-                                                {{- if .mode }}
-                                                    <span class="program-badge">{{ .mode }}</span>
-                                                {{- end }}
-                                            </td>
                                         </tr>
                                     {{- end }}
                                 </tbody>
