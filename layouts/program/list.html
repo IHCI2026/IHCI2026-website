@@ -136,7 +136,7 @@
             {{ end }}
         </div>
     {{- else }}
-        {{- $program := hugo.Data.program }}
+        {{- $program := .Site.Data.program }}
         {{- $tabs := slice "overview" "oral" "papers" "posters" "demos" }}
 
         {{- range $index, $tab := $tabs }}
