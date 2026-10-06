@@ -8,6 +8,8 @@ Explore Ningbo on an optional half-day tour on the morning of **Saturday 31 Octo
 
 All routes include English-language commentary, a driver, a tour guide, and vehicle transport for the itinerary. The meeting and return point will be confirmed before the conference.
 
+To register for a tour route, please contact **program@ihci2026.com** by **25 October 2026** at the latest. We will send a confirmation by **27 October 2026** to collect payment for the tour, provided the minimum number of participants for the route is reached.
+
 **<font color=LightSeaGreen>Inquiries: program@ihci2026.com</font>**
 
 ## Route 1: City Walk
