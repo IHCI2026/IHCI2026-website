@@ -92,9 +92,6 @@ schedule:
 
                       Chair: TBC'
                 common: ''
-              - time: 18:00–19:00
-                rooms: ['', '', '']
-                common: Committee Members / Speakers Dinner
         - day: Fri · 30 Oct
           rows:
               - time: 08:30–09:00
@@ -170,7 +167,7 @@ schedule:
 
                       Chair: TBC'
                 common: ''
-              - time: 18:00–19:00
+              - time: 18:00–21:00
                 rooms: ['', '', '']
                 common: Banquet / Best Paper Award / Closing Ceremony
         - day: Sat · 31 Oct
