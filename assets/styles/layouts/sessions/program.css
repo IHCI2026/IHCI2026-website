@@ -53,25 +53,19 @@
 }
 
 [value='tab-0'].program-tab-input:checked ~ * .program-panel[data-tab='0'],
-[value='tab-1'].program-tab-input:checked ~ * .program-panel[data-tab='1'],
-[value='tab-2'].program-tab-input:checked ~ * .program-panel[data-tab='2'],
-[value='tab-3'].program-tab-input:checked ~ * .program-panel[data-tab='3'] {
+[value='tab-1'].program-tab-input:checked ~ * .program-panel[data-tab='1'] {
     display: block;
 }
 
 /* Highlight label of the currently selected tab. */
 [value='tab-0'].program-tab-input:checked ~ * [for='program-tab-0'],
-[value='tab-1'].program-tab-input:checked ~ * [for='program-tab-1'],
-[value='tab-2'].program-tab-input:checked ~ * [for='program-tab-2'],
-[value='tab-3'].program-tab-input:checked ~ * [for='program-tab-3'] {
+[value='tab-1'].program-tab-input:checked ~ * [for='program-tab-1'] {
     color: var(--color-primary);
     font-weight: 600;
 }
 
 [value='tab-0'].program-tab-input:checked ~ * [for='program-tab-0']::after,
-[value='tab-1'].program-tab-input:checked ~ * [for='program-tab-1']::after,
-[value='tab-2'].program-tab-input:checked ~ * [for='program-tab-2']::after,
-[value='tab-3'].program-tab-input:checked ~ * [for='program-tab-3']::after {
+[value='tab-1'].program-tab-input:checked ~ * [for='program-tab-1']::after {
     transform: scaleX(1);
 }
 

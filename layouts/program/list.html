@@ -137,7 +137,7 @@
         </div>
     {{- else }}
         {{- $program := .Site.Data.program }}
-        {{- $tabs := slice "overview" "papers" "posters" "demos" }}
+        {{- $tabs := slice "overview" "demos" }}
 
         {{- range $index, $tab := $tabs }}
             <input
@@ -169,7 +169,7 @@
         </header>
 
         <div class="section-container">
-            {{/* Tab 1: Program overview grid (time × day) */}}
+            {{/* Tab 1: Program overview grid (time × day), oral sessions, and papers */}}
             <section class="section program-panel" data-tab="0">
                 <div class="paragraph program-panel__subtitle">{{ $program.overview.subtitle | markdownify }}</div>
                 <div class="program-table-wrapper">
@@ -268,15 +268,13 @@
                         </tbody>
                     </table>
                 </div>
-            </section>
 
-            {{/* Tab 2: Detailed paper schedule */}}
-            <section class="section program-panel" data-tab="1">
+                <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_papers" }}</h2>
                 {{- range $program.papers }}
                     <article class="program-session">
                         <h2 class="heading heading--3 program-session__heading">{{ .session }}</h2>
                         <p class="paragraph program-session__meta">
-                            {{ .datetime }} · {{ .venue }} · {{ .type }} · {{ T "program_page.chair" }}:
+                            {{ .datetime }} · {{ .venue }} · {{ T "program_page.chair" }}:
                             {{ .chair }}
                         </p>
                         <div class="program-table-wrapper">
@@ -305,10 +303,9 @@
                         </div>
                     </article>
                 {{- end }}
-            </section>
 
-            {{/* Tab 4: Detailed poster schedule */}}
-            <section class="section program-panel" data-tab="2">
+
+                <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_posters" }}</h2>
                 {{- range $program.posters }}
                     <article class="program-session">
                         <h2 class="heading heading--3 program-session__heading">
@@ -344,8 +341,8 @@
                 {{- end }}
             </section>
 
-            {{/* Tab 5: Demo schedule */}}
-            <section class="section program-panel" data-tab="3">
+            {{/* Tab 2: Demo schedule */}}
+            <section class="section program-panel" data-tab="1">
                 <article class="program-session">
                     <h2 class="heading heading--3 program-session__heading">{{ T "program_page.demo_session" }}</h2>
                     <p class="paragraph program-session__meta">
