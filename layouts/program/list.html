@@ -137,7 +137,7 @@
         </div>
     {{- else }}
         {{- $program := .Site.Data.program }}
-        {{- $tabs := slice "overview" "oral" "papers" "posters" "demos" }}
+        {{- $tabs := slice "overview" "papers" "posters" "demos" }}
 
         {{- range $index, $tab := $tabs }}
             <input
@@ -231,11 +231,9 @@
                         </table>
                     </div>
                 {{- end }}
-            </section>
 
-            {{/* Tab 2: Oral session grid (time × room) */}}
-            <section class="section program-panel" data-tab="1">
-                <div class="paragraph program-panel__subtitle">{{ $program.oral.subtitle | markdownify }}</div>
+                <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_oral" }}</h2>
+                <div class="paragraph">{{ $program.oral.subtitle | markdownify }}</div>
                 <div class="program-table-wrapper">
                     <table class="program-table">
                         <thead>
@@ -260,7 +258,7 @@
                                                 {{- else -}}
                                                     {{ $line }}
                                                 {{- end -}}
-                                            {{- end }}
+                                            {{- end -}}
                                         </td>
                                     {{- end }}
                                     <td>{{ replace .common "\n" "<br />" | safeHTML }}</td>
@@ -271,8 +269,8 @@
                 </div>
             </section>
 
-            {{/* Tab 3: Detailed paper schedule */}}
-            <section class="section program-panel" data-tab="2">
+            {{/* Tab 2: Detailed paper schedule */}}
+            <section class="section program-panel" data-tab="1">
                 {{- range $program.papers }}
                     <article class="program-session">
                         <h2 class="heading heading--3 program-session__heading">{{ .session }}</h2>
@@ -309,7 +307,7 @@
             </section>
 
             {{/* Tab 4: Detailed poster schedule */}}
-            <section class="section program-panel" data-tab="3">
+            <section class="section program-panel" data-tab="2">
                 {{- range $program.posters }}
                     <article class="program-session">
                         <h2 class="heading heading--3 program-session__heading">
@@ -346,7 +344,7 @@
             </section>
 
             {{/* Tab 5: Demo schedule */}}
-            <section class="section program-panel" data-tab="4">
+            <section class="section program-panel" data-tab="3">
                 <article class="program-session">
                     <h2 class="heading heading--3 program-session__heading">{{ T "program_page.demo_session" }}</h2>
                     <p class="paragraph program-session__meta">
