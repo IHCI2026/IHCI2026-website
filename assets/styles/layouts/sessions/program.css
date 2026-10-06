@@ -68,13 +68,11 @@
     font-size: 0.875em;
 }
 
-.program-table__meta strong {
+.program-table--schedule td strong {
     color: var(--color-primary);
-    font-size: 0.9375rem;
 }
 
 .program-table--schedule td a {
-    color: var(--color-primary);
     text-decoration: none;
 }
 

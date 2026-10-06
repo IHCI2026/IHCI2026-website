@@ -119,14 +119,13 @@ schedule:
 
                     IEB Trio Lobby'
               - time: 10:30–11:30
-                rooms: ['', '', '']
-                common: 'Demo Session
+                split:
+                    - 'Demo Session
 
-                    IEB Alumni Zone
+                      IEB Alumni Zone'
+                    - 'Tutorial Session: From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI
 
-                    <strong>Tutorial Session: From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI</strong>
-
-                    IEB Trio Lobby'
+                      IEB Trio Lobby'
               - time: 11:30–12:00
                 rooms: ['', '', '']
                 common: Lunch

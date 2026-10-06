@@ -164,7 +164,36 @@
                                     <th colspan="{{ add (len $program.schedule.rooms) 1 }}" scope="row">{{ .day }}</th>
                                 </tr>
                                 {{- range .rows }}
-                                    {{- if .common }}
+                                    {{- if .split }}
+                                        <tr>
+                                            <th scope="row">{{ .time }}</th>
+                                            {{- $roomCount := len $program.schedule.rooms }}
+                                            {{- $splitCount := len .split }}
+                                            {{- range $index, $cell := .split }}
+                                                {{- $colspan := 1 }}
+                                                {{- if eq $index (sub $splitCount 1) }}
+                                                    {{- $colspan = add (sub $roomCount $splitCount) 1 }}
+                                                {{- end }}
+                                                <td {{- if gt $colspan 1 }}colspan="{{ $colspan }}"{{- end }}>
+                                                    {{- range $lineIndex, $line := split $cell "\n" }}
+                                                        {{- if $lineIndex }}<br />{{ end }}
+                                                        {{- if eq $lineIndex 0 }}
+                                                            {{- $anchor := $line | urlize | replaceRE "\\." "" }}
+                                                            {{- if in $anchors $anchor }}
+                                                                <a href="#{{ $anchor }}">
+                                                                    <strong>{{ $line | safeHTML }}</strong>
+                                                                </a>
+                                                            {{- else }}
+                                                                <strong>{{ $line | safeHTML }}</strong>
+                                                            {{- end }}
+                                                        {{- else }}
+                                                            <span class="program-table__meta">{{ $line | safeHTML }}</span>
+                                                        {{- end }}
+                                                    {{- end }}
+                                                </td>
+                                            {{- end }}
+                                        </tr>
+                                    {{- else if .common }}
                                         <tr class="program-table__common-row">
                                             <th scope="row">{{ .time }}</th>
                                             <td colspan="{{ len $program.schedule.rooms }}">
