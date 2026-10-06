@@ -197,13 +197,10 @@ oral:
               13:00–15:00'
           rooms:
               - - R1. Accessible & Inclusive Interaction
-                - REGULAR · 5 papers
                 - 'Chair: TBC'
               - - SS3. Wearable, IoT & Smart Interactive Systems
-                - SPECIAL · 5 papers
                 - 'Chair: Prof. David Chieng'
               - - R2. Multimodal Sensing, Emotion & Explainable AI
-                - REGULAR · 5 papers
                 - 'Chair: TBC'
           common: ''
         - time: 'Thu · 29 Oct
@@ -221,13 +218,10 @@ oral:
               16:00–18:00'
           rooms:
               - - R3. UX, Search & Interactive Digital Services
-                - REGULAR · 5 papers
                 - 'Chair: TBC'
               - - R4. LLMs, Retrieval & Agentic AI
-                - REGULAR · 5 papers
                 - 'Chair: Prof. Nagaraju Gundala'
               - - SS4. Human–Robot Interaction & Robot Intelligence
-                - SPECIAL · 5 papers
                 - 'Chair: TBC'
           common: ''
         - time: 'Fri · 30 Oct
@@ -235,13 +229,10 @@ oral:
               13:00–15:00'
           rooms:
               - - R5. VR, Creative Media & Cultural Interaction
-                - REGULAR · 5 papers
                 - 'Chair: Prof. Gang Li'
               - - SS5. Human-Centred AI, Trust & Responsible Systems
-                - SPECIAL · 5 papers
                 - 'Chair: Prof. Long Chen'
               - - SS6. AI for Education, Language & Social Applications
-                - SPECIAL · 5 papers
                 - 'Chair: TBC'
           common: ''
         - time: 'Fri · 30 Oct
@@ -259,13 +250,10 @@ oral:
               16:00–18:00'
           rooms:
               - - R6. Secure, Sustainable & Intelligent Infrastructure
-                - REGULAR · 5 papers
                 - 'Chair: TBC'
               - - SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
-                - SPECIAL · 5 papers
                 - 'Chair: Prof. Perugu Shyam'
               - - SS2. On-Device AI for Human-AI Interaction
-                - SPECIAL · 5 papers
                 - 'Chair: TBC'
           common: ''
 papers:
