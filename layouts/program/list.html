@@ -150,7 +150,7 @@
             <section class="section">
                 <div class="paragraph program-panel__subtitle">{{ $program.schedule.subtitle | markdownify }}</div>
                 <div class="program-table-wrapper">
-                    <table class="program-table">
+                    <table class="program-table program-table--schedule">
                         <thead>
                             <tr>
                                 <th scope="col">{{ T "program_page.time" }}</th>
@@ -165,20 +165,23 @@
                                     <th colspan="{{ add (len $program.schedule.rooms) 1 }}" scope="row">{{ .day }}</th>
                                 </tr>
                                 {{- range .rows }}
-                                    <tr>
-                                        <th scope="row">{{ .time }}</th>
-                                        {{- if .common }}
+                                    {{- if .common }}
+                                        <tr class="program-table__common-row">
+                                            <th scope="row">{{ .time }}</th>
                                             <td colspan="{{ len $program.schedule.rooms }}">
                                                 {{- range $lineIndex, $line := split .common "\n" }}
                                                     {{- if $lineIndex }}<br />{{ end }}
                                                     {{- if eq $lineIndex 0 }}
                                                         <strong>{{ $line | safeHTML }}</strong>
                                                     {{- else }}
-                                                        {{ $line | safeHTML }}
+                                                        <span class="program-table__meta">{{ $line | safeHTML }}</span>
                                                     {{- end }}
                                                 {{- end }}
                                             </td>
-                                        {{- else }}
+                                        </tr>
+                                    {{- else }}
+                                        <tr>
+                                            <th scope="row">{{ .time }}</th>
                                             {{- range .rooms }}
                                                 <td>
                                                     {{- range $lineIndex, $line := split . "\n" }}
@@ -186,13 +189,13 @@
                                                         {{- if eq $lineIndex 0 }}
                                                             <strong>{{ $line | safeHTML }}</strong>
                                                         {{- else }}
-                                                            {{ $line | safeHTML }}
+                                                            <span class="program-table__meta">{{ $line | safeHTML }}</span>
                                                         {{- end }}
                                                     {{- end }}
                                                 </td>
                                             {{- end }}
-                                        {{- end }}
-                                    </tr>
+                                        </tr>
+                                    {{- end }}
                                 {{- end }}
                             {{- end }}
                         </tbody>

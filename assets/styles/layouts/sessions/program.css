@@ -39,7 +39,7 @@
     color: var(--color-primary);
 }
 
-.program-table tbody tr:nth-child(even) {
+.program-session .program-table tbody tr:nth-child(even) {
     background-color: var(--color-secondary);
 }
 
@@ -48,10 +48,24 @@
 }
 
 .program-table tbody tr.program-table__day-row th {
-    background-color: var(--color-secondary);
-    color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
     font-weight: 600;
+    letter-spacing: 0.03em;
     white-space: normal;
+}
+
+.program-table tbody tr.program-table__common-row td {
+    background-color: var(--color-secondary);
+}
+
+.program-table tbody tr.program-table__common-row:hover td {
+    background-color: color-mix(in srgb, var(--color-primary-lighter) 12%, white);
+}
+
+.program-table__meta {
+    color: var(--color-secondary-darker);
+    font-size: 0.875em;
 }
 
 .program-table__id-column {
