@@ -26,6 +26,11 @@ Begin at Tianyi Pavilion Museum to discover Ningbo's book-collecting tradition a
 | 11:20–12:00 | Walk around the Drum Tower area, hear about the neighbourhood, and enjoy time for photographs and exploration. |
 | 12:00–12:30 | Regroup and return by vehicle to the designated drop-off point.                                                |
 
+{{< gallery >}}
+images/venue/tour/tianyi-pavilion-gate.jpg
+images/venue/tour/drum-tower.jpg
+{{< /gallery >}}
+
 ## Route 2: Lakeside Scenery
 
 **USD 40 per person · minimum 20 participants**
@@ -42,6 +47,11 @@ Start the morning beside Dongqian Lake, enjoying the scenery, a lakeside walk, a
 | 11:00–11:30 | Regroup and transfer to the Academicians Center, allowing time for boarding and arrival.                                    |
 | 11:30–12:00 | Take a stroll through the Academicians Center park and enjoy its green spaces and photo opportunities.                      |
 | 12:00–12:30 | Regroup and return by vehicle to the designated drop-off point.                                                             |
+
+{{< gallery >}}
+images/venue/tour/dongqian-lake.jpg
+images/venue/tour/xiaoputuo.jpg
+{{< /gallery >}}
 
 Note: The Academicians Center refers to the park in Yinzhou's higher education district. To fit the half-day window, the Dongqian Lake and Xiaoputuo visit focuses on selected stops rather than a full circuit of the lake. Timing is indicative — transfer times will be checked once the meeting point is confirmed, and if a 12:30 return is not feasible, visit durations will be revised and the final programme confirmed in advance.
 
@@ -62,10 +72,13 @@ Visit the Ningbo Museum for an English-guided tour of selected galleries on Ning
 | 11:30–11:50 | View the museum exterior, take photographs, pause for a short break, and regroup.          |
 | 11:50–12:30 | Return by vehicle to the designated drop-off point.                                        |
 
+{{< gallery >}}
+images/venue/tour/ningbo-museum.jpg
+images/venue/tour/museum-exhibit.jpg
+{{< /gallery >}}
+
 ## Pricing and Arrangements
 
 -   Prices are in USD per person and include English-language commentary, a driver, a tour guide, and itinerary transport. Minimum group sizes are 15 participants for Route 1 and 20 participants each for Routes 2 and 3.
 -   The meeting point and return point are to be confirmed. Whether admission tickets, meals, and other unlisted items are included will be confirmed in the final proposal.
 -   All routes are planned for a 09:00 departure and a 12:30 return, including all transfers.
-
-[Download the full tour proposal (PDF)](/files/IHCI_Half_day_Trip_Proposal.pdf)
