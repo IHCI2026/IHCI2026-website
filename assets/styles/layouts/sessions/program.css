@@ -77,6 +77,39 @@
     text-decoration: underline;
 }
 
+.program-table--schedule thead th {
+    position: sticky;
+    top: 6.75rem;
+    z-index: 1;
+}
+
+.program-table--schedule {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-top: 0.0625rem solid var(--color-shadow);
+    border-right: 0.0625rem solid var(--color-shadow);
+}
+
+.program-table--schedule th,
+.program-table--schedule td {
+    border-top: none;
+    border-right: none;
+}
+
+.program-table-wrapper--schedule {
+    overflow-x: visible;
+}
+
+@media screen and (width <= 576px) {
+    .program-table-wrapper--schedule {
+        overflow-x: auto;
+    }
+
+    .program-table--schedule thead th {
+        top: 6.25rem;
+    }
+}
+
 .program-table__id-column {
     width: 4rem;
 }
