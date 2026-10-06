@@ -149,6 +149,13 @@
         <div class="section-container">
             <section class="section">
                 <div class="paragraph program-panel__subtitle">{{ $program.schedule.subtitle | markdownify }}</div>
+                {{- $anchors := slice "demo-session" }}
+                {{- range $program.papers }}
+                    {{- $anchors = $anchors | append (.session | urlize | replaceRE "\\." "") }}
+                {{- end }}
+                {{- range $program.posters }}
+                    {{- $anchors = $anchors | append (printf "poster-session-%s" .session) }}
+                {{- end }}
                 <div class="program-table-wrapper">
                     <table class="program-table program-table--schedule">
                         <thead>
@@ -172,7 +179,12 @@
                                                 {{- range $lineIndex, $line := split .common "\n" }}
                                                     {{- if $lineIndex }}<br />{{ end }}
                                                     {{- if eq $lineIndex 0 }}
-                                                        <strong>{{ $line | safeHTML }}</strong>
+                                                        {{- $anchor := $line | urlize | replaceRE "\\." "" }}
+                                                        {{- if in $anchors $anchor }}
+                                                            <a href="#{{ $anchor }}"><strong>{{ $line | safeHTML }}</strong></a>
+                                                        {{- else }}
+                                                            <strong>{{ $line | safeHTML }}</strong>
+                                                        {{- end }}
                                                     {{- else }}
                                                         <span class="program-table__meta">{{ $line | safeHTML }}</span>
                                                     {{- end }}
@@ -187,7 +199,14 @@
                                                     {{- range $lineIndex, $line := split . "\n" }}
                                                         {{- if $lineIndex }}<br />{{ end }}
                                                         {{- if eq $lineIndex 0 }}
-                                                            <strong>{{ $line | safeHTML }}</strong>
+                                                            {{- $anchor := $line | urlize | replaceRE "\\." "" }}
+                                                            {{- if in $anchors $anchor }}
+                                                                <a href="#{{ $anchor }}">
+                                                                    <strong>{{ $line | safeHTML }}</strong>
+                                                                </a>
+                                                            {{- else }}
+                                                                <strong>{{ $line | safeHTML }}</strong>
+                                                            {{- end }}
                                                         {{- else }}
                                                             <span class="program-table__meta">{{ $line | safeHTML }}</span>
                                                         {{- end }}
@@ -204,7 +223,7 @@
 
                 <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_papers" }}</h2>
                 {{- range $program.papers }}
-                    <article class="program-session">
+                    <article class="program-session" id="{{ .session | urlize | replaceRE "\\." "" }}">
                         <h2 class="heading heading--3 program-session__heading">{{ .session }}</h2>
                         <p class="paragraph program-session__meta">
                             {{ .datetime }} · {{ .venue }} · {{ T "program_page.chair" }}:
@@ -234,7 +253,7 @@
 
                 <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_posters" }}</h2>
                 {{- range $program.posters }}
-                    <article class="program-session">
+                    <article class="program-session" id="poster-session-{{ .session }}">
                         <h2 class="heading heading--3 program-session__heading">
                             {{ T "program_page.poster_session" }}
                             {{ .session }}
@@ -263,7 +282,7 @@
 
 
                 <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_demos" }}</h2>
-                <article class="program-session">
+                <article class="program-session" id="demo-session">
                     <h2 class="heading heading--3 program-session__heading">{{ T "program_page.demo_session" }}</h2>
                     <p class="paragraph program-session__meta">
                         {{ $program.demos.datetime }} ·
