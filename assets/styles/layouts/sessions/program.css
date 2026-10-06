@@ -1,0 +1,180 @@
+.program-tab-input {
+    display: none;
+}
+
+.program-tabs {
+    all: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 2rem;
+    margin-top: 2rem;
+    border-bottom: 0.0625rem solid var(--color-shadow);
+}
+
+.program-tabs__label {
+    all: unset;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    padding: 0.625rem 0.25rem;
+    color: var(--color-secondary-darker);
+    font-size: 1.0625rem;
+    font-weight: 500;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: color 0.25s ease;
+}
+
+.program-tabs__label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.0625rem;
+    height: 0.1875rem;
+    border-radius: 0.1875rem 0.1875rem 0 0;
+    background-color: var(--color-primary-lighter);
+    transform: scaleX(0);
+    transition: transform 0.25s ease;
+}
+
+.program-tabs__label:hover {
+    color: var(--color-primary);
+}
+
+.program-tabs__label:hover::after {
+    transform: scaleX(0.5);
+}
+
+/* Show only the panel of the currently selected tab. */
+.program-panel {
+    display: none;
+}
+
+[value='tab-0'].program-tab-input:checked ~ * .program-panel[data-tab='0'],
+[value='tab-1'].program-tab-input:checked ~ * .program-panel[data-tab='1'],
+[value='tab-2'].program-tab-input:checked ~ * .program-panel[data-tab='2'],
+[value='tab-3'].program-tab-input:checked ~ * .program-panel[data-tab='3'],
+[value='tab-4'].program-tab-input:checked ~ * .program-panel[data-tab='4'] {
+    display: block;
+}
+
+/* Highlight label of the currently selected tab. */
+[value='tab-0'].program-tab-input:checked ~ * [for='program-tab-0'],
+[value='tab-1'].program-tab-input:checked ~ * [for='program-tab-1'],
+[value='tab-2'].program-tab-input:checked ~ * [for='program-tab-2'],
+[value='tab-3'].program-tab-input:checked ~ * [for='program-tab-3'],
+[value='tab-4'].program-tab-input:checked ~ * [for='program-tab-4'] {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+[value='tab-0'].program-tab-input:checked ~ * [for='program-tab-0']::after,
+[value='tab-1'].program-tab-input:checked ~ * [for='program-tab-1']::after,
+[value='tab-2'].program-tab-input:checked ~ * [for='program-tab-2']::after,
+[value='tab-3'].program-tab-input:checked ~ * [for='program-tab-3']::after,
+[value='tab-4'].program-tab-input:checked ~ * [for='program-tab-4']::after {
+    transform: scaleX(1);
+}
+
+.program-panel__subtitle {
+    margin-bottom: 1.5rem;
+}
+
+.program-panel__subheading {
+    margin: 2.5rem 0 1rem;
+}
+
+.program-table-wrapper {
+    overflow-x: auto;
+}
+
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+}
+
+.program-table th,
+.program-table td {
+    border: 0.0625rem solid var(--color-shadow);
+    padding: 0.625rem 0.875rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.program-table thead th {
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.program-table tbody th {
+    font-weight: 600;
+    white-space: nowrap;
+    color: var(--color-primary);
+}
+
+.program-table tbody tr:nth-child(even) {
+    background-color: var(--color-secondary);
+}
+
+.program-table tbody tr:hover {
+    background-color: color-mix(in srgb, var(--color-primary-lighter) 12%, white);
+}
+
+.program-table__id-column {
+    width: 4rem;
+}
+
+.program-table__mode-column {
+    width: 7rem;
+}
+
+.program-session {
+    margin-bottom: 2.5rem;
+}
+
+.program-session__heading {
+    margin-bottom: 0.25rem;
+}
+
+.program-session__meta {
+    color: var(--color-secondary-darker);
+    margin-bottom: 0.75rem;
+}
+
+.program-badge {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--color-primary-lighter);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (width <= 576px) {
+    .program-tabs {
+        gap: 0.25rem 1.25rem;
+    }
+
+    .program-tabs__label {
+        font-size: 0.9375rem;
+    }
+
+    .program-table {
+        font-size: 0.875rem;
+    }
+
+    .program-table th,
+    .program-table td {
+        padding: 0.5rem 0.625rem;
+    }
+}

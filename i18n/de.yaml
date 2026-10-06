@@ -63,3 +63,20 @@ session_page.further_sessions_from: Weitere Sessions aus
 carousel.button_next: Nächstes Element
 carousel.button_previous: Vorheriges Element
 session_categories.label: Session-Kategorien
+schedule_page.to_be_announced: Wird noch bekannt gegeben
+schedule_page.check_back_soon: Schauen Sie bald wieder vorbei für Programmdetails
+program_page.tab_overview: Übersicht
+program_page.tab_oral: Vorträge
+program_page.tab_papers: Papers
+program_page.tab_posters: Poster
+program_page.tab_demos: Demos
+program_page.time: Uhrzeit
+program_page.date_time: Datum / Uhrzeit
+program_page.venue: Ort
+program_page.session: Session
+program_page.chair: Vorsitz
+program_page.paper_id: ID
+program_page.paper_title: Titel
+program_page.mode: Modus
+program_page.poster_session: Poster
+program_page.demo_session: Demo-Session

@@ -1,0 +1,712 @@
+overview:
+    subtitle: 28–31 October 2026 · University of Nottingham Ningbo China (UNNC) · Main conference schedule
+    days:
+        - Wed · 28 Oct
+        - Thu · 29 Oct
+        - Fri · 30 Oct
+        - Sat · 31 Oct
+    rows:
+        - time: 08:30–09:00
+          cells:
+              - ''
+              - Registration
+              - Registration
+              - 'Half-Day City Tour
+
+                (Optional)'
+        - time: 09:00–09:30
+          cells:
+              - ''
+              - 'Opening Ceremony
+
+                IEB Trio Lobby'
+              - 'Keynote Session 5
+
+                Prof. Cristiano André da Costa
+
+                IEB Trio Lobby'
+              - ''
+        - time: 09:30–10:00
+          cells:
+              - ''
+              - 'Keynote Session 1
+
+                Prof. Stephen Brewster
+
+                IEB Trio Lobby'
+              - 'Keynote Session 6
+
+                Dr. Xipei Ren
+
+                IEB Trio Lobby'
+              - ''
+        - time: 10:00–10:30
+          cells:
+              - ''
+              - 'Keynote Session 2
+
+                Prof. Zengguang Hou
+
+                IEB Trio Lobby'
+              - 'Keynote Session 7
+
+                Dr. Long Chen
+
+                IEB Trio Lobby'
+              - ''
+        - time: 10:30–11:00
+          cells:
+              - ''
+              - 'Keynote Session 3
+
+                Prof. Guilin Yang
+
+                IEB Trio Lobby'
+              - 'Demo
+
+                IEB Alumni Zone'
+              - ''
+        - time: 11:00–11:30
+          cells:
+              - ''
+              - 'Keynote Session 4
+
+                Prof. Xingda Qu
+
+                IEB Trio Lobby'
+              - ''
+              - ''
+        - time: 11:30–12:00
+          cells:
+              - ''
+              - Lunch
+              - Lunch
+              - ''
+        - time: 12:00–13:00
+          cells:
+              - ''
+              - ''
+              - ''
+              - ''
+        - time: 13:00–14:30
+          cells:
+              - ''
+              - 'R1 Accessible & Inclusive Interaction (IEB 122)
+
+                SS3 Wearable, IoT & Smart Interactive Systems (IEB 123)
+
+                R2 Multimodal Sensing, Emotion & Explainable AI (IEB 124)'
+              - 'R5 VR, Creative Media & Cultural Interaction (IEB 122)
+
+                SS5 Human-Centred AI, Trust & Responsible Systems (IEB 123)
+
+                SS6 AI for Education, Language & Social Applications (IEB 124)'
+              - ''
+        - time: 14:30–15:00
+          cells:
+              - ''
+              - ''
+              - ''
+              - ''
+        - time: 15:00–16:00
+          cells:
+              - ''
+              - 'Poster Session 1 / Demo
+
+                IEB Alumni Zone'
+              - 'Poster Session 2
+
+                IEB Alumni Zone'
+              - ''
+        - time: 16:00–17:00
+          cells:
+              - ''
+              - 'R3 UX, Search & Interactive Digital Services (IEB 122)
+
+                R4 LLMs, Retrieval & Agentic AI
+
+                (IEB 123)
+
+                SS4 Human–Robot Interaction & Robot Intelligence (IEB 124)'
+              - 'R6 Secure, Sustainable & Intelligent Infrastructure (IEB 122)
+
+                SS1 Biomedical Informatics & Image Analysis for Precision Healthcare
+
+                (IEB 123)
+
+                SS2 On-Device AI for Human-AI Interaction (IEB 124)'
+              - ''
+        - time: 17:00–18:00
+          cells:
+              - Registration
+              - ''
+              - ''
+              - ''
+        - time: 18:00–19:00
+          cells:
+              - ''
+              - Committee Members / Speakers Dinner
+              - Banquet / Best Paper Award / Closing Ceremony
+              - ''
+        - time: 19:00–20:00
+          cells:
+              - ''
+              - ''
+              - ''
+              - ''
+    quickReference:
+        heading: Parallel Oral Sessions — quick reference
+        header:
+            - Block
+            - IEB 122
+            - IEB 123
+            - IEB 124
+            - Venue / Notes
+        rows:
+            - - Thu 13:00–15:00
+              - R1 · Accessible & Inclusive
+              - SS3 · Wearable, IoT & Smart Systems
+              - R2 · Multimodal Sensing & Emotion
+              - Oral presentations · IEB 122 / 123 / 124
+            - - Thu 16:00–18:00
+              - R3 · UX, Search & Digital Services
+              - R4 · LLMs, Retrieval & Agentic AI
+              - SS4 · Human–Robot Interaction
+              - Oral presentations · IEB 122 / 123 / 124
+            - - Fri 13:00–15:00
+              - R5 · VR, Creative Media & Culture
+              - SS5 · Human-Centred AI & Trust
+              - SS6 · AI for Education & Society
+              - Oral presentations · IEB 122 / 123 / 124
+            - - Fri 16:00–18:00
+              - R6 · Secure & Intelligent Infrastructure
+              - SS1 · Biomedical Informatics
+              - SS2 · On-Device AI
+              - Oral presentations · IEB 122 / 123 / 124
+oral:
+    subtitle: 'Three parallel oral rooms: IEB 122 · IEB 123 · IEB 124 | Posters: IEB Alumni Zone | Opening Ceremony: IEB Trio
+        Lobby'
+    rooms:
+        - IEB 122
+        - IEB 123
+        - IEB 124
+    commonHeader: Common Activity / Venue
+    rows:
+        - time: 'Thu · 29 Oct
+
+              13:00–15:00'
+          rooms:
+              - - R1. Accessible & Inclusive Interaction
+                - REGULAR · 5 papers
+                - 'Chair: TBC'
+              - - SS3. Wearable, IoT & Smart Interactive Systems
+                - SPECIAL · 5 papers
+                - 'Chair: Prof. David Chieng'
+              - - R2. Multimodal Sensing, Emotion & Explainable AI
+                - REGULAR · 5 papers
+                - 'Chair: TBC'
+          common: ''
+        - time: 'Thu · 29 Oct
+
+              15:00–16:00'
+          rooms:
+              - []
+              - []
+              - []
+          common: 'Poster Session 1
+
+              IEB Alumni Zone'
+        - time: 'Thu · 29 Oct
+
+              16:00–18:00'
+          rooms:
+              - - R3. UX, Search & Interactive Digital Services
+                - REGULAR · 5 papers
+                - 'Chair: TBC'
+              - - R4. LLMs, Retrieval & Agentic AI
+                - REGULAR · 5 papers
+                - 'Chair: Prof. Nagaraju Gundala'
+              - - SS4. Human–Robot Interaction & Robot Intelligence
+                - SPECIAL · 5 papers
+                - 'Chair: TBC'
+          common: ''
+        - time: 'Fri · 30 Oct
+
+              13:00–15:00'
+          rooms:
+              - - R5. VR, Creative Media & Cultural Interaction
+                - REGULAR · 5 papers
+                - 'Chair: Prof. Gang Li'
+              - - SS5. Human-Centred AI, Trust & Responsible Systems
+                - SPECIAL · 5 papers
+                - 'Chair: Prof. Long Chen'
+              - - SS6. AI for Education, Language & Social Applications
+                - SPECIAL · 5 papers
+                - 'Chair: TBC'
+          common: ''
+        - time: 'Fri · 30 Oct
+
+              15:00–16:00'
+          rooms:
+              - []
+              - []
+              - []
+          common: 'Poster Session 2
+
+              IEB Alumni Zone'
+        - time: 'Fri · 30 Oct
+
+              16:00–18:00'
+          rooms:
+              - - R6. Secure, Sustainable & Intelligent Infrastructure
+                - REGULAR · 5 papers
+                - 'Chair: TBC'
+              - - SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
+                - SPECIAL · 5 papers
+                - 'Chair: Prof. Perugu Shyam'
+              - - SS2. On-Device AI for Human-AI Interaction
+                - SPECIAL · 5 papers
+                - 'Chair: TBC'
+          common: ''
+papers:
+    - datetime: Thu · 29 Oct · 13:00–15:00
+      venue: IEB 122
+      session: R1. Accessible & Inclusive Interaction
+      type: Regular Session
+      chair: TBC
+      papers:
+          - id: '14'
+            title: A Single-Button Multimodal Assistive Agent for Camera-Augmented Voice Interaction
+            mode: ''
+          - id: '27'
+            title: 'Hypertokens: Constraint-Bearing Design-System Units for Accessible Interfaces Under Text-Scaling and RTL Stress'
+            mode: ''
+          - id: '100'
+            title: Exploring Nonverbal Audio Cues for Indoor Navigation with Blind Users
+            mode: VIRTUAL
+          - id: '80'
+            title: 'Multi-level Spatial Exclusion of Older Adults in Smart Health Service Spaces: A Spatial Production Perspective'
+            mode: ''
+          - id: '76'
+            title: 'Exploring Home–School Coordination Challenges in ADHD Education: A Formative Study'
+            mode: ''
+    - datetime: Thu · 29 Oct · 13:00–15:00
+      venue: IEB 123
+      session: SS3. Wearable, IoT & Smart Interactive Systems
+      type: Special Session
+      chair: Prof. David Chieng
+      papers:
+          - id: '20'
+            title: Real-Time Indoor Pedestrian Tracking Using Low-Cost Dual-Foot Wearable Inertial Navigation
+            mode: ''
+          - id: '131'
+            title: A Reinforcement Learning Architecture for Spatio-Temporal Reallocation in Real-Time Operations with Delayed Effects
+            mode: ''
+          - id: '135'
+            title:
+                Hybrid Quantum–Classical Smart Classroom Monitoring and Attendance Management System Using RFID, IoT, Mobile Application,
+                and MATLAB Simulink
+            mode: ''
+          - id: '81'
+            title:
+                'Harvesting Human Kinetic Energy for Smart Campus Infrastructure: A Modular, High-Efficiency Electromagnetic Floor
+                Tile Design'
+            mode: ''
+          - id: '15'
+            title: 'Sign-Speak: An ESP32-Based Wearable Glove System for Real-Time Sign Language Recognition and Audio Translation'
+            mode: ''
+    - datetime: Thu · 29 Oct · 13:00–15:00
+      venue: IEB 124
+      session: R2. Multimodal Sensing, Emotion & Explainable AI
+      type: Regular Session
+      chair: TBC
+      papers:
+          - id: '32'
+            title: 'Quantifying with Confidence: Conformal Prediction for Reliable Musical Genre Classification'
+            mode: ''
+          - id: '57'
+            title: 'Keep Drivers Awake: Multimodal Drowsiness Monitoring Using Ear-Worn EEG and Facial Dynamics with LLM-Assisted
+                Intervention'
+            mode: ''
+          - id: '59'
+            title: Subject-Independent Stress Recognition Using Decision-Level Fusion of Preauricular PPG and Forehead EDA
+            mode: ''
+          - id: '65'
+            title: 'Hyper-MER: Modality-Level Typed Hypergraphs for Multimodal Emotion Recognition in Conversations'
+            mode: ''
+          - id: '68'
+            title: Explainable Multimodal AI for Comprehensive Assessment of Synecoculture Proficiency
+            mode: ''
+    - datetime: Thu · 29 Oct · 16:00–18:00
+      venue: IEB 122
+      session: R3. UX, Search & Interactive Digital Services
+      type: Regular Session
+      chair: TBC
+      papers:
+          - id: '17'
+            title: 'Reevaluating UX Determinants: The Impact of Trust and System Responsiveness on Fashion E-Commerce Purchases in
+                Emerging Markets'
+            mode: VIRTUAL
+          - id: '25'
+            title: 'Unita: A Hybrid HCI–CRISP-DM Approach to an ML-Personalized Beverage E-Commerce Platform'
+            mode: ''
+          - id: '107'
+            title: 'Educational Level and Visual Search Behavior on Academic Website: An Eye-Tracking Study'
+            mode: ''
+          - id: '111'
+            title:
+                Investigating the Efficiency and Work Load of Text-Based vs. Voice-Based Search Across Different Search Complexities
+                and Time Constraints
+            mode: ''
+          - id: '97'
+            title: 'NexCare: Context-Aware Real-Time Engagement and Social Support Automation Platform'
+            mode: ''
+    - datetime: Thu · 29 Oct · 16:00–18:00
+      venue: IEB 123
+      session: R4. LLMs, Retrieval & Agentic AI
+      type: Regular Session
+      chair: Prof. Nagaraju Gundala
+      papers:
+          - id: '30'
+            title: 'Entity-Fused Graph Retrieval for Scientific Multiple-Choice Question Answering: A Controlled Study with BERT Baselines'
+            mode: ''
+          - id: '78'
+            title:
+                'How Large Language Models Explain Their Personality Inferences from Text: A Comparative Analysis of LLMs’ Self-Reported
+                Mechanisms'
+            mode: ''
+          - id: '110'
+            title: An Enterprise Architecture for Knowledge Graph and GraphRAG-Enabled Agentic AI in Industrial Operations
+            mode: ''
+          - id: '145'
+            title: 'LEGALAI: An Intelligent Multi-Agent System for Legal Research and Case Analysis'
+            mode: ''
+          - id: '144'
+            title: IntentSpider - The Fluid Language Web for Textual Tension and Prediction
+            mode: VIRTUAL
+    - datetime: Thu · 29 Oct · 16:00–18:00
+      venue: IEB 124
+      session: SS4. Human–Robot Interaction & Robot Intelligence
+      type: Special Session
+      chair: TBC
+      papers:
+          - id: '92'
+            title:
+                Can Motivational Interviewing Guided Dialogue Improve Empathy in Human–Robot Interaction? A Controlled Study with
+                Baseline Comparison
+            mode: ''
+          - id: '102'
+            title: 'TRACE-Nav: Controller-Side Route Contracts Link Navigation Decisions to Human-Visible Evidence in Topological
+                Social Navigation'
+            mode: ''
+          - id: '105'
+            title: 'Robot–Elevator Interaction: From Physical Panel Recognition to Activation'
+            mode: ''
+          - id: '121'
+            title: A Role-Oriented Integrated Design Method for Service-Robot Interaction and Its Applications
+            mode: ''
+          - id: '119'
+            title: 'VLA-CoT: Chain-of-Thought Guided Vision–Language–Action Framework for Multi-step Robotic Cable Routing'
+            mode: ''
+    - datetime: Fri · 30 Oct · 13:00–15:00
+      venue: IEB 122
+      session: R5. VR, Creative Media & Cultural Interaction
+      type: Regular Session
+      chair: Prof. Gang Li
+      papers:
+          - id: '67'
+            title: Effects of Randomized Task Ordering on User Experience and Cognitive Workload in an Ecologically Valid VR Game
+            mode: ''
+          - id: '73'
+            title: KNOT-Qipao:Conservative Cross-Era Evidence Routing for Auditable Attribute Completion in Small Garment Archives
+            mode: ''
+          - id: '94'
+            title:
+                'From Rough Line Art to Controlled Generations: Quantifying the Fidelity–Diversity Trade-off in Sketch-Conditioned
+                Industrial Design'
+            mode: ''
+          - id: '120'
+            title: 'AlcheMind: Gamified VR Training Protocol for Motor Imagery Brain-Computer Interfaces'
+            mode: ''
+          - id: '132'
+            title:
+                'From Movement to Scene: Semantic Modeling and Interface Design for Volumetric Records of Korean Traditional Performing
+                Arts'
+            mode: ''
+    - datetime: Fri · 30 Oct · 13:00–15:00
+      venue: IEB 123
+      session: SS5. Human-Centred AI, Trust & Responsible Systems
+      type: Special Session
+      chair: Prof. Long Chen
+      papers:
+          - id: '36'
+            title: 'AI-Generated Posthumous Communication in Courtroom: A Qualitative Analysis of Public Discourse'
+            mode: ''
+          - id: '40'
+            title:
+                'Progressive Disclosure and AI Transparency in Trust Calibration for Level 3 Autonomous Driving: A Factorial Simulator
+                Study'
+            mode: VIRTUAL
+          - id: '56'
+            title:
+                'AI System Design and User Resistance: A Systematic Literature Review of Behavioural Mechanisms in AI-Enabled Information
+                Systems'
+            mode: ''
+          - id: '70'
+            title: What Users Disclose in AI Budgeting Conversations and How Disclosure Relates to Feedback Evaluation
+            mode: ''
+          - id: '84'
+            title: 'The Role of Artificial Intelligence in Cyberbullying on Social Media: A Dual Approach for Malta'
+            mode: ''
+    - datetime: Fri · 30 Oct · 13:00–15:00
+      venue: IEB 124
+      session: SS6. AI for Education, Language & Social Applications
+      type: Special Session
+      chair: TBC
+      papers:
+          - id: '96'
+            title: 'Effects of Evidence Grounding and Source Attribution in Generative AI Tutors: A 2×2 Factorial Study'
+            mode: ''
+          - id: '108'
+            title: 'From Interviews to Scenarios: Canvas-Supported Requirements Elicitation for Social Robots in Employment Negotiations'
+            mode: ''
+          - id: '134'
+            title: An End-to-End AI-Driven Data Engineering Pipeline for Low-Resource Tribal Languages
+            mode: ''
+          - id: '143'
+            title: 'CA-FEED: Confidential and Anonymous User Feedback Aggregation for Decentralized Reputation Systems'
+            mode: ''
+          - id: '4'
+            title: Concept-Grounded Image Captioning for Fine Art Using CLIP Representations
+            mode: ''
+    - datetime: Fri · 30 Oct · 16:00–18:00
+      venue: IEB 122
+      session: R6. Secure, Sustainable & Intelligent Infrastructure
+      type: Regular Session
+      chair: TBC
+      papers:
+          - id: '74'
+            title: Blind Delegation of Quantum Cryptanalysis on RSA using Shor's Algorithm
+            mode: ''
+          - id: '82'
+            title: Smart Fertilization and Crop Recommendation
+            mode: ''
+          - id: '103'
+            title:
+                Hybrid Dynamic Scheduling for Security Aware Priority Scheduling in 5G Network Slicing and MEC Resource Management
+                for 5G Smart Grid Services QoS
+            mode: ''
+          - id: '116'
+            title:
+                'Bridging the AI-Sustainability Gap: A Systematic Review of Machine Learning Optimization for Circular Bio-Economy
+                Systems'
+            mode: ''
+          - id: '155'
+            title: Learned Residual Refinement of Deterministic Landmark-Based ROIs for Reducing Boundary-Associated Crop Risk
+            mode: VIRTUAL
+    - datetime: Fri · 30 Oct · 16:00–18:00
+      venue: IEB 123
+      session: SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
+      type: Special Session
+      chair: Prof. Perugu Shyam
+      papers:
+          - id: '58'
+            title: A Priority-Aware Event-Triggered VLC Framework for Edge-AI-Based Multi-Patient Monitoring
+            mode: ''
+          - id: '75'
+            title: 'Exploring Design Requirements for Virtual Reality-based Early Rehabilitation Education after Acute Myocardial
+                Infarction: A Formative Study'
+            mode: ''
+          - id: '77'
+            title: 'ST-RAG: Sequence-Aligned Retrieval for Training-Free 3D CT Classification'
+            mode: ''
+          - id: '93'
+            title: The Qualitative and Quantitative Effects of Edge Reversions on GraphRAG Medical QA Systems
+            mode: VIRTUAL
+          - id: '137'
+            title: Machine Learning-Based Estimation of Endotracheal Tube Cuff Pressure Using Patient and Procedural Parameters
+            mode: ''
+    - datetime: Fri · 30 Oct · 16:00–18:00
+      venue: IEB 124
+      session: SS2. On-Device AI for Human-AI Interaction
+      type: Special Session
+      chair: TBC
+      papers:
+          - id: '95'
+            title: Fairness Evaluation of Edge-AI Implementation for Cleft Lip and Palate Speech ASR
+            mode: ''
+          - id: '99'
+            title: 'Bangbang 2.0: Human-in-the-Loop Edge-Cloud LLM Decision Support for Inclusive Service Robots'
+            mode: ''
+          - id: '104'
+            title: 'From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI'
+            mode: ''
+          - id: '106'
+            title: 'A Lightweight Test and Training Platform Utilizing a Raspberry Pi 5: AI-retrieval, Tools and a Compact LLM'
+            mode: ''
+          - id: '141'
+            title:
+                Lead Selection and Time-Frequency Knowledge Distillation for Lightweight ECG Classification and Offline Processing
+                on ESP32
+            mode: ''
+posters:
+    - datetime: Thu · 29 Oct · 15:00–16:00
+      venue: IEB Alumni Zone
+      session: Session 1
+      papers:
+          - id: '12'
+            title: Structured Attribute-Guided Embeddings for Efficient Fashion Image Retrieval
+            mode: ''
+          - id: '38'
+            title: Human-Centered Problem Framing for Remote Monitoring in Hydrogen Manufacturing
+            mode: ''
+          - id: '46'
+            title: 'MONA: Predictable Campus Wayfinding with Hybrid Map–AR Guidance and Embodied Assistance'
+            mode: ''
+          - id: '51'
+            title:
+                'NOVA: A Multimodal Hands-Free Human–Computer Interaction System Using Eye Tracking, Facial Expression, Gesture,
+                and Voice Recognition'
+            mode: ''
+          - id: '55'
+            title:
+                'Human-Centered AI for Architectural Floor Plan Analysis: A Taxonomy and Design Framework for Trustworthy Decision
+                Support'
+            mode: ''
+          - id: '71'
+            title: A Geographically Neural Network Weighted Regression Framework for Rice Yield Prediction
+            mode: ''
+          - id: '79'
+            title:
+                'Adaptive Explainable Cybersecurity Interfaces: A Human-AI Interaction Framework for Trust Calibration and Analyst
+                Decision Support'
+            mode: ''
+          - id: '85'
+            title: 'Encoding Cultural Grammar: A Computational Framework for Modeling Crimean Tatar Örnek'
+            mode: ''
+          - id: '87'
+            title: 'Colourly: Colour Picker Extension'
+            mode: ''
+          - id: '89'
+            title: 'Brandcraft in Graphic Design: Cohesion, Consistency, and Context'
+            mode: ''
+          - id: '101'
+            title: Empowering Behavioral Intervention Research Through TIIMSights
+            mode: ''
+          - id: '112'
+            title: Temporal Motion Characteristics Shape Affective Perception of Dexterous Robotic Gestures
+            mode: ''
+          - id: '118'
+            title: Handcrafted and Deep Learning Features for Wheat Disease Image Classification
+            mode: ''
+          - id: '126'
+            title: AI-Driven Lightweight CNN for Facial Emotion Recognition
+            mode: ''
+          - id: '127'
+            title: Design and Implementation of a Drone-Compatible Integrated Payload System for Shipyard Quay Environmental Monitoring
+            mode: ''
+          - id: '133'
+            title: 'AI-BDIMS: An Artificial Intelligence and Blockchain-Integrated System for Detecting Manipulation in Dispensing
+                Unit Hardware and Delivery'
+            mode: ''
+          - id: '148'
+            title: 'Gasoline Sales Prediction in Telangana State: A Data Acquisition Engineering and Predictive Modelling Approach'
+            mode: ''
+          - id: '150'
+            title: Protocol Aware Multi Representation CNN for Upper Limb Rehabilitation Motion and Quality Classification
+            mode: ''
+          - id: '152'
+            title:
+                'A Survey on Post-Quantum Secure Traffic Governance in Software-Defined Networks: Digital Twins, Intent-Based Networking,
+                and Explainable AI'
+            mode: VIRTUAL
+    - datetime: Fri · 30 Oct · 15:00–16:00
+      venue: IEB Alumni Zone
+      session: Session 2
+      papers:
+          - id: '1'
+            title: Role of Artificial Intelligence in Improving Interaction Between Human and AI
+            mode: ''
+          - id: '16'
+            title: 'Kansei-Driven Optimization of Hospital Management Systems: Mitigating Clinical Burnout and Use Errors Through
+                Emotion-Centered Ui Design'
+            mode: ''
+          - id: '18'
+            title: 'MED-GEN: A Comparative Deep Generative Framework for Multi-Model Synthetic Image Data Augmentation'
+            mode: ''
+          - id: '33'
+            title: Research of Live-Streamed Digital Human Professional Explanation on Customers' Online Purchase Intention
+            mode: ''
+          - id: '43'
+            title: 'Diving into the AI Machines While Not Driving with It: A Study of Lead Users Adoption of Autonomous Vehicles'
+            mode: ''
+          - id: '48'
+            title: 'Balancing Heritage Fidelity and Generative Freedom: A Human–AI Co-Creation Case Study in Museum Video Production'
+            mode: ''
+          - id: '54'
+            title:
+                'Architectural Intelligence Readiness (AIR): A Maturity Framework for Assessing Human-AI Adoption in Architectural
+                Practice'
+            mode: ''
+          - id: '66'
+            title:
+                'Human-Centered Explainable AI for Cybersecurity: A Design Methodology for Trustworthy Interfaces in Threat Detection
+                and Digital Forensics'
+            mode: ''
+          - id: '88'
+            title: A Graphical Approach to Algorithmic Music Composition for Non-Programmers
+            mode: ''
+          - id: '91'
+            title: 'PawFeeder: A Synchronized Edge-to-Server Multi-Device Framework Toward Canine Feeding-Behavior Analysis'
+            mode: ''
+          - id: '113'
+            title: 'Generative AI Expands Task Boundaries Alongside Continuity in Professional Identity: A Mixed-Methods Study of
+                Student Workflows and Career Preparation'
+            mode: VIRTUAL
+          - id: '114'
+            title: An Adaptive Wearable Posture Monitoring and Prediction System Using IMU Sensors and Machine Learning
+            mode: ''
+          - id: '117'
+            title: 'Reliable Human-AI Interaction in Languages : Stability Analysis of Multilingual Transformers on Code-Switched
+                Corpora'
+            mode: ''
+          - id: '125'
+            title: Leakage-Controlled Re-Evaluation of Multimodal Skin Lesion Classification for Trustworthy Medical AI.
+            mode: ''
+          - id: '128'
+            title: 'Walk Together 1.0: Designing a Physical AI Rollator That Learns and Moves with the User'
+            mode: ''
+          - id: '129'
+            title:
+                'Trustworthy AI for Complex Chemical Systems: A Systematic Review of Validation Deficits and Reproducibility Failures
+                in Data-Driven Optimization Models'
+            mode: ''
+          - id: '130'
+            title: 'AdapSnap: Adaptive Snapshot Frequency Scheduling for Multi-Cluster Kubernetes Disaster Recovery'
+            mode: ''
+          - id: '136'
+            title: Multi-Hop GraphRAG
+            mode: ''
+          - id: '138'
+            title:
+                'Describe-to-Decide: Machine-to-Machine Learning via Geo-Spatial Knowledge Sharing and Change Inference for Multi-Robot
+                SAR'
+            mode: VIRTUAL
+          - id: '140'
+            title: A Heterogeneous Stacking Framework for Non-Invasive Schizophrenia Screening Using Eye Movements
+            mode: ''
+demos:
+    datetime: Fri · 30 Oct · 10:30–11:30
+    venue: IEB Alumni Zone
+    session: Session 1
+    items:
+        - id: '139'
+          title: Smart Sentinels
+        - id: '147'
+          title: Raw data 2Data set transformation for classication and predictive model using MLP
+        - id: '149'
+          title: An End-to-End Automatic License Plate Recognition System for Real-Time Traffic Violation Reporting
+        - id: '153'
+          title: 'SenseBridge: Action-Based Pain Reporting for Nonspeaking Patients'
+        - id: '154'
+          title: Multimodal Intention-Aware VR Interaction with Adaptive Assistance for Upper-Limb Rehabilitation

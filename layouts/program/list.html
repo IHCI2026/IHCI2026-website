@@ -136,19 +136,244 @@
             {{ end }}
         </div>
     {{- else }}
-        <section class="section-container">
+        {{- $program := hugo.Data.program }}
+        {{- $tabs := slice "overview" "oral" "papers" "posters" "demos" }}
+
+        {{- range $index, $tab := $tabs }}
+            <input
+                name="program-tab"
+                type="radio"
+                class="program-tab-input"
+                value="tab-{{ $index }}"
+                id="program-tab-{{ $index }}"
+                {{- if eq $index 0 }}
+                    checked
+                {{- end }} />
+        {{- end }}
+
+
+        <header class="section-container">
             <div class="section">
-                <h1 class="heading heading--1">{{ T "sessions_page.heading" }}</h1>
-                <div class="nothing-scheduled-section">
-                    <h2 class="heading heading--highlighted heading--centered nothing-scheduled-section__heading">
-                        {{ T "schedule_page.to_be_announced" }}
-                    </h2>
-                    <p class="heading heading--2 heading--centered nothing-scheduled-section__heading">
-                        {{ T "schedule_page.check_back_soon" }}
-                    </p>
-                </div>
+                <h1 class="heading heading--1">{{ .Title }}</h1>
+                {{ .Content }}
+                <menu class="program-tabs" role="tablist">
+                    {{- range $index, $tab := $tabs }}
+                        <li role="presentation">
+                            <label class="program-tabs__label" role="tab" for="program-tab-{{ $index }}">
+                                {{ T (printf "program_page.tab_%s" $tab) }}
+                            </label>
+                        </li>
+                    {{- end }}
+                </menu>
             </div>
-        </section>
+        </header>
+
+        <div class="section-container">
+            {{/* Tab 1: Program overview grid (time × day) */}}
+            <section class="section program-panel" data-tab="0">
+                <div class="paragraph program-panel__subtitle">{{ $program.overview.subtitle | markdownify }}</div>
+                <div class="program-table-wrapper">
+                    <table class="program-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">{{ T "program_page.time" }}</th>
+                                {{- range $program.overview.days }}
+                                    <th scope="col">{{ . }}</th>
+                                {{- end }}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{- range $program.overview.rows }}
+                                <tr>
+                                    <th scope="row">{{ .time }}</th>
+                                    {{- range .cells }}
+                                        <td>
+                                            {{- range $lineIndex, $line := split . "\n" }}
+                                                {{- if $lineIndex }}<br />{{ end }}
+                                                {{- if eq $lineIndex 0 }}
+                                                    <strong>{{ $line }}</strong>
+                                                {{- else }}
+                                                    {{ $line }}
+                                                {{- end }}
+                                            {{- end }}
+                                        </td>
+                                    {{- end }}
+                                </tr>
+                            {{- end }}
+                        </tbody>
+                    </table>
+                </div>
+
+                {{- with $program.overview.quickReference }}
+                    <h2 class="heading heading--3 program-panel__subheading">{{ .heading }}</h2>
+                    <div class="program-table-wrapper">
+                        <table class="program-table">
+                            <thead>
+                                <tr>
+                                    {{- range .header }}
+                                        <th scope="col">{{ . }}</th>
+                                    {{- end }}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{- range .rows }}
+                                    <tr>
+                                        {{- range $index, $cell := . }}
+                                            {{- if eq $index 0 }}
+                                                <th scope="row">{{ $cell }}</th>
+                                            {{- else }}
+                                                <td>{{ $cell }}</td>
+                                            {{- end }}
+                                        {{- end }}
+                                    </tr>
+                                {{- end }}
+                            </tbody>
+                        </table>
+                    </div>
+                {{- end }}
+            </section>
+
+            {{/* Tab 2: Oral session grid (time × room) */}}
+            <section class="section program-panel" data-tab="1">
+                <div class="paragraph program-panel__subtitle">{{ $program.oral.subtitle | markdownify }}</div>
+                <div class="program-table-wrapper">
+                    <table class="program-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">{{ T "program_page.date_time" }}</th>
+                                {{- range $program.oral.rooms }}
+                                    <th scope="col">{{ . }}</th>
+                                {{- end }}
+                                <th scope="col">{{ $program.oral.commonHeader }}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{- range $program.oral.rows }}
+                                <tr>
+                                    <th scope="row">{{ replace .time "\n" "<br />" | safeHTML }}</th>
+                                    {{- range .rooms }}
+                                        <td>
+                                            {{- range $lineIndex, $line := . -}}
+                                                {{- if $lineIndex }}<br />{{ end -}}
+                                                {{- if eq $lineIndex 0 -}}
+                                                    <strong>{{ $line }}</strong>
+                                                {{- else -}}
+                                                    {{ $line }}
+                                                {{- end -}}
+                                            {{- end }}
+                                        </td>
+                                    {{- end }}
+                                    <td>{{ replace .common "\n" "<br />" | safeHTML }}</td>
+                                </tr>
+                            {{- end }}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {{/* Tab 3: Detailed paper schedule */}}
+            <section class="section program-panel" data-tab="2">
+                {{- range $program.papers }}
+                    <article class="program-session">
+                        <h2 class="heading heading--3 program-session__heading">{{ .session }}</h2>
+                        <p class="paragraph program-session__meta">
+                            {{ .datetime }} · {{ .venue }} · {{ .type }} · {{ T "program_page.chair" }}:
+                            {{ .chair }}
+                        </p>
+                        <div class="program-table-wrapper">
+                            <table class="program-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="program-table__id-column">{{ T "program_page.paper_id" }}</th>
+                                        <th scope="col">{{ T "program_page.paper_title" }}</th>
+                                        <th scope="col" class="program-table__mode-column">{{ T "program_page.mode" }}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {{- range .papers }}
+                                        <tr>
+                                            <td>{{ .id }}</td>
+                                            <td>{{ .title }}</td>
+                                            <td>
+                                                {{- if .mode }}
+                                                    <span class="program-badge">{{ .mode }}</span>
+                                                {{- end }}
+                                            </td>
+                                        </tr>
+                                    {{- end }}
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                {{- end }}
+            </section>
+
+            {{/* Tab 4: Detailed poster schedule */}}
+            <section class="section program-panel" data-tab="3">
+                {{- range $program.posters }}
+                    <article class="program-session">
+                        <h2 class="heading heading--3 program-session__heading">
+                            {{ T "program_page.poster_session" }}
+                            {{ .session }}
+                        </h2>
+                        <p class="paragraph program-session__meta">{{ .datetime }} · {{ .venue }}</p>
+                        <div class="program-table-wrapper">
+                            <table class="program-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="program-table__id-column">{{ T "program_page.paper_id" }}</th>
+                                        <th scope="col">{{ T "program_page.paper_title" }}</th>
+                                        <th scope="col" class="program-table__mode-column">{{ T "program_page.mode" }}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {{- range .papers }}
+                                        <tr>
+                                            <td>{{ .id }}</td>
+                                            <td>{{ .title }}</td>
+                                            <td>
+                                                {{- if .mode }}
+                                                    <span class="program-badge">{{ .mode }}</span>
+                                                {{- end }}
+                                            </td>
+                                        </tr>
+                                    {{- end }}
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                {{- end }}
+            </section>
+
+            {{/* Tab 5: Demo schedule */}}
+            <section class="section program-panel" data-tab="4">
+                <article class="program-session">
+                    <h2 class="heading heading--3 program-session__heading">{{ T "program_page.demo_session" }}</h2>
+                    <p class="paragraph program-session__meta">
+                        {{ $program.demos.datetime }} ·
+                        {{ $program.demos.venue }}
+                    </p>
+                    <div class="program-table-wrapper">
+                        <table class="program-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="program-table__id-column">{{ T "program_page.paper_id" }}</th>
+                                    <th scope="col">{{ T "program_page.paper_title" }}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{- range $program.demos.items }}
+                                    <tr>
+                                        <td>{{ .id }}</td>
+                                        <td>{{ .title }}</td>
+                                    </tr>
+                                {{- end }}
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </div>
     {{- end }}
 
     {{- partial "sections/cta.html" (
