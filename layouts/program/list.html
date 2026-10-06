@@ -158,14 +158,6 @@
                 {{- end }}
                 <div class="program-table-wrapper program-table-wrapper--schedule">
                     <table class="program-table program-table--schedule">
-                        <thead>
-                            <tr>
-                                <th scope="col">{{ T "program_page.time" }}</th>
-                                {{- range $program.schedule.rooms }}
-                                    <th scope="col">{{ . }}</th>
-                                {{- end }}
-                            </tr>
-                        </thead>
                         <tbody>
                             {{- range $program.schedule.days }}
                                 <tr class="program-table__day-row">

@@ -77,12 +77,6 @@
     text-decoration: underline;
 }
 
-.program-table--schedule thead th {
-    position: sticky;
-    top: 6.75rem;
-    z-index: 1;
-}
-
 .program-table--schedule {
     border-collapse: separate;
     border-spacing: 0;
@@ -103,10 +97,6 @@
 @media screen and (width <= 576px) {
     .program-table-wrapper--schedule {
         overflow-x: auto;
-    }
-
-    .program-table--schedule thead th {
-        top: 6.25rem;
     }
 }
 

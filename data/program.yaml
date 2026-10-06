@@ -55,11 +55,17 @@ schedule:
                 rooms:
                     - 'R1. Accessible & Inclusive Interaction
 
+                      IEB 122
+
                       Chair: TBC'
                     - 'SS3. Wearable, IoT & Smart Interactive Systems
 
+                      IEB 123
+
                       Chair: Prof. David Chieng'
                     - 'R2. Multimodal Sensing, Emotion & Explainable AI
+
+                      IEB 124
 
                       Chair: TBC'
                 common: ''
@@ -72,11 +78,17 @@ schedule:
                 rooms:
                     - 'R3. UX, Search & Interactive Digital Services
 
+                      IEB 122
+
                       Chair: TBC'
                     - 'R4. LLMs, Retrieval & Agentic AI
 
+                      IEB 123
+
                       Chair: Prof. Nagaraju Gundala'
                     - 'SS4. Human–Robot Interaction & Robot Intelligence
+
+                      IEB 124
 
                       Chair: TBC'
                 common: ''
@@ -121,11 +133,17 @@ schedule:
                 rooms:
                     - 'R5. VR, Creative Media & Cultural Interaction
 
+                      IEB 122
+
                       Chair: Prof. Gang Li'
                     - 'SS5. Human-Centred AI, Trust & Responsible Systems
 
+                      IEB 123
+
                       Chair: Prof. Long Chen'
                     - 'SS6. AI for Education, Language & Social Applications
+
+                      IEB 124
 
                       Chair: TBC'
                 common: ''
@@ -138,11 +156,17 @@ schedule:
                 rooms:
                     - 'R6. Secure, Sustainable & Intelligent Infrastructure
 
+                      IEB 122
+
                       Chair: TBC'
                     - 'SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
 
+                      IEB 123
+
                       Chair: Prof. Perugu Shyam'
                     - 'SS2. On-Device AI for Human-AI Interaction
+
+                      IEB 124
 
                       Chair: TBC'
                 common: ''
