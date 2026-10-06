@@ -4,7 +4,6 @@ schedule:
         - IEB 122
         - IEB 123
         - IEB 124
-    commonHeader: Common Activity / Venue
     days:
         - day: Wed · 28 Oct
           rows:

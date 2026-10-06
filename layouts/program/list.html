@@ -157,20 +157,19 @@
                                 {{- range $program.schedule.rooms }}
                                     <th scope="col">{{ . }}</th>
                                 {{- end }}
-                                <th scope="col">{{ $program.schedule.commonHeader }}</th>
                             </tr>
                         </thead>
                         <tbody>
                             {{- range $program.schedule.days }}
                                 <tr class="program-table__day-row">
-                                    <th colspan="{{ add (len $program.schedule.rooms) 2 }}" scope="row">{{ .day }}</th>
+                                    <th colspan="{{ add (len $program.schedule.rooms) 1 }}" scope="row">{{ .day }}</th>
                                 </tr>
                                 {{- range .rows }}
                                     <tr>
                                         <th scope="row">{{ .time }}</th>
-                                        {{- range .rooms }}
-                                            <td>
-                                                {{- range $lineIndex, $line := split . "\n" }}
+                                        {{- if .common }}
+                                            <td colspan="{{ len $program.schedule.rooms }}">
+                                                {{- range $lineIndex, $line := split .common "\n" }}
                                                     {{- if $lineIndex }}<br />{{ end }}
                                                     {{- if eq $lineIndex 0 }}
                                                         <strong>{{ $line | safeHTML }}</strong>
@@ -179,17 +178,20 @@
                                                     {{- end }}
                                                 {{- end }}
                                             </td>
-                                        {{- end }}
-                                        <td>
-                                            {{- range $lineIndex, $line := split .common "\n" }}
-                                                {{- if $lineIndex }}<br />{{ end }}
-                                                {{- if eq $lineIndex 0 }}
-                                                    <strong>{{ $line | safeHTML }}</strong>
-                                                {{- else }}
-                                                    {{ $line | safeHTML }}
-                                                {{- end }}
+                                        {{- else }}
+                                            {{- range .rooms }}
+                                                <td>
+                                                    {{- range $lineIndex, $line := split . "\n" }}
+                                                        {{- if $lineIndex }}<br />{{ end }}
+                                                        {{- if eq $lineIndex 0 }}
+                                                            <strong>{{ $line | safeHTML }}</strong>
+                                                        {{- else }}
+                                                            {{ $line | safeHTML }}
+                                                        {{- end }}
+                                                    {{- end }}
+                                                </td>
                                             {{- end }}
-                                        </td>
+                                        {{- end }}
                                     </tr>
                                 {{- end }}
                             {{- end }}
