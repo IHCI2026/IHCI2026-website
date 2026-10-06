@@ -148,24 +148,40 @@
 
         <div class="section-container">
             <section class="section">
-                <div class="paragraph program-panel__subtitle">{{ $program.overview.subtitle | markdownify }}</div>
+                <div class="paragraph program-panel__subtitle">{{ $program.schedule.subtitle | markdownify }}</div>
                 <div class="program-table-wrapper">
                     <table class="program-table">
                         <thead>
                             <tr>
                                 <th scope="col">{{ T "program_page.time" }}</th>
-                                {{- range $program.overview.days }}
+                                {{- range $program.schedule.rooms }}
                                     <th scope="col">{{ . }}</th>
                                 {{- end }}
+                                <th scope="col">{{ $program.schedule.commonHeader }}</th>
                             </tr>
                         </thead>
                         <tbody>
-                            {{- range $program.overview.rows }}
-                                <tr>
-                                    <th scope="row">{{ .time }}</th>
-                                    {{- range .cells }}
+                            {{- range $program.schedule.days }}
+                                <tr class="program-table__day-row">
+                                    <th colspan="{{ add (len $program.schedule.rooms) 2 }}" scope="row">{{ .day }}</th>
+                                </tr>
+                                {{- range .rows }}
+                                    <tr>
+                                        <th scope="row">{{ .time }}</th>
+                                        {{- range .rooms }}
+                                            <td>
+                                                {{- range $lineIndex, $line := split . "\n" }}
+                                                    {{- if $lineIndex }}<br />{{ end }}
+                                                    {{- if eq $lineIndex 0 }}
+                                                        <strong>{{ $line | safeHTML }}</strong>
+                                                    {{- else }}
+                                                        {{ $line | safeHTML }}
+                                                    {{- end }}
+                                                {{- end }}
+                                            </td>
+                                        {{- end }}
                                         <td>
-                                            {{- range $lineIndex, $line := split . "\n" }}
+                                            {{- range $lineIndex, $line := split .common "\n" }}
                                                 {{- if $lineIndex }}<br />{{ end }}
                                                 {{- if eq $lineIndex 0 }}
                                                     <strong>{{ $line | safeHTML }}</strong>
@@ -174,73 +190,8 @@
                                                 {{- end }}
                                             {{- end }}
                                         </td>
-                                    {{- end }}
-                                </tr>
-                            {{- end }}
-                        </tbody>
-                    </table>
-                </div>
-
-                {{- with $program.overview.quickReference }}
-                    <h2 class="heading heading--3 program-panel__subheading">{{ .heading }}</h2>
-                    <div class="program-table-wrapper">
-                        <table class="program-table">
-                            <thead>
-                                <tr>
-                                    {{- range .header }}
-                                        <th scope="col">{{ . }}</th>
-                                    {{- end }}
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {{- range .rows }}
-                                    <tr>
-                                        {{- range $index, $cell := . }}
-                                            {{- if eq $index 0 }}
-                                                <th scope="row">{{ $cell }}</th>
-                                            {{- else }}
-                                                <td>{{ $cell }}</td>
-                                            {{- end }}
-                                        {{- end }}
                                     </tr>
                                 {{- end }}
-                            </tbody>
-                        </table>
-                    </div>
-                {{- end }}
-
-
-                <h2 class="heading heading--3 program-panel__subheading">{{ T "program_page.tab_oral" }}</h2>
-                <div class="paragraph">{{ $program.oral.subtitle | markdownify }}</div>
-                <div class="program-table-wrapper">
-                    <table class="program-table">
-                        <thead>
-                            <tr>
-                                <th scope="col">{{ T "program_page.date_time" }}</th>
-                                {{- range $program.oral.rooms }}
-                                    <th scope="col">{{ . }}</th>
-                                {{- end }}
-                                <th scope="col">{{ $program.oral.commonHeader }}</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {{- range $program.oral.rows }}
-                                <tr>
-                                    <th scope="row">{{ replace .time "\n" "<br />" | safeHTML }}</th>
-                                    {{- range .rooms }}
-                                        <td>
-                                            {{- range $lineIndex, $line := . -}}
-                                                {{- if $lineIndex }}<br />{{ end -}}
-                                                {{- if eq $lineIndex 0 -}}
-                                                    <strong>{{ $line }}</strong>
-                                                {{- else -}}
-                                                    {{ $line }}
-                                                {{- end -}}
-                                            {{- end -}}
-                                        </td>
-                                    {{- end }}
-                                    <td>{{ replace .common "\n" "<br />" | safeHTML }}</td>
-                                </tr>
                             {{- end }}
                         </tbody>
                     </table>

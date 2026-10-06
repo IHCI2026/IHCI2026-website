@@ -70,12 +70,10 @@ speakers_page.check_back_soon: Check back soon for speaker announcements
 schedule_page.to_be_announced: To be announced
 schedule_page.check_back_soon: Check back soon for schedule details
 program_page.tab_overview: Overview
-program_page.tab_oral: Oral Sessions
 program_page.tab_papers: Papers
 program_page.tab_posters: Posters
 program_page.tab_demos: Demos
 program_page.time: Time
-program_page.date_time: Date / Time
 program_page.venue: Venue
 program_page.session: Session
 program_page.chair: Chair

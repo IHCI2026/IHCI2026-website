@@ -1,261 +1,162 @@
-overview:
+schedule:
     subtitle: 28–31 October 2026 · University of Nottingham Ningbo China (UNNC) · Main conference schedule
-    days:
-        - Wed · 28 Oct
-        - Thu · 29 Oct
-        - Fri · 30 Oct
-        - Sat · 31 Oct
-    rows:
-        - time: 08:30–09:00
-          cells:
-              - ''
-              - Registration
-              - Registration
-              - '<a href="/venue/tour/">Half-Day City Tour</a>
-
-                (Optional)'
-        - time: 09:00–09:30
-          cells:
-              - ''
-              - 'Opening Ceremony
-
-                IEB Trio Lobby'
-              - 'Keynote Session 5
-
-                Prof. Cristiano André da Costa
-
-                IEB Trio Lobby'
-              - ''
-        - time: 09:30–10:00
-          cells:
-              - ''
-              - 'Keynote Session 1
-
-                Prof. Stephen Brewster
-
-                IEB Trio Lobby'
-              - 'Keynote Session 6
-
-                Dr. Xipei Ren
-
-                IEB Trio Lobby'
-              - ''
-        - time: 10:00–10:30
-          cells:
-              - ''
-              - 'Keynote Session 2
-
-                Prof. Zengguang Hou
-
-                IEB Trio Lobby'
-              - 'Keynote Session 7
-
-                Dr. Long Chen
-
-                IEB Trio Lobby'
-              - ''
-        - time: 10:30–11:00
-          cells:
-              - ''
-              - 'Keynote Session 3
-
-                Prof. Guilin Yang
-
-                IEB Trio Lobby'
-              - 'Demo
-
-                IEB Alumni Zone'
-              - ''
-        - time: 11:00–11:30
-          cells:
-              - ''
-              - 'Keynote Session 4
-
-                Prof. Xingda Qu
-
-                IEB Trio Lobby'
-              - ''
-              - ''
-        - time: 11:30–12:00
-          cells:
-              - ''
-              - Lunch
-              - Lunch
-              - ''
-        - time: 12:00–13:00
-          cells:
-              - ''
-              - ''
-              - ''
-              - ''
-        - time: 13:00–14:30
-          cells:
-              - ''
-              - 'R1 Accessible & Inclusive Interaction (IEB 122)
-
-                SS3 Wearable, IoT & Smart Interactive Systems (IEB 123)
-
-                R2 Multimodal Sensing, Emotion & Explainable AI (IEB 124)'
-              - 'R5 VR, Creative Media & Cultural Interaction (IEB 122)
-
-                SS5 Human-Centred AI, Trust & Responsible Systems (IEB 123)
-
-                SS6 AI for Education, Language & Social Applications (IEB 124)'
-              - ''
-        - time: 14:30–15:00
-          cells:
-              - ''
-              - ''
-              - ''
-              - ''
-        - time: 15:00–16:00
-          cells:
-              - ''
-              - 'Poster Session 1 / Demo
-
-                IEB Alumni Zone'
-              - 'Poster Session 2
-
-                IEB Alumni Zone'
-              - ''
-        - time: 16:00–17:00
-          cells:
-              - ''
-              - 'R3 UX, Search & Interactive Digital Services (IEB 122)
-
-                R4 LLMs, Retrieval & Agentic AI
-
-                (IEB 123)
-
-                SS4 Human–Robot Interaction & Robot Intelligence (IEB 124)'
-              - 'R6 Secure, Sustainable & Intelligent Infrastructure (IEB 122)
-
-                SS1 Biomedical Informatics & Image Analysis for Precision Healthcare
-
-                (IEB 123)
-
-                SS2 On-Device AI for Human-AI Interaction (IEB 124)'
-              - ''
-        - time: 17:00–18:00
-          cells:
-              - Registration
-              - ''
-              - ''
-              - ''
-        - time: 18:00–19:00
-          cells:
-              - ''
-              - Committee Members / Speakers Dinner
-              - Banquet / Best Paper Award / Closing Ceremony
-              - ''
-        - time: 19:00–20:00
-          cells:
-              - ''
-              - ''
-              - ''
-              - ''
-    quickReference:
-        heading: Parallel Oral Sessions — quick reference
-        header:
-            - Block
-            - IEB 122
-            - IEB 123
-            - IEB 124
-            - Venue / Notes
-        rows:
-            - - Thu 13:00–15:00
-              - R1 · Accessible & Inclusive
-              - SS3 · Wearable, IoT & Smart Systems
-              - R2 · Multimodal Sensing & Emotion
-              - Oral presentations · IEB 122 / 123 / 124
-            - - Thu 16:00–18:00
-              - R3 · UX, Search & Digital Services
-              - R4 · LLMs, Retrieval & Agentic AI
-              - SS4 · Human–Robot Interaction
-              - Oral presentations · IEB 122 / 123 / 124
-            - - Fri 13:00–15:00
-              - R5 · VR, Creative Media & Culture
-              - SS5 · Human-Centred AI & Trust
-              - SS6 · AI for Education & Society
-              - Oral presentations · IEB 122 / 123 / 124
-            - - Fri 16:00–18:00
-              - R6 · Secure & Intelligent Infrastructure
-              - SS1 · Biomedical Informatics
-              - SS2 · On-Device AI
-              - Oral presentations · IEB 122 / 123 / 124
-oral:
-    subtitle: 'Three parallel oral rooms: IEB 122 · IEB 123 · IEB 124 | Posters: IEB Alumni Zone | Opening Ceremony: IEB Trio
-        Lobby'
     rooms:
         - IEB 122
         - IEB 123
         - IEB 124
     commonHeader: Common Activity / Venue
-    rows:
-        - time: 'Thu · 29 Oct
+    days:
+        - day: Wed · 28 Oct
+          rows:
+              - time: 17:00–18:00
+                rooms: ['', '', '']
+                common: Registration
+        - day: Thu · 29 Oct
+          rows:
+              - time: 08:30–09:00
+                rooms: ['', '', '']
+                common: Registration
+              - time: 09:00–09:30
+                rooms: ['', '', '']
+                common: 'Opening Ceremony
 
-              13:00–15:00'
-          rooms:
-              - - R1. Accessible & Inclusive Interaction
-                - 'Chair: TBC'
-              - - SS3. Wearable, IoT & Smart Interactive Systems
-                - 'Chair: Prof. David Chieng'
-              - - R2. Multimodal Sensing, Emotion & Explainable AI
-                - 'Chair: TBC'
-          common: ''
-        - time: 'Thu · 29 Oct
+                    IEB Trio Lobby'
+              - time: 09:30–10:00
+                rooms: ['', '', '']
+                common: 'Keynote Session 1
 
-              15:00–16:00'
-          rooms:
-              - []
-              - []
-              - []
-          common: 'Poster Session 1
+                    Prof. Stephen Brewster
 
-              IEB Alumni Zone'
-        - time: 'Thu · 29 Oct
+                    IEB Trio Lobby'
+              - time: 10:00–10:30
+                rooms: ['', '', '']
+                common: 'Keynote Session 2
 
-              16:00–18:00'
-          rooms:
-              - - R3. UX, Search & Interactive Digital Services
-                - 'Chair: TBC'
-              - - R4. LLMs, Retrieval & Agentic AI
-                - 'Chair: Prof. Nagaraju Gundala'
-              - - SS4. Human–Robot Interaction & Robot Intelligence
-                - 'Chair: TBC'
-          common: ''
-        - time: 'Fri · 30 Oct
+                    Prof. Zengguang Hou
 
-              13:00–15:00'
-          rooms:
-              - - R5. VR, Creative Media & Cultural Interaction
-                - 'Chair: Prof. Gang Li'
-              - - SS5. Human-Centred AI, Trust & Responsible Systems
-                - 'Chair: Prof. Long Chen'
-              - - SS6. AI for Education, Language & Social Applications
-                - 'Chair: TBC'
-          common: ''
-        - time: 'Fri · 30 Oct
+                    IEB Trio Lobby'
+              - time: 10:30–11:00
+                rooms: ['', '', '']
+                common: 'Keynote Session 3
 
-              15:00–16:00'
-          rooms:
-              - []
-              - []
-              - []
-          common: 'Poster Session 2
+                    Prof. Guilin Yang
 
-              IEB Alumni Zone'
-        - time: 'Fri · 30 Oct
+                    IEB Trio Lobby'
+              - time: 11:00–11:30
+                rooms: ['', '', '']
+                common: 'Keynote Session 4
 
-              16:00–18:00'
-          rooms:
-              - - R6. Secure, Sustainable & Intelligent Infrastructure
-                - 'Chair: TBC'
-              - - SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
-                - 'Chair: Prof. Perugu Shyam'
-              - - SS2. On-Device AI for Human-AI Interaction
-                - 'Chair: TBC'
-          common: ''
+                    Prof. Xingda Qu
+
+                    IEB Trio Lobby'
+              - time: 11:30–12:00
+                rooms: ['', '', '']
+                common: Lunch
+              - time: 13:00–15:00
+                rooms:
+                    - 'R1. Accessible & Inclusive Interaction
+
+                      Chair: TBC'
+                    - 'SS3. Wearable, IoT & Smart Interactive Systems
+
+                      Chair: Prof. David Chieng'
+                    - 'R2. Multimodal Sensing, Emotion & Explainable AI
+
+                      Chair: TBC'
+                common: ''
+              - time: 15:00–16:00
+                rooms: ['', '', '']
+                common: 'Poster Session 1
+
+                    IEB Alumni Zone'
+              - time: 16:00–18:00
+                rooms:
+                    - 'R3. UX, Search & Interactive Digital Services
+
+                      Chair: TBC'
+                    - 'R4. LLMs, Retrieval & Agentic AI
+
+                      Chair: Prof. Nagaraju Gundala'
+                    - 'SS4. Human–Robot Interaction & Robot Intelligence
+
+                      Chair: TBC'
+                common: ''
+              - time: 18:00–19:00
+                rooms: ['', '', '']
+                common: Committee Members / Speakers Dinner
+        - day: Fri · 30 Oct
+          rows:
+              - time: 08:30–09:00
+                rooms: ['', '', '']
+                common: Registration
+              - time: 09:00–09:30
+                rooms: ['', '', '']
+                common: 'Keynote Session 5
+
+                    Prof. Cristiano André da Costa
+
+                    IEB Trio Lobby'
+              - time: 09:30–10:00
+                rooms: ['', '', '']
+                common: 'Keynote Session 6
+
+                    Dr. Xipei Ren
+
+                    IEB Trio Lobby'
+              - time: 10:00–10:30
+                rooms: ['', '', '']
+                common: 'Keynote Session 7
+
+                    Dr. Long Chen
+
+                    IEB Trio Lobby'
+              - time: 10:30–11:30
+                rooms: ['', '', '']
+                common: 'Demo Session
+
+                    IEB Alumni Zone'
+              - time: 11:30–12:00
+                rooms: ['', '', '']
+                common: Lunch
+              - time: 13:00–15:00
+                rooms:
+                    - 'R5. VR, Creative Media & Cultural Interaction
+
+                      Chair: Prof. Gang Li'
+                    - 'SS5. Human-Centred AI, Trust & Responsible Systems
+
+                      Chair: Prof. Long Chen'
+                    - 'SS6. AI for Education, Language & Social Applications
+
+                      Chair: TBC'
+                common: ''
+              - time: 15:00–16:00
+                rooms: ['', '', '']
+                common: 'Poster Session 2
+
+                    IEB Alumni Zone'
+              - time: 16:00–18:00
+                rooms:
+                    - 'R6. Secure, Sustainable & Intelligent Infrastructure
+
+                      Chair: TBC'
+                    - 'SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
+
+                      Chair: Prof. Perugu Shyam'
+                    - 'SS2. On-Device AI for Human-AI Interaction
+
+                      Chair: TBC'
+                common: ''
+              - time: 18:00–19:00
+                rooms: ['', '', '']
+                common: Banquet / Best Paper Award / Closing Ceremony
+        - day: Sat · 31 Oct
+          rows:
+              - time: 09:00–12:30
+                rooms: ['', '', '']
+                common: '<a href="/venue/tour/">Half-Day City Tour</a>
+
+                    (Optional)'
 papers:
     - datetime: Thu · 29 Oct · 13:00–15:00
       venue: IEB 122

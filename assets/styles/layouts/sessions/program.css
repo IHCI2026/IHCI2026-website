@@ -47,6 +47,13 @@
     background-color: color-mix(in srgb, var(--color-primary-lighter) 12%, white);
 }
 
+.program-table tbody tr.program-table__day-row th {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-weight: 600;
+    white-space: normal;
+}
+
 .program-table__id-column {
     width: 4rem;
 }
