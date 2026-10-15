@@ -130,13 +130,10 @@ schedule:
 
                     LA Hotel'
               - time: 10:45–11:30
-                split:
-                    - 'Demo Session
+                rooms: ['', '', '']
+                common: 'Tutorial Session: From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI
 
-                      LA Hotel'
-                    - 'Tutorial Session: From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI
-
-                      LA Hotel'
+                    LA Hotel'
               - time: 11:30–13:00
                 rooms: ['', '', '']
                 common: Lunch
@@ -159,10 +156,13 @@ schedule:
                       Chair: TBC'
                 common: ''
               - time: 14:00–15:30
-                rooms: ['', '', '']
-                common: 'Poster Session 2 / Tea Break
+                split:
+                    - 'Poster Session 2 / Tea Break
 
-                    IEB Alumni Zone'
+                      IEB Alumni Zone'
+                    - 'Demo Session
+
+                      IEB Alumni Zone'
               - time: 15:30–16:30
                 rooms:
                     - 'R6. Secure, Sustainable & Intelligent Infrastructure
@@ -611,8 +611,8 @@ posters:
             title: A Heterogeneous Stacking Framework for Non-Invasive Schizophrenia Screening Using Eye Movements
             mode: ''
 demos:
-    datetime: Fri · 30 Oct · 10:45–11:30
-    venue: LA Hotel
+    datetime: Fri · 30 Oct · 14:00–15:30
+    venue: IEB Alumni Zone
     session: Session 1
     items:
         - id: '139'
