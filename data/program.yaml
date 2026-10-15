@@ -166,7 +166,7 @@ schedule:
 
                       IEB 122
 
-                      Chair: TBC'
+                      Chair: Alejandro Guerra Manzanares'
                     - 'SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
 
                       IEB 123
@@ -403,7 +403,7 @@ papers:
       venue: IEB 122
       session: R6. Secure, Sustainable & Intelligent Infrastructure
       type: Regular Session
-      chair: TBC
+      chair: Alejandro Guerra Manzanares
       papers:
           - id: '74'
             title: Blind Delegation of Quantum Cryptanalysis on RSA using Shor's Algorithm
