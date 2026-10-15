@@ -60,7 +60,7 @@ schedule:
 
                       IEB 122
 
-                      Chair: TBC'
+                      Chair: Prof. Chin Poo Lee'
                     - 'SS3. Wearable, IoT & Smart Interactive Systems
 
                       IEB 123
@@ -93,7 +93,7 @@ schedule:
 
                       IEB 124
 
-                      Chair: TBC'
+                      Chair: Prof. Wan-Young Chung'
                 common: ''
               - time: 16:00–17:00
                 rooms: ['', '', '']
@@ -166,7 +166,7 @@ schedule:
 
                       IEB 122
 
-                      Chair: Alejandro Guerra Manzanares'
+                      Chair: Prof. Alejandro Guerra Manzanares'
                     - 'SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
 
                       IEB 123
@@ -193,7 +193,7 @@ papers:
       venue: IEB 122
       session: R1. Accessible & Inclusive Interaction
       type: Regular Session
-      chair: TBC
+      chair: Prof. Chin Poo Lee
       papers:
           - id: '14'
             title: A Single-Button Multimodal Assistive Agent for Camera-Augmented Voice Interaction
@@ -308,7 +308,7 @@ papers:
       venue: IEB 124
       session: SS4. Human–Robot Interaction & Robot Intelligence
       type: Special Session
-      chair: TBC
+      chair: Prof. Wan-Young Chung
       papers:
           - id: '92'
             title:
@@ -403,7 +403,7 @@ papers:
       venue: IEB 122
       session: R6. Secure, Sustainable & Intelligent Infrastructure
       type: Regular Session
-      chair: Alejandro Guerra Manzanares
+      chair: Prof. Alejandro Guerra Manzanares
       papers:
           - id: '74'
             title: Blind Delegation of Quantum Cryptanalysis on RSA using Shor's Algorithm
