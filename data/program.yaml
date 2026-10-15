@@ -70,7 +70,7 @@ schedule:
 
                       IEB 124
 
-                      Chair: TBC'
+                      Chair: Prof. Bikash Nakarmi'
                 common: ''
               - time: 14:00–15:00
                 rooms: ['', '', '']
@@ -242,7 +242,7 @@ papers:
       venue: IEB 124
       session: R2. Multimodal Sensing, Emotion & Explainable AI
       type: Regular Session
-      chair: TBC
+      chair: Prof. Bikash Nakarmi
       papers:
           - id: '32'
             title: 'Quantifying with Confidence: Conformal Prediction for Reliable Musical Genre Classification'
