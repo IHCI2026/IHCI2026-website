@@ -26,32 +26,35 @@ schedule:
 
                     Prof. Stephen Brewster
 
-                    IEB Trio Lobby'
+                    LA Hotel'
               - time: 10:00–10:30
                 rooms: ['', '', '']
                 common: 'Keynote Session 2
 
                     Prof. Zengguang Hou
 
-                    IEB Trio Lobby'
-              - time: 10:30–11:00
+                    LA Hotel'
+              - time: 10:30–10:45
+                rooms: ['', '', '']
+                common: Tea Break
+              - time: 10:45–11:15
                 rooms: ['', '', '']
                 common: 'Keynote Session 3
 
                     Prof. Guilin Yang
 
-                    IEB Trio Lobby'
-              - time: 11:00–11:30
+                    LA Hotel'
+              - time: 11:15–11:45
                 rooms: ['', '', '']
                 common: 'Keynote Session 4
 
                     Prof. Xingda Qu
 
-                    IEB Trio Lobby'
-              - time: 11:30–12:00
+                    LA Hotel'
+              - time: 11:45–13:00
                 rooms: ['', '', '']
                 common: Lunch
-              - time: 13:00–15:00
+              - time: 13:00–14:00
                 rooms:
                     - 'R1. Accessible & Inclusive Interaction
 
@@ -69,12 +72,12 @@ schedule:
 
                       Chair: TBC'
                 common: ''
-              - time: 15:00–16:00
+              - time: 14:00–15:00
                 rooms: ['', '', '']
-                common: 'Poster Session 1
+                common: 'Poster Session 1 / Tea Break
 
                     IEB Alumni Zone'
-              - time: 16:00–18:00
+              - time: 15:00–16:00
                 rooms:
                     - 'R3. UX, Search & Interactive Digital Services
 
@@ -92,6 +95,11 @@ schedule:
 
                       Chair: TBC'
                 common: ''
+              - time: 16:00–17:00
+                rooms: ['', '', '']
+                common: 'Round Table Discussion
+
+                    IEB 122'
         - day: Fri · 30 Oct
           rows:
               - time: 08:30–09:00
@@ -103,33 +111,36 @@ schedule:
 
                     Prof. Cristiano André da Costa
 
-                    IEB Trio Lobby'
+                    LA Hotel'
               - time: 09:30–10:00
                 rooms: ['', '', '']
                 common: 'Keynote Session 6
 
                     Dr. Xipei Ren
 
-                    IEB Trio Lobby'
-              - time: 10:00–10:30
+                    LA Hotel'
+              - time: 10:00–10:15
+                rooms: ['', '', '']
+                common: Tea Break
+              - time: 10:15–10:45
                 rooms: ['', '', '']
                 common: 'Keynote Session 7
 
                     Dr. Long Chen
 
-                    IEB Trio Lobby'
-              - time: 10:30–11:30
+                    LA Hotel'
+              - time: 10:45–11:30
                 split:
                     - 'Demo Session
 
-                      IEB Alumni Zone'
+                      LA Hotel'
                     - 'Tutorial Session: From Model to Device: A Hands-on Deployment Workflow for Human-Centred On-Device AI
 
-                      IEB Trio Lobby'
-              - time: 11:30–12:00
+                      LA Hotel'
+              - time: 11:30–13:00
                 rooms: ['', '', '']
                 common: Lunch
-              - time: 13:00–15:00
+              - time: 13:00–14:00
                 rooms:
                     - 'R5. VR, Creative Media & Cultural Interaction
 
@@ -147,12 +158,12 @@ schedule:
 
                       Chair: TBC'
                 common: ''
-              - time: 15:00–16:00
+              - time: 14:00–15:30
                 rooms: ['', '', '']
-                common: 'Poster Session 2
+                common: 'Poster Session 2 / Tea Break
 
                     IEB Alumni Zone'
-              - time: 16:00–18:00
+              - time: 15:30–16:30
                 rooms:
                     - 'R6. Secure, Sustainable & Intelligent Infrastructure
 
@@ -170,7 +181,7 @@ schedule:
 
                       Chair: TBC'
                 common: ''
-              - time: 18:00–21:00
+              - time: 17:00–21:00
                 rooms: ['', '', '']
                 common: Banquet / Best Paper Award / Closing Ceremony
         - day: Sat · 31 Oct
@@ -181,7 +192,7 @@ schedule:
 
                     (Optional)'
 papers:
-    - datetime: Thu · 29 Oct · 13:00–15:00
+    - datetime: Thu · 29 Oct · 13:00–14:00
       venue: IEB 122
       session: R1. Accessible & Inclusive Interaction
       type: Regular Session
@@ -202,7 +213,7 @@ papers:
           - id: '76'
             title: 'Exploring Home–School Coordination Challenges in ADHD Education: A Formative Study'
             mode: ''
-    - datetime: Thu · 29 Oct · 13:00–15:00
+    - datetime: Thu · 29 Oct · 13:00–14:00
       venue: IEB 123
       session: SS3. Wearable, IoT & Smart Interactive Systems
       type: Special Session
@@ -227,7 +238,7 @@ papers:
           - id: '15'
             title: 'Sign-Speak: An ESP32-Based Wearable Glove System for Real-Time Sign Language Recognition and Audio Translation'
             mode: ''
-    - datetime: Thu · 29 Oct · 13:00–15:00
+    - datetime: Thu · 29 Oct · 13:00–14:00
       venue: IEB 124
       session: R2. Multimodal Sensing, Emotion & Explainable AI
       type: Regular Session
@@ -249,7 +260,7 @@ papers:
           - id: '68'
             title: Explainable Multimodal AI for Comprehensive Assessment of Synecoculture Proficiency
             mode: ''
-    - datetime: Thu · 29 Oct · 16:00–18:00
+    - datetime: Thu · 29 Oct · 15:00–16:00
       venue: IEB 122
       session: R3. UX, Search & Interactive Digital Services
       type: Regular Session
@@ -273,7 +284,7 @@ papers:
           - id: '97'
             title: 'NexCare: Context-Aware Real-Time Engagement and Social Support Automation Platform'
             mode: ''
-    - datetime: Thu · 29 Oct · 16:00–18:00
+    - datetime: Thu · 29 Oct · 15:00–16:00
       venue: IEB 123
       session: R4. LLMs, Retrieval & Agentic AI
       type: Regular Session
@@ -296,7 +307,7 @@ papers:
           - id: '144'
             title: IntentSpider - The Fluid Language Web for Textual Tension and Prediction
             mode: VIRTUAL
-    - datetime: Thu · 29 Oct · 16:00–18:00
+    - datetime: Thu · 29 Oct · 15:00–16:00
       venue: IEB 124
       session: SS4. Human–Robot Interaction & Robot Intelligence
       type: Special Session
@@ -320,7 +331,7 @@ papers:
           - id: '119'
             title: 'VLA-CoT: Chain-of-Thought Guided Vision–Language–Action Framework for Multi-step Robotic Cable Routing'
             mode: ''
-    - datetime: Fri · 30 Oct · 13:00–15:00
+    - datetime: Fri · 30 Oct · 13:00–14:00
       venue: IEB 122
       session: R5. VR, Creative Media & Cultural Interaction
       type: Regular Session
@@ -345,7 +356,7 @@ papers:
                 'From Movement to Scene: Semantic Modeling and Interface Design for Volumetric Records of Korean Traditional Performing
                 Arts'
             mode: ''
-    - datetime: Fri · 30 Oct · 13:00–15:00
+    - datetime: Fri · 30 Oct · 13:00–14:00
       venue: IEB 123
       session: SS5. Human-Centred AI, Trust & Responsible Systems
       type: Special Session
@@ -370,7 +381,7 @@ papers:
           - id: '84'
             title: 'The Role of Artificial Intelligence in Cyberbullying on Social Media: A Dual Approach for Malta'
             mode: ''
-    - datetime: Fri · 30 Oct · 13:00–15:00
+    - datetime: Fri · 30 Oct · 13:00–14:00
       venue: IEB 124
       session: SS6. AI for Education, Language & Social Applications
       type: Special Session
@@ -391,7 +402,7 @@ papers:
           - id: '4'
             title: Concept-Grounded Image Captioning for Fine Art Using CLIP Representations
             mode: ''
-    - datetime: Fri · 30 Oct · 16:00–18:00
+    - datetime: Fri · 30 Oct · 15:30–16:30
       venue: IEB 122
       session: R6. Secure, Sustainable & Intelligent Infrastructure
       type: Regular Session
@@ -416,7 +427,7 @@ papers:
           - id: '155'
             title: Learned Residual Refinement of Deterministic Landmark-Based ROIs for Reducing Boundary-Associated Crop Risk
             mode: VIRTUAL
-    - datetime: Fri · 30 Oct · 16:00–18:00
+    - datetime: Fri · 30 Oct · 15:30–16:30
       venue: IEB 123
       session: SS1. Biomedical Informatics and Image Analysis for Precision Healthcare
       type: Special Session
@@ -438,7 +449,7 @@ papers:
           - id: '137'
             title: Machine Learning-Based Estimation of Endotracheal Tube Cuff Pressure Using Patient and Procedural Parameters
             mode: ''
-    - datetime: Fri · 30 Oct · 16:00–18:00
+    - datetime: Fri · 30 Oct · 15:30–16:30
       venue: IEB 124
       session: SS2. On-Device AI for Human-AI Interaction
       type: Special Session
@@ -459,7 +470,7 @@ papers:
                 on ESP32
             mode: ''
 posters:
-    - datetime: Thu · 29 Oct · 15:00–16:00
+    - datetime: Thu · 29 Oct · 14:00–15:00
       venue: IEB Alumni Zone
       session: Session 1
       papers:
@@ -524,7 +535,7 @@ posters:
           - id: '150'
             title: Protocol Aware Multi Representation CNN for Upper Limb Rehabilitation Motion and Quality Classification
             mode: ''
-    - datetime: Fri · 30 Oct · 15:00–16:00
+    - datetime: Fri · 30 Oct · 14:00–15:30
       venue: IEB Alumni Zone
       session: Session 2
       papers:
@@ -600,8 +611,8 @@ posters:
             title: A Heterogeneous Stacking Framework for Non-Invasive Schizophrenia Screening Using Eye Movements
             mode: ''
 demos:
-    datetime: Fri · 30 Oct · 10:30–11:30
-    venue: IEB Alumni Zone
+    datetime: Fri · 30 Oct · 10:45–11:30
+    venue: LA Hotel
     session: Session 1
     items:
         - id: '139'
