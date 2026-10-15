@@ -156,13 +156,10 @@ schedule:
                       Chair: TBC'
                 common: ''
               - time: 14:00–15:30
-                split:
-                    - 'Poster Session 2 / Tea Break
+                rooms: ['', '', '']
+                common: 'Poster Session / Demo Session / Tea Break
 
-                      IEB Alumni Zone'
-                    - 'Demo Session
-
-                      IEB Alumni Zone'
+                    IEB Alumni Zone'
               - time: 15:30–16:30
                 rooms:
                     - 'R6. Secure, Sustainable & Intelligent Infrastructure
