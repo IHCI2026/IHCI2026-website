@@ -38,3 +38,22 @@
         flex: 0 1 0; /* Full width on very small screens */
     }
 }
+
+.sponsors__promo-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.sponsors__promo-img {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(16, 38, 59, 0.12);
+    transition: box-shadow 0.2s ease;
+}
+
+.sponsors__promo-link:hover .sponsors__promo-img {
+    box-shadow: 0 6px 32px rgba(16, 38, 59, 0.2);
+}

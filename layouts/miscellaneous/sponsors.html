@@ -77,6 +77,34 @@
                     {{ end }}
                 {{ end }}
             {{ end }}
+
+            {{- with resources.Get "images/partners/dgg-promo.png" }}
+                <h1 class="heading heading--1">Media Partner</h1>
+                <div class="markdown">
+                    <p>
+                        IHCI 2026 is pleased to partner with
+                        <a href="https://www.mdpi.com/journal/dgg" target="_blank" rel="noopener noreferrer"><em>Digital Games and Gaming</em></a>,
+                        a new international, peer-reviewed, open-access journal by MDPI for research on digital
+                        games and gaming — from design and game technologies to players, behavior, and industry
+                        ecosystems.
+                    </p>
+                </div>
+                <a
+                    href="https://www.mdpi.com/journal/dgg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="sponsors__promo-link"
+                    title="Digital Games and Gaming — an open access journal by MDPI">
+                    {{ $promo := .Fit "960x540 webp q90" }}
+                    <img
+                        src="{{ $promo.RelPermalink }}"
+                        alt="Digital Games and Gaming — an open access journal by MDPI"
+                        class="sponsors__promo-img"
+                        width="{{ $promo.Width }}"
+                        height="{{ $promo.Height }}"
+                        loading="lazy" />
+                </a>
+            {{- end }}
         </div>
     </section>
 
