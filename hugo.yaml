@@ -243,6 +243,12 @@ params:
                   description:
                   type: bronze
                   logo: images/sponsors/nbiot/nbiot.jpg
+                - shortName: Frontiers
+                  fullName: Frontiers
+                  url: https://www.frontiersin.org/
+                  description: Publishing partner - special issue with discounted publication for selected IHCI 2026 papers
+                  type: bronze
+                  logo: images/sponsors/frontiers.png
             specialIssues:
                 - title: 'Selected Papers from the 18th International Conference on Intelligent Human-Computer Interaction (IHCI 2026)'
                   url: https://www.mdpi.com/journal/sensors/special_issues/0W09FTDH4C
@@ -251,6 +257,10 @@ params:
                 - title: 'Intelligent Human-Computer Interaction Systems: AI-Integrated Sensing Technologies (IHCI 2026)'
                   url: https://www.mdpi.com/journal/electronics/special_issues/9G3UW8SM8V
                   logo: images/electronics.jpg
+                  show: true
+                - title: 'IHCI 2026 Special Issue in Frontiers - discounted publication for selected papers'
+                  url: https://www.frontiersin.org/
+                  logo: images/sponsors/frontiers.png
                   show: true
             featuredSessions:
             colors:
