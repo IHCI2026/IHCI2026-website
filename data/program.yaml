@@ -176,7 +176,7 @@ schedule:
 
                       IEB 124
 
-                      Chair: TBC'
+                      Chair: Prof. Anshul Verma'
                 common: ''
               - time: 17:00–21:00
                 rooms: ['', '', '']
@@ -450,7 +450,7 @@ papers:
       venue: IEB 124
       session: SS2. On-Device AI for Human-AI Interaction
       type: Special Session
-      chair: TBC
+      chair: Prof. Anshul Verma
       papers:
           - id: '95'
             title: Fairness Evaluation of Edge-AI Implementation for Cleft Lip and Palate Speech ASR
