@@ -57,7 +57,9 @@ schedule:
                     LA Hotel'
               - time: 11:45–13:00
                 rooms: ['', '', '']
-                common: Lunch
+                common: 'Lunch
+
+                    LA Hotel'
               - time: 13:00–14:00
                 rooms:
                     - 'R1. Accessible & Inclusive Interaction
@@ -142,7 +144,9 @@ schedule:
                     LA Hotel'
               - time: 11:30–13:00
                 rooms: ['', '', '']
-                common: Lunch
+                common: 'Lunch
+
+                    LA Hotel'
               - time: 13:00–14:00
                 rooms:
                     - 'R5. VR, Creative Media & Cultural Interaction
@@ -159,7 +163,7 @@ schedule:
 
                       IEB 124
 
-                      Chair: TBC'
+                      Chair: Prof. Matthew Pike'
                 common: ''
               - time: 14:00–15:30
                 rooms: ['', '', '']
@@ -186,7 +190,9 @@ schedule:
                 common: ''
               - time: 17:00–21:00
                 rooms: ['', '', '']
-                common: Banquet / Best Paper Award / Closing Ceremony
+                common: 'Banquet / Best Paper Award / Closing Ceremony
+
+                    LA Hotel'
         - day: Sat · 31 Oct
           rows:
               - time: 09:00–12:30
@@ -388,7 +394,7 @@ papers:
       venue: IEB 124
       session: SS6. AI for Education, Language & Social Applications
       type: Special Session
-      chair: TBC
+      chair: Prof. Matthew Pike
       papers:
           - id: '96'
             title: 'Effects of Evidence Grounding and Source Attribution in Generative AI Tutors: A 2×2 Factorial Study'
