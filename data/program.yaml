@@ -89,12 +89,12 @@ schedule:
 
                       IEB 122
 
-                      Chair: TBC'
+                      Chair: Prof. Manoj Kumar Singh'
                     - 'R4. LLMs, Retrieval & Agentic AI
 
                       IEB 123
 
-                      Chair: Prof. Nagaraju Gundala'
+                      Chair: Prof. Manoj Kumar Singh'
                     - 'SS4. Human–Robot Interaction & Robot Intelligence
 
                       IEB 124
@@ -273,7 +273,7 @@ papers:
       venue: IEB 122
       session: R3. UX, Search & Interactive Digital Services
       type: Regular Session
-      chair: TBC
+      chair: Prof. Manoj Kumar Singh
       papers:
           - id: '17'
             title: 'Reevaluating UX Determinants: The Impact of Trust and System Responsiveness on Fashion E-Commerce Purchases in
@@ -297,7 +297,7 @@ papers:
       venue: IEB 123
       session: R4. LLMs, Retrieval & Agentic AI
       type: Regular Session
-      chair: Prof. Nagaraju Gundala
+      chair: Prof. Manoj Kumar Singh
       papers:
           - id: '30'
             title: 'Entity-Fused Graph Retrieval for Scientific Multiple-Choice Question Answering: A Controlled Study with BERT Baselines'
