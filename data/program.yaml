@@ -14,7 +14,7 @@ schedule:
                     LA Hotel'
         - day: Thu · 29 Oct
           rows:
-              - time: 08:30–11:00
+              - time: 08:00–11:00
                 rooms: ['', '', '']
                 common: 'Registration
 
@@ -108,7 +108,7 @@ schedule:
                     IEB 122'
         - day: Fri · 30 Oct
           rows:
-              - time: 08:30–11:00
+              - time: 08:00–11:00
                 rooms: ['', '', '']
                 common: 'Registration
 
