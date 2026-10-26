@@ -94,7 +94,7 @@ schedule:
 
                       IEB 123
 
-                      Chair: Prof. Manoj Kumar Singh'
+                      Chair: Prof. Gaurav Baranwal'
                     - 'SS4. Human–Robot Interaction & Robot Intelligence
 
                       IEB 124
@@ -297,7 +297,7 @@ papers:
       venue: IEB 123
       session: R4. LLMs, Retrieval & Agentic AI
       type: Regular Session
-      chair: Prof. Manoj Kumar Singh
+      chair: Prof. Gaurav Baranwal
       papers:
           - id: '30'
             title: 'Entity-Fused Graph Retrieval for Scientific Multiple-Choice Question Answering: A Controlled Study with BERT Baselines'
